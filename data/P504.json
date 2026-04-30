@@ -1,0 +1,331 @@
+{
+  "id": "P504",
+  "author": "Сальников Пётр",
+  "title": "Точило",
+  "year": 1990,
+  "nodes": [
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "Петра",
+      "main": true,
+      "who": "повествователь, внук",
+      "aliases": "Петра; внук; детенок; казюк",
+      "author_characterization": "наблюдательный, привязанный к семье",
+      "gender": "мужской",
+      "age": "—",
+      "other": "из семьи рабочих-умельцев"
+    },
+    {
+      "id": "ded",
+      "name": "Дед",
+      "full_name": "Ксенофонт Кондратьевич",
+      "main": true,
+      "who": "дед рассказчика, мастер",
+      "aliases": "Ксенофонт Кондратьевич; дедушка",
+      "author_characterization": "умелец, строгий, гордый, стойкий",
+      "gender": "мужской",
+      "age": "—",
+      "other": "рабочий; кузнец"
+    },
+    {
+      "id": "otets",
+      "name": "Отец",
+      "full_name": "—",
+      "main": false,
+      "who": "отец рассказчика",
+      "aliases": "—",
+      "author_characterization": "мастер, работящий",
+      "gender": "мужской",
+      "age": "—",
+      "other": "рабочий; женат"
+    },
+    {
+      "id": "mat",
+      "name": "Мать",
+      "full_name": "—",
+      "main": false,
+      "who": "мать рассказчика",
+      "aliases": "—",
+      "author_characterization": "заботливая",
+      "gender": "женский",
+      "age": "—",
+      "other": "рабочий; маляр; замужем"
+    },
+    {
+      "id": "babka",
+      "name": "Бабка",
+      "full_name": "—",
+      "main": false,
+      "who": "бабушка",
+      "aliases": "бабушка",
+      "author_characterization": "эмоциональная, плачет",
+      "gender": "женский",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "volodka",
+      "name": "Володька",
+      "full_name": "—",
+      "main": false,
+      "who": "младший брат рассказчика",
+      "aliases": "брат; братик; несмышленыш",
+      "author_characterization": "несмышленый",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "starshiy_militsioner",
+      "name": "Старший милиционер",
+      "full_name": "—",
+      "main": false,
+      "who": "милиционер",
+      "aliases": "милиционер; старшой; милиционер со свистком; старший",
+      "author_characterization": "грубый, властный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "служащий; милиционер"
+    },
+    {
+      "id": "mladshiy_militsioner",
+      "name": "Младший милиционер",
+      "full_name": "Шамотов",
+      "main": false,
+      "who": "милиционер",
+      "aliases": "Шамотов; младший",
+      "author_characterization": "исполнительный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "служащий; милиционер"
+    },
+    {
+      "id": "batyushka",
+      "name": "Батюшка",
+      "full_name": "—",
+      "main": false,
+      "who": "священник",
+      "aliases": "—",
+      "author_characterization": "спокойный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "духовенство; священник"
+    }
+  ],
+  "links": [
+    {
+      "source": "ded",
+      "target": "rasskazchik",
+      "types": [
+        "kinship",
+        "request",
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 3,
+      "intensity": 7,
+      "weight": 1,
+      "evidence": [
+        "дед рассказчика",
+        "«Ну, Петра, крути-верти!»",
+        "обучал работе, давал инструменты",
+        "«Бабка сказывала, нынешней осенью ты в школу пойдешь?»"
+      ],
+      "notes": "дед и внук; дед дает рассказчику указания, обучает и поддерживает его, обсуждает с ним школу"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "volodka",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.43,
+      "evidence": [
+        "«Какой милиционер?»"
+      ],
+      "notes": "разговор между братьями"
+    },
+    {
+      "source": "starshiy_militsioner",
+      "target": "rasskazchik",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.29,
+      "evidence": [
+        "«Марш отседова!»"
+      ],
+      "notes": "старший милиционер угрожает ребенку"
+    },
+    {
+      "source": "starshiy_militsioner",
+      "target": "ded",
+      "types": [
+        "conflict",
+        "speech"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 0.71,
+      "evidence": [
+        "«демидовщину развели»",
+        "«А где мужики твои, старый хрен? Работнички сподручные?»"
+      ],
+      "notes": "старший милиционер конфликтует с дедом, обвиняет его и разговаривает с ним перед допросами"
+    },
+    {
+      "source": "mladshiy_militsioner",
+      "target": "ded",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.14,
+      "evidence": [
+        "участвует в разгроме мастерской"
+      ],
+      "notes": "младший милиционер участвует в обыске и разгроме мастерской"
+    },
+    {
+      "source": "babka",
+      "target": "rasskazchik",
+      "types": [
+        "kinship",
+        "request"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.29,
+      "evidence": [
+        "бабушка рассказчика",
+        "«беги в кузню и покличь дедушку»"
+      ],
+      "notes": "бабушка и внук; бабка отправляет рассказчика за дедом"
+    },
+    {
+      "source": "mat",
+      "target": "ded",
+      "types": [
+        "kinship",
+        "help_support"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.29,
+      "evidence": [
+        "«привела к нему батюшку»",
+        "«Мать моя, не спросясь умирающего свекра»"
+      ],
+      "notes": "мать рассказчика приводит к деду священника; дед приходится ей свекром"
+    },
+    {
+      "source": "batyushka",
+      "target": "ded",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.43,
+      "evidence": [
+        "«с батюшкой поговорил мирно»"
+      ],
+      "notes": "батюшка разговаривает с дедом перед смертью"
+    },
+    {
+      "source": "starshiy_militsioner",
+      "target": "mladshiy_militsioner",
+      "types": [
+        "request",
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 4,
+      "intensity": 7,
+      "weight": 1,
+      "evidence": [
+        "«приказал младшему милиционеру: ― Грузи струмент, Шамотов!»",
+        "«Два милиционера в белых матерчатых касках с двумя козырьками ― на лоб и на затылок ― по-воровски шарили в мастерской»",
+        "«А с этим агрегатом что будем делать? ― младший спросил старшего»",
+        "«Тот попробовал и не сдвинул точильного козла с места»"
+      ],
+      "notes": "старший милиционер отдает приказы младшему; они вместе проводят обыск, обсуждают точило и пытаются сдвинуть с места точильного козла"
+    },
+    {
+      "source": "otets",
+      "target": "mat",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "родители рассказчика"
+      ],
+      "notes": "муж и жена"
+    },
+    {
+      "source": "otets",
+      "target": "rasskazchik",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«отец с матерью»"
+      ],
+      "notes": "отец и сын"
+    },
+    {
+      "source": "mat",
+      "target": "rasskazchik",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«отец с матерью»"
+      ],
+      "notes": "мать и сын"
+    },
+    {
+      "source": "ded",
+      "target": "otets",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "дед — свекр матери"
+      ],
+      "notes": "отец и сын"
+    },
+    {
+      "source": "ded",
+      "target": "babka",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "дедушка и бабушка рассказчика"
+      ],
+      "notes": "дед и бабка рассказчика"
+    }
+  ]
+}

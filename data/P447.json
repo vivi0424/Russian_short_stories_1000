@@ -1,0 +1,351 @@
+{
+  "id": "P447",
+  "author": "Недосекин Роальд Константинович",
+  "title": "Учительница",
+  "year": 1952,
+  "nodes": [
+    {
+      "id": "valya_fedotova",
+      "name": "Валя Федотова",
+      "full_name": "Валентина Ивановна Федотова",
+      "main": true,
+      "who": "молодая учительница",
+      "aliases": "Валя; Валентина; Валентина Ивановна; Валентина Ивановна Федотова",
+      "author_characterization": "круглолицая, голубоглазая, живая, общительная",
+      "gender": "женский",
+      "age": "молодая",
+      "other": "педагог; учительница; также названа Валя, Валентина, Валентина Ивановна"
+    },
+    {
+      "id": "felitsata_vasilevna_zaytseva",
+      "name": "Фелицата Васильевна Зайцева",
+      "full_name": "Фелицата Васильевна Зайцева",
+      "main": false,
+      "who": "опытная учительница, у которой живёт Валя",
+      "aliases": "Зайцева; Занцева",
+      "author_characterization": "опытная, добродушная",
+      "gender": "женский",
+      "age": "—",
+      "other": "педагог; учительница; также названа Зайцева, Занцева"
+    },
+    {
+      "id": "gavrilych",
+      "name": "Гаврилыч",
+      "full_name": "дед Гаврилыч",
+      "main": false,
+      "who": "школьный плотник",
+      "aliases": "дед Гаврилыч",
+      "author_characterization": "старый, ласковый, подслеповатый",
+      "gender": "мужской",
+      "age": "пожилой",
+      "other": "рабочий; плотник; школьный плотник"
+    },
+    {
+      "id": "otets_vali",
+      "name": "Отец Вали",
+      "full_name": "—",
+      "main": false,
+      "who": "отец Валентины",
+      "aliases": "отец; Валин отец",
+      "author_characterization": "старый",
+      "gender": "мужской",
+      "age": "пожилой",
+      "other": "рабочий; старый рабочий, секретарь партийной организации кирпичного завода; часто навещает дочь"
+    },
+    {
+      "id": "grisha_gurtaev",
+      "name": "Гриша Гуртаев",
+      "full_name": "Гриша Гуртаев",
+      "main": false,
+      "who": "ученик",
+      "aliases": "Гриша",
+      "author_characterization": "способный, проказник",
+      "gender": "мужской",
+      "age": "—",
+      "other": "учащийся; ученик; мечтает стать моряком"
+    },
+    {
+      "id": "lida_bolshakova",
+      "name": "Лида Большакова",
+      "full_name": "Лида Большакова",
+      "main": false,
+      "who": "ученица",
+      "aliases": "Лида",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "учащаяся; ученица; написала сочинение на «отлично»"
+    },
+    {
+      "id": "mat_lidy_bolshakovoy",
+      "name": "Мать Лиды Большаковой",
+      "full_name": "—",
+      "main": false,
+      "who": "мать ученицы",
+      "aliases": "мать Лиды; её мать",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "мать Лиды"
+    },
+    {
+      "id": "valya_belyakov",
+      "name": "Валя Беляков",
+      "full_name": "Валя Беляков",
+      "main": false,
+      "who": "ученик",
+      "aliases": "Беляков",
+      "author_characterization": "худощавый, подвижной, способный юный поэт",
+      "gender": "мужской",
+      "age": "—",
+      "other": "учащийся; ученик; ученик шестого «Б»"
+    },
+    {
+      "id": "slava_miterev",
+      "name": "Слава Митерев",
+      "full_name": "Слава Митерев",
+      "main": false,
+      "who": "ученик",
+      "aliases": "Слава",
+      "author_characterization": "развитый, начитанный, отличник",
+      "gender": "мужской",
+      "age": "—",
+      "other": "учащийся; ученик; «белоручка», «маменькин сынок»"
+    },
+    {
+      "id": "roditeli_slavy_mitereva",
+      "name": "Родители Славы Митерева",
+      "full_name": "—",
+      "main": false,
+      "who": "родители ученика",
+      "aliases": "родители Славы",
+      "author_characterization": "—",
+      "gender": "—",
+      "age": "—",
+      "other": "родители Славы"
+    },
+    {
+      "id": "yuliya_ivanovna_shulishnina",
+      "name": "Юлия Ивановна Шулишнина",
+      "full_name": "Юлия Ивановна Шулишнина",
+      "main": false,
+      "who": "молодая учительница",
+      "aliases": "Юлия Ивановна; Юля; Юлечка; Шулишнина",
+      "author_characterization": "невысокая, ясноглазая, тревожная",
+      "gender": "женский",
+      "age": "молодая",
+      "other": "педагог; учительница; также названа Юля, Юлечка"
+    },
+    {
+      "id": "direktor_shkoly",
+      "name": "Директор школы",
+      "full_name": "—",
+      "main": false,
+      "who": "директор школы",
+      "aliases": "директор",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "руководитель; директор школы; поздравляет Валю с первым уроком"
+    }
+  ],
+  "links": [
+    {
+      "source": "gavrilych",
+      "target": "valya_fedotova",
+      "types": [
+        "speech",
+        "request"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 0.71,
+      "evidence": [
+        "«К нам, что ли, дочка?» ; «Уж ты, Валентина Ивановна, воспитай его»",
+        "«Уж ты, Валентина Ивановна, воспитай его, баловней он больно»"
+      ],
+      "notes": "приветствует Валю и просит воспитать внука; прямо просит заняться воспитанием внука"
+    },
+    {
+      "source": "felitsata_vasilevna_zaytseva",
+      "target": "valya_fedotova",
+      "types": [
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 0.71,
+      "evidence": [
+        "«Береги порох, Валечка… Будь спокойней, твёрже»",
+        "«Продумай учебный план, заведи свой дневник. Это тебе во многом поможет» ; «Должна»"
+      ],
+      "notes": "даёт Вале советы перед началом работы; наставляет и поддерживает молодую учительницу"
+    },
+    {
+      "source": "otets_vali",
+      "target": "valya_fedotova",
+      "types": [
+        "speech",
+        "help_support",
+        "kinship"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 0.71,
+      "evidence": [
+        "«Старайся, Валентина. Ты комсомолка, трудностей не тебе бояться»",
+        "«Все силы приложи»"
+      ],
+      "notes": "наставляет дочь; морально поддерживает Валю"
+    },
+    {
+      "source": "direktor_shkoly",
+      "target": "valya_fedotova",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.43,
+      "evidence": [
+        "«директор поздравляет с первым уроком»"
+      ],
+      "notes": "поздравляет и ободряет её после первого урока"
+    },
+    {
+      "source": "valya_fedotova",
+      "target": "grisha_gurtaev",
+      "types": [
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 0.71,
+      "evidence": [
+        "«Гриша, кем ты собираешься быть, когда вырастешь?» ; «Вот ты и должен другим пример показывать…»",
+        "«Хочешь, я дам тебе книжку о нахимовцах?» ; «мальчик с каждым днём вёл себя всё лучше»"
+      ],
+      "notes": "ведёт с Гришей воспитательные беседы; помогает ему исправиться и направляет"
+    },
+    {
+      "source": "valya_fedotova",
+      "target": "lida_bolshakova",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.29,
+      "evidence": [
+        "«Лида Большакова написала трудное сочинение на „отлично“»"
+      ],
+      "notes": "поддерживает успех ученицы"
+    },
+    {
+      "source": "valya_fedotova",
+      "target": "mat_lidy_bolshakovoy",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.43,
+      "evidence": [
+        "«Валентина Ивановна спешила порадоваться вместе с её матерью»"
+      ],
+      "notes": "сообщает матери об успехе дочери"
+    },
+    {
+      "source": "valya_fedotova",
+      "target": "valya_belyakov",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.29,
+      "evidence": [
+        "«Валентина Ивановна привлекла его к участию в выпуске стенгазеты»"
+      ],
+      "notes": "привлекает Белякова к стенгазете"
+    },
+    {
+      "source": "valya_fedotova",
+      "target": "slava_miterev",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.29,
+      "evidence": [
+        "«Валентина Ивановна начала борьбу за перевоспитание Славы»"
+      ],
+      "notes": "ведёт борьбу за его перевоспитание"
+    },
+    {
+      "source": "valya_fedotova",
+      "target": "roditeli_slavy_mitereva",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.43,
+      "evidence": [
+        "«Валентина Ивановна узнала, что дома Слава грубит родителям»"
+      ],
+      "notes": "взаимодействует с семьёй в связи с воспитанием Славы"
+    },
+    {
+      "source": "yuliya_ivanovna_shulishnina",
+      "target": "valya_fedotova",
+      "types": [
+        "request",
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 3,
+      "intensity": 7,
+      "weight": 1.0,
+      "evidence": [
+        "«Вы мне поможете, да?»",
+        "«Конечно, Юлечка, конечно!»",
+        "«Сколько разговоров было у них в дороге!» ; «Юля только что окончила институт»"
+      ],
+      "notes": "просит Валю о помощи; Валя обещает помочь молодой учительнице; разговаривают по дороге о школьной работе"
+    },
+    {
+        "source": "lida_bolshakova",
+        "target": "mat_lidy_bolshakovoy",
+        "types": [
+            "kinship"
+        ],
+        "episode_count": 1,
+        "intensity": 1,
+        "weight": 0.1,
+        "evidence": [
+            "мать ученицы",
+            "мать Лиды"
+        ],
+        "notes": "мать и дочь"
+    },
+    {
+        "source": "slava_miterev",
+        "target": "roditeli_slavy_mitereva",
+        "types": [
+            "kinship"
+        ],
+        "episode_count": 1,
+        "intensity": 1,
+        "weight": 0.1,
+        "evidence": [
+            "родители ученика",
+            "родители Славы"
+        ],
+        "notes": "родители и сын"
+    }
+  ]
+}

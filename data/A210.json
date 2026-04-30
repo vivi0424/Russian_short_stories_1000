@@ -1,0 +1,731 @@
+{
+  "id": "A210",
+  "author": "Никифоров-Волгин Василий Акимович",
+  "title": "Дорожный посох",
+  "year": 1938,
+  "nodes": [
+    {
+      "id": "otets_afanasiy",
+      "name": "отец Афанасий",
+      "full_name": "Афанасий",
+      "main": true,
+      "who": "рассказчик, священник, странствующий пастырь",
+      "aliases": "батюшка; священник; священник-странник; батя; «Пустынник антиохийский»",
+      "author_characterization": "тревожный, жалостливый, смиренный, стойкий",
+      "gender": "мужской",
+      "age": "52 года",
+      "other": "ведет записи"
+    },
+    {
+      "id": "doktor",
+      "name": "Доктор",
+      "full_name": "—",
+      "main": false,
+      "who": "врач, лечивший Афанасия",
+      "aliases": "—",
+      "author_characterization": "тревожится за больного",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "diakon_zakhariy",
+      "name": "Диакон Захарий",
+      "full_name": "Захарий",
+      "main": false,
+      "who": "диакон при Афанасии",
+      "aliases": "диакон",
+      "author_characterization": "широкое усветленное лицо; рад его выздоровлению",
+      "gender": "мужской",
+      "age": "—",
+      "other": "поддерживает Афанасия под руки"
+    },
+    {
+      "id": "supruga_afanasiya",
+      "name": "Супруга Афанасия",
+      "full_name": "—",
+      "main": false,
+      "who": "умершая жена Афанасия",
+      "aliases": "покойная супруга; супруга",
+      "author_characterization": "мечтательница",
+      "gender": "женский",
+      "age": "—",
+      "other": "вспоминается в памяти героя"
+    },
+    {
+      "id": "starik_kirik",
+      "name": "Старик Кирик",
+      "full_name": "Кирик",
+      "main": false,
+      "who": "сельский старик",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "старик",
+      "other": "говорит о «гудящей» земле"
+    },
+    {
+      "id": "egorushka",
+      "name": "Егорушка",
+      "full_name": "Егорушка",
+      "main": false,
+      "who": "деревенский мастер",
+      "aliases": "—",
+      "author_characterization": "искусный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "сделал деревянную чашу"
+    },
+    {
+      "id": "savva_grigorevich_kovylin",
+      "name": "Савва Григорьевич Ковылин",
+      "full_name": "Савва Григорьевич Ковылин",
+      "main": false,
+      "who": "хозяин дома, укрывший Афанасия",
+      "aliases": "Савва Григорьевич; сапожник Савва Григорьевич Ковылин",
+      "author_characterization": "истовый, светлодушный старик",
+      "gender": "мужской",
+      "age": "старик",
+      "other": "читает Писание, молится с Афанасием"
+    },
+    {
+      "id": "komissar_ahtyrov",
+      "name": "Комиссар Ахтыров",
+      "full_name": "Ахтыров",
+      "main": false,
+      "who": "комиссар, пришедший к Афанасию",
+      "aliases": "комиссар",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "тайно просит крестить сына"
+    },
+    {
+      "id": "staruha",
+      "name": "Старуха",
+      "full_name": "—",
+      "main": false,
+      "who": "мать убитого комиссара",
+      "aliases": "—",
+      "author_characterization": "вся в слезах",
+      "gender": "женский",
+      "age": "старуха",
+      "other": "просит заочное отпевание сына"
+    },
+    {
+      "id": "sledovatel",
+      "name": "Следователь",
+      "full_name": "—",
+      "main": false,
+      "who": "следователь, допрашивающий Афанасия",
+      "aliases": "—",
+      "author_characterization": "румяный, молодой, с «стеклянной» улыбкой, жестокий",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "обвиняет в заговоре"
+    },
+    {
+      "id": "arhiepiskop_platon",
+      "name": "архиепископ Платон",
+      "full_name": "Платон",
+      "main": false,
+      "who": "заключенный архиерей",
+      "aliases": "архиепископ Платон; епископ Платон",
+      "author_characterization": "величественный русский владыка, превращенный в согбенного старца",
+      "gender": "мужской",
+      "age": "старик",
+      "other": "в тексте позднее назван епископом Платоном"
+    },
+    {
+      "id": "ksendz_stanislav_labunskiy",
+      "name": "Ксендз Станислав Лабунский",
+      "full_name": "Станислав Лабунский",
+      "main": false,
+      "who": "заключенный католический священник",
+      "aliases": "ксендз",
+      "author_characterization": "заросший, землисто-бледный, похожий на тень",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "pastor_keller",
+      "name": "Пастор Келлер",
+      "full_name": "Келлер",
+      "main": false,
+      "who": "заключенный пастор",
+      "aliases": "пастор",
+      "author_characterization": "маленький, иссохший, похожий на философа Канта",
+      "gender": "мужской",
+      "age": "—",
+      "other": "сходит с ума перед смертью"
+    },
+    {
+      "id": "igumen_amvrosiy",
+      "name": "Игумен Амвросий",
+      "full_name": "Амвросий",
+      "main": false,
+      "who": "духовник Афанасия, заключенный монах",
+      "aliases": "духовник",
+      "author_characterization": "тихий, стариковский",
+      "gender": "мужской",
+      "age": "старик",
+      "other": "давний духовник Афанасия"
+    },
+    {
+      "id": "otets_mihail_askoldov",
+      "name": "Отец Михаил Аскольдов",
+      "full_name": "Михаил Аскольдов",
+      "main": false,
+      "who": "однокашник Афанасия по семинарии",
+      "aliases": "отец Михаил",
+      "author_characterization": "измученный старик",
+      "gender": "мужской",
+      "age": "старик",
+      "other": "знает семинарское прозвище Афанасия"
+    },
+    {
+      "id": "tovarishch_bronza",
+      "name": "Товарищ Бронза",
+      "full_name": "Бронза",
+      "main": false,
+      "who": "тюремный мучитель",
+      "aliases": "Бронза",
+      "author_characterization": "высокий, тяжелый, «бронзовый», жестокий",
+      "gender": "мужской",
+      "age": "—",
+      "other": "устраивает ложные расстрелы"
+    },
+    {
+      "id": "hozyain_krestyanin",
+      "name": "Хозяин-крестьянин",
+      "full_name": "—",
+      "main": false,
+      "who": "крестьянин, подобравший Афанасия на дороге",
+      "aliases": "хозяин; чернобородый мужик",
+      "author_characterization": "нестарый, чернобородый, с иконными глазами",
+      "gender": "мужской",
+      "age": "нестарый",
+      "other": "просит служить в овине"
+    },
+    {
+      "id": "zhena_hozyaina",
+      "name": "Жена хозяина",
+      "full_name": "—",
+      "main": false,
+      "who": "жена хозяина, ухаживавшая за Афанасием",
+      "aliases": "—",
+      "author_characterization": "маленькая, исхудавшая, с испуганным взглядом",
+      "gender": "женский",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "zhenshchina_u_okolitsy",
+      "name": "Женщина у околицы",
+      "full_name": "—",
+      "main": false,
+      "who": "мать расстрелянных сыновей",
+      "aliases": "женщина эта; маленькая сгорбленная женщина",
+      "author_characterization": "сгорбленная, с болью в глазах, помрачившаяся разумом",
+      "gender": "женский",
+      "age": "—",
+      "other": "ждет сыновей у дороги"
+    },
+    {
+      "id": "komissar_gorelova",
+      "name": "Комиссар Горелова",
+      "full_name": "—",
+      "main": false,
+      "who": "комиссар, арестовавший Афанасия в селе Горелово",
+      "aliases": "комиссар",
+      "author_characterization": "пьяный, саженного роста",
+      "gender": "мужской",
+      "age": "—",
+      "other": "заставляет Афанасия плясать, потом просит прощения"
+    },
+    {
+      "id": "rybak_semen",
+      "name": "Рыбак Семен",
+      "full_name": "Семен",
+      "main": false,
+      "who": "хозяин ночлега, рыбак",
+      "aliases": "Семен; хозяин",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "пьет с красноармейцами"
+    },
+    {
+      "id": "petruha",
+      "name": "Петруха",
+      "full_name": "Петруха",
+      "main": false,
+      "who": "горбатый сын Семена",
+      "aliases": "горбатый сын; горбатый",
+      "author_characterization": "горбатый",
+      "gender": "мужской",
+      "age": "—",
+      "other": "участвует в сцене разгула"
+    },
+    {
+      "id": "sgorblennyy_starik",
+      "name": "Сгорбленный старик",
+      "full_name": "—",
+      "main": false,
+      "who": "один из трех стариков, которых Афанасий встречает на дороге",
+      "aliases": "—",
+      "author_characterization": "сгорбленный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "starik_s_kosymi_glazami",
+      "name": "Старик с косыми глазами",
+      "full_name": "—",
+      "main": false,
+      "who": "один из трех стариков, которых Афанасий встречает на дороге",
+      "aliases": "—",
+      "author_characterization": "с косыми глазами и впалыми забуревшими щеками",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "bezzubyy_tihiy_starik",
+      "name": "Беззубый тихий старик",
+      "full_name": "—",
+      "main": false,
+      "who": "один из трех стариков, которых Афанасий встречает на дороге",
+      "aliases": "—",
+      "author_characterization": "беззубый, тихий",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    }
+  ],
+  "links": [
+    {
+      "source": "doktor",
+      "target": "otets_afanasiy",
+      "types": [
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 0.29,
+      "evidence": [
+        "«да разве мыслимо, отец Афанасий, с вашими-то легкими на мороз да на вьюгу выходить?»",
+        "«Доктор качал головою»"
+      ],
+      "notes": "Доктор обращается к Афанасию по поводу болезни; лечит и предостерегает его"
+    },
+    {
+      "source": "diakon_zakhariy",
+      "target": "otets_afanasiy",
+      "types": [
+        "help_support",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "intensity": 3,
+      "weight": 0.18,
+      "evidence": [
+        "«Диакон Захарий меня под руки поддерживает»",
+        "«Диакон Захарий меня под руки поддерживает»"
+      ],
+      "notes": "Диакон поддерживает Афанасия под руки; они вместе идут после выздоровления Афанасия"
+    },
+    {
+      "source": "otets_afanasiy",
+      "target": "supruga_afanasiya",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«покойная супруга моя» ; «Оба мы с нею мечтатели»"
+      ],
+      "notes": "супружеская связь, вспоминаемая героем"
+    },
+    {
+      "source": "starik_kirik",
+      "target": "otets_afanasiy",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.18,
+      "evidence": [
+        "«Старик Кирик сказал мне сегодня»"
+      ],
+      "notes": "Кирик сообщает Афанасию о «гудящей» земле"
+    },
+    {
+      "source": "egorushka",
+      "target": "otets_afanasiy",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.12,
+      "evidence": [
+        "«Столярный искусник Егорушка сделал деревянную чашу»"
+      ],
+      "notes": "Егорушка делает чашу для тайного богослужения"
+    },
+    {
+      "source": "otets_afanasiy",
+      "target": "savva_grigorevich_kovylin",
+      "types": [
+        "speech",
+        "co_presence_joint_action",
+        "help_support"
+      ],
+      "episode_count": 8,
+      "intensity": 17,
+      "weight": 1,
+      "evidence": [
+        "«Сидим мы с Саввой Григорьевичем “на липках” и беседуем»",
+        "«Посмотри в зеркало, ты мертвому подобен! Что это с тобою произошло?»",
+        "«Не беспокойся!»",
+        "«по вечерам Священное Писание читаем и молимся»",
+        "«Стал я заправским сапожником. Пошли у нас дела с Саввой Григорьевичем складно да ладно»",
+        "«Поселили меня… в домике сапожника Саввы Григорьевича Ковылина»",
+        "«Савва Григорьевич все понял… вынес оттуда топор, долото и молоток»",
+        "«Савва Григорьевич долго приводил меня в чувство»"
+      ],
+      "notes": "Афанасий и Савва беседуют, вместе живут, читают Писание, молятся, работают сапожниками; Савва укрывает Афанасия, участвует в спасении иконы и приводит его в чувство"
+    },
+    {
+      "source": "komissar_ahtyrov",
+      "target": "otets_afanasiy",
+      "types": [
+        "speech",
+        "request"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 0.29,
+      "evidence": [
+        "«Пойдем со мною, батюшка!»",
+        "«Я затем пришел, чтобы батюшка сына моего окрестил в потайности»"
+      ],
+      "notes": "Ахтыров обращается к Афанасию ночью и просит тайно окрестить сына"
+    },
+    {
+      "source": "staruha",
+      "target": "otets_afanasiy",
+      "types": [
+        "speech",
+        "request"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 0.29,
+      "evidence": [
+        "«Приходит ко мне старуха. Вся в слезах»",
+        "«Отпой, батюшка, сына моего, богоотступника!» ; «Отпой его, голубчик, заочно»"
+      ],
+      "notes": "Старуха приходит к Афанасию, говорит о сыне и просит заочно отпеть его"
+    },
+    {
+      "source": "sledovatel",
+      "target": "otets_afanasiy",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 0.29,
+      "evidence": [
+        "«Он заставлял сознаться меня в организации заговора»",
+        "«вцепился в мое горло» ; «Сознавайся! Стерва! Убью!»"
+      ],
+      "notes": "Следователь ведет допрос Афанасия и угрожает ему револьвером"
+    },
+    {
+      "source": "otets_afanasiy",
+      "target": "arhiepiskop_platon",
+      "types": [
+        "co_presence_joint_action",
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 5,
+      "intensity": 9,
+      "weight": 0.53,
+      "evidence": [
+        "«Я увидел архиепископа Платона»",
+        "«мы стали отпевать себя»",
+        "«епископ Платон положил богослужебный начал»",
+        "«назвал меня по имени и обнял»",
+        "«Епископ Платон поминал о вечном упокоении наши имена»"
+      ],
+      "notes": "Афанасий и Платон вместе находятся в подвале и готовятся к смерти; Платон начинает богослужебный чин, обращается к Афанасию и духовно поддерживает общую молитву заключенных"
+    },
+    {
+      "source": "otets_afanasiy",
+      "target": "ksendz_stanislav_labunskiy",
+      "types": [
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 3,
+      "intensity": 5,
+      "weight": 0.29,
+      "evidence": [
+        "«Ксендз Станислав Лабунский!»",
+        "«Первым упал епископ Платон, за ним ксендз»",
+        "«Ксендз Станислав Лабунский!»"
+      ],
+      "notes": "Афанасий и ксендз вместе находятся в заключении и ожидают расстрела; ксендз представляется Афанасию в камере"
+    },
+    {
+      "source": "otets_afanasiy",
+      "target": "pastor_keller",
+      "types": [
+        "co_presence_joint_action",
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 4,
+      "intensity": 7,
+      "weight": 0.41,
+      "evidence": [
+        "«Пастор Келлер!»",
+        "«Пастор Келлер скончался»",
+        "«Мы бросились к нему. Весь он был затуманен безумием… Мы обнимали его и утешали»",
+        "«Пастор Келлер!»"
+      ],
+      "notes": "Афанасий и пастор Келлер вместе заключены; пастор скончался в камере; Афанасий и другие утешают обезумевшего Келлера"
+    },
+    {
+      "source": "otets_afanasiy",
+      "target": "igumen_amvrosiy",
+      "types": [
+        "help_support",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 4,
+      "intensity": 5,
+      "weight": 0.29,
+      "evidence": [
+        "«Молча обнял меня и молча перекрестил»",
+        "«приблизился давний духовник мой игумен Амвросий»",
+        "«Я стою с игуменом Амвросием»",
+        "«Нас не успели расстрелять»"
+      ],
+      "notes": "Амвросий благословляет и поддерживает Афанасия; они вместе переносят заключение и ведутся на расстрел"
+    },
+    {
+      "source": "otets_afanasiy",
+      "target": "otets_mihail_askoldov",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 3,
+      "intensity": 5,
+      "weight": 0.29,
+      "evidence": [
+        "«Семинарским прозвищем моим… встретил меня»",
+        "«встретил меня однокашник мой отец Михаил Аскольдов»",
+        "«третьим отец Михаил»"
+      ],
+      "notes": "Михаил приветствует Афанасия семинарским прозвищем; они вместе сидят в подвале и идут на расстрел"
+    },
+    {
+      "source": "tovarishch_bronza",
+      "target": "otets_afanasiy",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.12,
+      "evidence": [
+        "«Одевайсь!» ; «Ройте яму!» ; «Репетиция окончена!»"
+      ],
+      "notes": "Бронза мучает Афанасия ложными расстрелами и принудительными работами"
+    },
+    {
+      "source": "hozyain_krestyanin",
+      "target": "otets_afanasiy",
+      "types": [
+        "help_support",
+        "request",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 3,
+      "intensity": 5,
+      "weight": 0.29,
+      "evidence": [
+        "«меня… подобрали на дороге… Сам хозяин… и жена его… Обхаживали они меня»",
+        "«Отслужи ты нам Божию службу! Утешь страждущих»",
+        "«а мы уж в овин соберемся»"
+      ],
+      "notes": "Хозяин подбирает и выхаживает Афанасия, просит отслужить службу; они участвуют в тайной службе в овине"
+    },
+    {
+      "source": "zhena_hozyaina",
+      "target": "otets_afanasiy",
+      "types": [
+        "help_support",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "intensity": 3,
+      "weight": 0.18,
+      "evidence": [
+        "«жена его… Обхаживали они меня, как сына родного»",
+        "«жена его… и ночами не спали»"
+      ],
+      "notes": "Жена хозяина вместе с мужем ухаживает за Афанасием; она присутствует в доме, где Афанасий выздоравливает"
+    },
+    {
+      "source": "hozyain_krestyanin",
+      "target": "zhena_hozyaina",
+      "types": [
+        "kinship",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Сам хозяин… и жена его»",
+        "«Обхаживали они меня, как сына родного»"
+      ],
+      "notes": "муж и жена; вместе ухаживают за Афанасием"
+    },
+    {
+      "source": "otets_afanasiy",
+      "target": "zhenshchina_u_okolitsy",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.18,
+      "evidence": [
+        "«А ты деток моих не встретил?» ; «Куда же они пошли?»"
+      ],
+      "notes": "Женщина расспрашивает Афанасия о ее детях"
+    },
+    {
+      "source": "komissar_gorelova",
+      "target": "otets_afanasiy",
+      "types": [
+        "conflict",
+        "request",
+        "speech"
+      ],
+      "episode_count": 4,
+      "intensity": 9,
+      "weight": 0.53,
+      "evidence": [
+        "«меня арестовали и посадили под замок»",
+        "«Комиссар сгреб меня пятерней за волосы, вытащил на середину избы»",
+        "«Шагом марш за мною!» ; «Пляши!»",
+        "«Прости меня, Божий человек!» ; «Иди своею дорогой, батюшка!»"
+      ],
+      "notes": "Комиссар арестовывает Афанасия, тащит его за волосы, приказывает следовать за ним и плясать, затем просит прощения"
+    },
+    {
+      "source": "otets_afanasiy",
+      "target": "rybak_semen",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "intensity": 4,
+      "weight": 0.24,
+      "evidence": [
+        "«За меня ответил Семен: бродячий-де сапожник!»",
+        "«Пять человек красноармейцев вместе с хозяином — рыбаком Семеном»"
+      ],
+      "notes": "Семен отвечает за Афанасия перед красноармейцами; они находятся в одной избе во время ночного разгула"
+    },
+    {
+      "source": "otets_afanasiy",
+      "target": "petruha",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«с хозяином — рыбаком Семеном и горбатым сыном его Петрухой»"
+      ],
+      "notes": "Афанасий и Петруха участвуют в одном эпизоде разгула"
+    },
+    {
+      "source": "rybak_semen",
+      "target": "petruha",
+      "types": [
+        "kinship",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«горбатым сыном его Петрухой»",
+        "«рыбаком Семеном и горбатым сыном его Петрухой глушило самогон»"
+      ],
+      "notes": "Семен — отец Петрухи; оба участвуют в застолье в одной избе"
+    },
+    {
+      "source": "sgorblennyy_starik",
+      "target": "otets_afanasiy",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.18,
+      "evidence": [
+        "«Шибко стали Бога поноситъ!»"
+      ],
+      "notes": "Афанасий разговаривает со стариком, который идет в Москву просить, чтобы разрешили веру"
+    },
+    {
+      "source": "starik_s_kosymi_glazami",
+      "target": "otets_afanasiy",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.18,
+      "evidence": [
+        "«Ведь до чего дошло? !»"
+      ],
+      "notes": "Афанасий разговаривает со стариком, который идет в Москву просить, чтобы разрешили веру"
+    },
+    {
+      "source": "bezzubyy_tihiy_starik",
+      "target": "otets_afanasiy",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.18,
+      "evidence": [
+        "«А внук мой Пашка из икон покрышку сделал в своем нужнике…»"
+      ],
+      "notes": "Афанасий разговаривает со стариком, который идет в Москву просить, чтобы разрешили веру"
+    }
+  ]
+}

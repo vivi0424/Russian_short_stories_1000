@@ -1,0 +1,246 @@
+{
+  "id": "P21",
+  "author": "Шевченко Михаил Петрович",
+  "title": "Попутчицы",
+  "year": 1955,
+  "nodes": [
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "—",
+      "main": true,
+      "who": "попутчик в поезде, повествователь",
+      "aliases": "я; попутчик",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "едет до Мичуринска"
+    },
+    {
+      "id": "grunya",
+      "name": "Груня",
+      "full_name": "—",
+      "main": true,
+      "who": "пассажирка поезда, попутчица Насти",
+      "aliases": "Грунечка; стрелочница",
+      "author_characterization": "сухощавая, с узким худым лицом; грустная",
+      "gender": "женский",
+      "age": "—",
+      "other": "железнодорожный работник; стрелочница; из простых железнодорожников; едет до Ленинграда"
+    },
+    {
+      "id": "nastya",
+      "name": "Настя",
+      "full_name": "Настя",
+      "main": false,
+      "who": "попутчица Груни",
+      "aliases": "толстуха",
+      "author_characterization": "большегрудая, веснушчатая, тучная, необычайно подвижная",
+      "gender": "женский",
+      "age": "—",
+      "other": "едет с Груней в Ленинград"
+    },
+    {
+      "id": "grisha_soloveyko",
+      "name": "Гриша Соловейко",
+      "full_name": "Григорий Ефимович Соловейко",
+      "main": false,
+      "who": "возлюбленный Груни из прошлого",
+      "aliases": "Гриша; Григорий Ефимович Соловейко",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "колхозный работник; плотник в колхозе; собирался жениться; погиб на войне"
+    },
+    {
+      "id": "zhenshchina_s_devochkoy",
+      "name": "Женщина с девочкой",
+      "full_name": "—",
+      "main": false,
+      "who": "пассажирка, выходящая в Грязях",
+      "aliases": "мать Симы; молодая женщина",
+      "author_characterization": "молодая",
+      "gender": "женский",
+      "age": "молодая",
+      "other": "замужем; жена милицейского капитана"
+    },
+    {
+      "id": "sima",
+      "name": "Сима",
+      "full_name": "Сима",
+      "main": false,
+      "who": "девочка, дочь женщины",
+      "aliases": "—",
+      "author_characterization": "полусонный ребенок",
+      "gender": "женский",
+      "age": "четырех-пяти лет",
+      "other": "дочь милицейского капитана"
+    },
+    {
+      "id": "militseyskiy_kapitan",
+      "name": "Милицейский капитан",
+      "full_name": "—",
+      "main": false,
+      "who": "встречающий на станции муж и отец",
+      "aliases": "папка; муж женщины",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "милиционер; капитан; женат; встречает жену и дочь"
+    },
+    {
+      "id": "mat_gruni",
+      "name": "Мать Груни",
+      "full_name": "—",
+      "main": false,
+      "who": "мать Груни",
+      "aliases": "маты",
+      "author_characterization": "старая",
+      "gender": "женский",
+      "age": "под восемьдесят",
+      "other": "живет на разъезде"
+    },
+    {
+      "id": "syn_gruni",
+      "name": "Сын Груни",
+      "full_name": "—",
+      "main": false,
+      "who": "умерший сын Груни и Гриши",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "умерший младенец"
+    }
+  ],
+  "links": [
+    {
+      "source": "grunya",
+      "target": "nastya",
+      "types": [
+        "speech",
+        "help_support",
+        "request"
+      ],
+      "episode_count": 3,
+      "intensity": 7,
+      "weight": 1.0,
+      "evidence": [
+        "«И ты, Настя, тож хоро-о-ша» ; «Ты извиняй меня»",
+        "ночной разговор, исповедь",
+        "«Ты извиняй меня»"
+      ],
+      "notes": "ночной разговор о прошлом, брате Насти и жизни Груни; Груня доверяет Насте свои переживания; Настя извиняется перед Груней"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "grunya",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "intensity": 4,
+      "weight": 0.57,
+      "evidence": [
+        "«Я помешал вам отдыхать» ; «Як вам сказать…»",
+        "«Присев напротив» ; «Когда я вернулся в вагон»"
+      ],
+      "notes": "разговор после ухода Насти; едут вместе в одном купе ночью"
+    },
+    {
+      "source": "grunya",
+      "target": "grisha_soloveyko",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.14,
+      "evidence": [
+        "«Свадьбу назначили на воскресенье» ; «проводила я его в Россошанский военкомат»"
+      ],
+      "notes": "вместе готовились к свадьбе и прощались перед отправкой Гриши"
+    },
+    {
+      "source": "zhenshchina_s_devochkoy",
+      "target": "sima",
+      "types": [
+        "kinship",
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 3,
+      "intensity": 7,
+      "weight": 1.0,
+      "evidence": [
+        "«мать и дочка» ; «Сейчас папка нас встретит»",
+        "«застегивая на девочке серую заячью шубку» ; «Она взяла девочку за руку»",
+        "«Проснись, Сима» ; «Ступай вперед»"
+      ],
+      "notes": "мать и дочь; мать одевает, будит и ведет полусонную девочку"
+    },
+    {
+      "source": "zhenshchina_s_devochkoy",
+      "target": "militseyskiy_kapitan",
+      "types": [
+        "kinship",
+        "help_support"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.29,
+      "evidence": [
+        "«Жена с баулом шла сзади»",
+        "«помог сойти женщине»"
+      ],
+      "notes": "супруги; милицейский капитан помогает женщине сойти из вагона"
+    },
+    {
+      "source": "sima",
+      "target": "militseyskiy_kapitan",
+      "types": [
+        "kinship",
+        "help_support"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.29,
+      "evidence": [
+        "«Сейчас папка нас встретит»",
+        "«Он взял Симу с площадки тамбура на руки»"
+      ],
+      "notes": "отец и дочь; капитан берет девочку на руки"
+    },
+    {
+      "source": "grunya",
+      "target": "mat_gruni",
+      "types": [
+        "kinship",
+        "help_support"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.29,
+      "evidence": [
+        "«маты моя стара»",
+        "«На кого ее бросить?»"
+      ],
+      "notes": "дочь и мать; Груня не уезжает из-за старой матери"
+    },
+    {
+      "source": "grunya",
+      "target": "syn_gruni",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«сына не доносила до сроку, родила я его слабеньким… Умер»"
+      ],
+      "notes": "мать и умерший сын"
+    }
+  ]
+}

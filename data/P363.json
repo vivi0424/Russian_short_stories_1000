@@ -1,0 +1,329 @@
+{
+  "id": "P363",
+  "author": "Немченко Гарий Леонтьевич",
+  "title": "Отец",
+  "year": 1977,
+  "nodes": [
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "—",
+      "main": true,
+      "who": "повествователь, сын отца",
+      "aliases": "я; сын",
+      "author_characterization": "рефлексирующий, чувствительный",
+      "gender": "мужской",
+      "age": "взрослый",
+      "other": "носит усы"
+    },
+    {
+      "id": "otets",
+      "name": "Отец",
+      "full_name": "Леонтий Степанович",
+      "main": false,
+      "who": "отец рассказчика",
+      "aliases": "отец; Леонтий Степанович; папа; Степаныч; дядя Леня",
+      "author_characterization": "добрый, мягкий с подчиненными, вольнолюбивый",
+      "gender": "мужской",
+      "age": "пожилой",
+      "other": "участник войны; умер"
+    },
+    {
+      "id": "mat",
+      "name": "Мать",
+      "full_name": "—",
+      "main": false,
+      "who": "мать рассказчика",
+      "aliases": "мать; мама; Тоня",
+      "author_characterization": "часто болела",
+      "gender": "женский",
+      "age": "пожилая",
+      "other": "—"
+    },
+    {
+      "id": "zhena_rasskazchika",
+      "name": "Жена рассказчика",
+      "full_name": "—",
+      "main": false,
+      "who": "жена рассказчика",
+      "aliases": "жена",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "взрослая",
+      "other": "—"
+    },
+    {
+      "id": "brat",
+      "name": "Брат",
+      "full_name": "Валера",
+      "main": false,
+      "who": "брат рассказчика",
+      "aliases": "Валера; брат",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "sestra",
+      "name": "Сестра",
+      "full_name": "Танечка",
+      "main": false,
+      "who": "сестра рассказчика",
+      "aliases": "Танечка; сестра",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "tetya_dasha",
+      "name": "Тетя Даша",
+      "full_name": "—",
+      "main": false,
+      "who": "тетка отца",
+      "aliases": "тетя Даша",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "пожилая",
+      "other": "—"
+    },
+    {
+      "id": "grisha",
+      "name": "Гриша",
+      "full_name": "—",
+      "main": false,
+      "who": "сосед, жених",
+      "aliases": "Гриша",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "—"
+    },
+    {
+      "id": "babka_grishi",
+      "name": "Бабка Гриши",
+      "full_name": "Дуся",
+      "main": false,
+      "who": "родственница Гриши",
+      "aliases": "Дуся; бабка",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "пожилая",
+      "other": "—"
+    }
+  ],
+  "links": [
+    {
+      "source": "rasskazchik",
+      "target": "otets",
+      "types": [
+        "kinship",
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 4,
+      "intensity": 11,
+      "weight": 1,
+      "evidence": [
+        "«отец» ; «сынок»",
+        "разговор об усах после приезда в станицу",
+        "поздний разговор-принятие, отец одобряет усы",
+        "разговоры во время болезни рассказчика, воспоминания отца",
+        "отец ухаживает за больным сыном"
+      ],
+      "notes": "отношения сына и отца; разговор об усах после приезда в станицу; поздний разговор-принятие, отец одобряет усы; разговоры во время болезни рассказчика, воспоминания отца; отец ухаживает за больным сыном"
+    },
+    {
+      "source": "otets",
+      "target": "mat",
+      "types": [
+        "kinship",
+        "conflict"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.18,
+      "evidence": [
+        "«мать» ; «отец»",
+        "постоянные семейные ссоры из-за пьянства отца"
+      ],
+      "notes": "супруги; постоянные семейные ссоры из-за пьянства отца"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "mat",
+      "types": [
+        "kinship",
+        "speech"
+      ],
+      "episode_count": 2,
+      "intensity": 6,
+      "weight": 0.55,
+      "evidence": [
+        "«мать» ; «мама»",
+        "разговор рассказчика с матерью об отце",
+        "тяжелый разговор о том, что рассказчик больше не хочет вмешиваться в конфликт родителей"
+      ],
+      "notes": "сын и мать; разговор рассказчика с матерью об отце; тяжелый разговор о том, что рассказчик больше не хочет вмешиваться в конфликт родителей"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "zhena_rasskazchika",
+      "types": [
+        "kinship",
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.27,
+      "evidence": [
+        "«жене моей»",
+        "разговоры и совместная жизнь"
+      ],
+      "notes": "супруги; разговоры и совместная жизнь"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "brat",
+      "types": [
+        "kinship",
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.27,
+      "evidence": [
+        "«брат» ; «Валера»",
+        "разговор о матери"
+      ],
+      "notes": "братья; разговор о матери"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "sestra",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«сестренкой» ; «Танечка»"
+      ],
+      "notes": "брат и сестра"
+    },
+    {
+      "source": "tetya_dasha",
+      "target": "otets",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«родная отцова тетка»"
+      ],
+      "notes": "родственники"
+    },
+    {
+      "source": "grisha",
+      "target": "otets",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.27,
+      "evidence": [
+        "обращение к покойному"
+      ],
+      "notes": "обращение к покойному"
+    },
+    {
+      "source": "babka_grishi",
+      "target": "otets",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.27,
+      "evidence": [
+        "просьба разрешения на свадьбу"
+      ],
+      "notes": "просьба разрешения на свадьбу"
+    },
+    {
+      "source": "babka_grishi",
+      "target": "grisha",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Гришина бабка»"
+      ],
+      "notes": "родственники"
+    },
+    {
+      "source": "otets",
+      "target": "brat",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Это я, ваш папа! Не узнали?… Это папка!»"
+      ],
+      "notes": "отец и сын"
+    },
+    {
+      "source": "otets",
+      "target": "sestra",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Это я, ваш папа! Не узнали?… Это папка!»"
+      ],
+      "notes": "отец и дочь"
+    },
+    {
+      "source": "mat",
+      "target": "brat",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«спросил у брата: а что, когда он остался дома за старшего, ему небось тоже мама приказывала?»"
+      ],
+      "notes": "мать и сын"
+    },
+    {
+      "source": "mat",
+      "target": "sestra",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Перво-наперво отрежешь Танечке косы…»"
+      ],
+      "notes": "мать и дочь"
+    }
+  ]
+}

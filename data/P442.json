@@ -1,0 +1,344 @@
+{
+  "id": "P442",
+  "author": "Мелибеев Петр Петрович",
+  "title": "Бульдог",
+  "year": 1959,
+  "nodes": [
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "—",
+      "main": true,
+      "who": "повествователь, сельский комсомолец",
+      "aliases": "я; рассказчик; комсомолец; секретарь ячейки",
+      "author_characterization": "самоуверенный; решительный",
+      "gender": "мужской",
+      "age": "пятнадцать лет; семнадцать лет",
+      "other": "общественный деятель; секретарь сельской ячейки комсомола; носит револьвер «бульдог»"
+    },
+    {
+      "id": "starshiy_brat",
+      "name": "Старший брат",
+      "full_name": "—",
+      "main": false,
+      "who": "брат рассказчика",
+      "aliases": "старший брат",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "старше рассказчика",
+      "other": "военный; фронтовик; привез с фронта револьвер"
+    },
+    {
+      "id": "pop",
+      "name": "Поп",
+      "full_name": "—",
+      "main": false,
+      "who": "сельский священник",
+      "aliases": "поп; священник; гражданин поп",
+      "author_characterization": "еще нестарый; высокий; чернобородый красавец; ехидный",
+      "gender": "мужской",
+      "age": "нестарый",
+      "other": "служитель культа; поп; священник; служит в церкви"
+    },
+    {
+      "id": "sanka_demin",
+      "name": "Санька Демин",
+      "full_name": "Санька Демин",
+      "main": false,
+      "who": "бывший секретарь ячейки",
+      "aliases": "Санька; Санька Демин",
+      "author_characterization": "самый старший среди комсомольцев",
+      "gender": "мужской",
+      "age": "—",
+      "other": "общественный деятель; секретарь ячейки; женат; исключен из комсомола"
+    },
+    {
+      "id": "fedot",
+      "name": "Федот",
+      "full_name": "Федот",
+      "main": false,
+      "who": "комсомолец",
+      "aliases": "Федот",
+      "author_characterization": "здоровый; малоподвижный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "пострадал от старух и парней"
+    },
+    {
+      "id": "tikhon_bakin",
+      "name": "Тихон Бакин",
+      "full_name": "Тихон Бакин",
+      "main": false,
+      "who": "самогонщик",
+      "aliases": "Тихон Бакин; Тихон",
+      "author_characterization": "«справный» мужичок",
+      "gender": "мужской",
+      "age": "—",
+      "other": "мужичок; держал самогонный аппарат"
+    },
+    {
+      "id": "babka_gavrilikha",
+      "name": "Бабка Гаврилиха",
+      "full_name": "—",
+      "main": false,
+      "who": "самогонщица",
+      "aliases": "бабка Гаврилиха; Гаврилиха",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "пожилая",
+      "other": "снабжала самогоном половину села"
+    },
+    {
+      "id": "pasha_vlasov",
+      "name": "Паша Власов",
+      "full_name": "Паша Власов",
+      "main": false,
+      "who": "секретарь укома",
+      "aliases": "Паша Власов; Паша; секретарь укома",
+      "author_characterization": "серьезный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "общественный деятель; секретарь укома; наставляет рассказчика"
+    },
+    {
+      "id": "starik_uchitel",
+      "name": "Старик-учитель",
+      "full_name": "—",
+      "main": false,
+      "who": "сельский учитель",
+      "aliases": "старик-учитель; учитель",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "старый",
+      "other": "педагог; учитель; помогал рассказчику учиться"
+    },
+    {
+      "id": "efim_pestov",
+      "name": "Ефим Пестов",
+      "full_name": "Ефим Пестов",
+      "main": false,
+      "who": "комсомолец из совхоза",
+      "aliases": "Ефим Пестов; Ефим",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "общественный деятель; комсомолец; единственный комсомолец из совхоза"
+    },
+    {
+      "id": "panyutin",
+      "name": "Панютин",
+      "full_name": "Панютин",
+      "main": false,
+      "who": "счетовод в совхозе, идейный противник рассказчика",
+      "aliases": "Панютин",
+      "author_characterization": "зло прищуренный; с презрительной усмешкой",
+      "gender": "мужской",
+      "age": "—",
+      "other": "служащий; счетовод; сын лавочника; из соседнего села"
+    },
+    {
+      "id": "bukhgalter_sovkhoza",
+      "name": "Бухгалтер совхоза",
+      "full_name": "—",
+      "main": false,
+      "who": "бухгалтер совхоза",
+      "aliases": "бухгалтер совхоза; благообразный старичок",
+      "author_characterization": "благообразный старичок",
+      "gender": "мужской",
+      "age": "пожилой",
+      "other": "служащий; бухгалтер; сидел рядом с Панютиным"
+    },
+    {
+      "id": "borodatyy_rabochiy",
+      "name": "Бородатый рабочий",
+      "full_name": "—",
+      "main": false,
+      "who": "рабочий на собрании",
+      "aliases": "рабочий с взлохмаченной бородой; бородатый рабочий",
+      "author_characterization": "с взлохмаченной бородой",
+      "gender": "мужской",
+      "age": "—",
+      "other": "рабочий; участвовал в обсуждении"
+    }
+  ],
+  "links": [
+    {
+      "source": "starshiy_brat",
+      "target": "rasskazchik",
+      "types": [
+        "transfer"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.33,
+      "evidence": [
+        "Передача револьвера «бульдог»"
+      ],
+      "notes": "Старший брат передает рассказчику револьвер «бульдог»"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "pop",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 0.83,
+      "evidence": [
+        "Перепалка на улице («ниспровергаете религию?»)",
+        "Идейное противостояние"
+      ],
+      "notes": "словесная перепалка на улице; идейное противостояние комсомольца и священника"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "sanka_demin",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.33,
+      "evidence": [
+        "Исключение из комсомола"
+      ],
+      "notes": "исключение Саньки из рядов комсомола"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "tikhon_bakin",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.33,
+      "evidence": [
+        "Разгром самогонного аппарата"
+      ],
+      "notes": "комсомольцы громят самогонный аппарат Тихона"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "babka_gavrilikha",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.33,
+      "evidence": [
+        "Разгром самогонного заведения"
+      ],
+      "notes": "комсомольцы разоряют самогонное заведение Гаврилихи"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "fedot",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.17,
+      "evidence": [
+        "Совместная антирелигиозная акция (лозунги на ограде)"
+      ],
+      "notes": "Рассказчик и Федот участвуют в совместной антирелигиозной акции"
+    },
+    {
+      "source": "pasha_vlasov",
+      "target": "rasskazchik",
+      "types": [
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 0.83,
+      "evidence": [
+        "Разговор в укоме о методах работы",
+        "Наставление и совет"
+      ],
+      "notes": "Паша Власов объясняет ошибки, дает советы и наставляет рассказчика в комсомольской работе"
+    },
+    {
+      "source": "starik_uchitel",
+      "target": "rasskazchik",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.33,
+      "evidence": [
+        "Помощь в учёбе"
+      ],
+      "notes": "старик-учитель помогает рассказчику в учебе"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "efim_pestov",
+      "types": [
+        "speech",
+        "co_presence_joint_action",
+        "help_support"
+      ],
+      "episode_count": 3,
+      "intensity": 6,
+      "weight": 1.0,
+      "evidence": [
+        "Разговор о лекции и договорённость о собрании",
+        "Проведение собрания в совхозе",
+        "Поддержка в споре с Панютиным"
+      ],
+      "notes": "Рассказчик и Ефим Пестов обсуждают лекцию, вместе проводят собрание в совхозе; Ефим поддерживает рассказчика в споре с Панютиным"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "panyutin",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 0.83,
+      "evidence": [
+        "Спор после доклада",
+        "Идейный конфликт на собрании"
+      ],
+      "notes": "Рассказчик и Панютин спорят после доклада; между ними возникает идейный конфликт на собрании"
+    },
+    {
+      "source": "panyutin",
+      "target": "bukhgalter_sovkhoza",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.5,
+      "evidence": [
+        "Шёпот во время доклада"
+      ],
+      "notes": "Панютин шепчет что-то бухгалтеру во время доклада"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "borodatyy_rabochiy",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.5,
+      "evidence": [
+        "Требование прямого ответа о боге"
+      ],
+      "notes": "бородатый рабочий требует от рассказчика прямого ответа о боге"
+    }
+  ]
+}

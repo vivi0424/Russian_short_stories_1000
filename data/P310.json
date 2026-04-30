@@ -1,0 +1,108 @@
+{
+  "id": "P310",
+  "author": "Искандер Фазиль",
+  "title": "Антип уехал в Казантип",
+  "year": 1999,
+  "nodes": [
+    {
+      "id": "selskiy_poet",
+      "name": "Сельский поэт",
+      "full_name": "—",
+      "main": true,
+      "who": "местный собеседник, ведущий разговор об Антипе",
+      "aliases": "—",
+      "author_characterization": "шутник, говорливый, остроумный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "сельский; зарабатывает языком"
+    },
+    {
+      "id": "sobesednik",
+      "name": "Собеседник",
+      "full_name": "—",
+      "main": true,
+      "who": "человек, ищущий Антипа и требующий долг",
+      "aliases": "курортник-москвич",
+      "author_characterization": "недоверчивый, раздраженный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "galka",
+      "name": "Галка",
+      "full_name": "Галка",
+      "main": false,
+      "who": "молодка, связанная с Антипом",
+      "aliases": "молодка",
+      "author_characterization": "ядовитая",
+      "gender": "женский",
+      "age": "—",
+      "other": "находится в Казантипе"
+    },
+    {
+      "id": "antip",
+      "name": "Антип",
+      "full_name": "Антип",
+      "main": false,
+      "who": "должник, рыбак, предмет разговоров",
+      "aliases": "—",
+      "author_characterization": "молодой, сложный человек, стервец-удалец, строг",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "ездит в Казантип"
+    }
+  ],
+  "links": [
+    {
+      "source": "selskiy_poet",
+      "target": "sobesednik",
+      "types": ["speech", "request"],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 1.0,
+      "evidence": [
+        "«Где Антип?» ; «Честно говорю ― уехал в Казантип»",
+        "«Ты бы и мне одолжил рублей сто»"
+      ],
+      "notes": "основной диалог рассказа; просит у него сто рублей"
+    },
+    {
+      "source": "sobesednik",
+      "target": "antip",
+      "types": ["request", "transfer"],
+      "episode_count": 2,
+      "intensity": 4,
+      "weight": 0.8,
+      "evidence": [
+        "«Мы же договорились с ним о встрече» ; «вернет или вильнет»",
+        "«Он деньги у меня брал в долг»"
+      ],
+      "notes": "требует вернуть долг и ищет встречи; ранее дал Антипу деньги в долг"
+    },
+    {
+      "source": "selskiy_poet",
+      "target": "antip",
+      "types": ["kinship"],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Зато я уговорю Антипа вернуть твой долг» ; «Эй, Антип!»"
+      ],
+      "notes": "знакомство и посредничество между собеседником и Антипом"
+    },
+    {
+      "source": "sobesednik",
+      "target": "galka",
+      "types": ["co_presence_joint_action"],
+      "episode_count": 2,
+      "intensity": 2,
+      "weight": 0.4,
+      "evidence": [
+        "«при такой молодке держать равновесие в лодке» ; «бачить Галку и рыбачить»"
+      ],
+      "notes": "вместе находятся в лодке и в Казантипе"
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "id": "P455",
+  "author": "Шепелёв Алексей А.",
+  "title": "Черти на трассе (Уроки русского)",
+  "year": 1993,
+  "nodes": [
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "Алексей",
+      "main": true,
+      "who": "повествователь, бывший ученик Василия Петровича",
+      "aliases": "Алексей; я",
+      "author_characterization": "наблюдательный, внимательный к чужой речи и состояниям",
+      "gender": "мужской",
+      "age": "—",
+      "other": "от его лица ведется рассказ; учащийся; школьник, затем взрослый рассказчик"
+    },
+    {
+      "id": "vasily_petrovich",
+      "name": "Василий Петрович",
+      "full_name": "Василий Петрович",
+      "main": true,
+      "who": "учитель и центральная фигура рассказа",
+      "aliases": "Василий; Василий Петрович; учитель; Вася",
+      "author_characterization": "умеет рассказывать просто о сложном; добродушный; пьющий; внутренне надломленный",
+      "gender": "мужской",
+      "age": "лет двадцать восемь",
+      "other": "женат; педагог; преподаватель курса профобучения «трактор», завхоз; зовут заглазно Василием"
+    },
+    {
+      "id": "festival",
+      "name": "Фестиваль",
+      "full_name": "—",
+      "main": false,
+      "who": "старший из местной компании, знакомый рассказчика",
+      "aliases": "—",
+      "author_characterization": "очень сильный, жестокий и наглый, но «нормальный парень», иногда приятный в общении",
+      "gender": "мужской",
+      "age": "двадцать лет",
+      "other": "у него есть брат и сестра"
+    },
+    {
+      "id": "maloy_shvyrok",
+      "name": "Малой Швырок",
+      "full_name": "—",
+      "main": false,
+      "who": "участник компании у памятника",
+      "aliases": "Швырок",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "задает вопрос после рассказа Василия"
+    },
+    {
+      "id": "mayor",
+      "name": "Майор",
+      "full_name": "—",
+      "main": false,
+      "who": "сотрудник милиции/Гаи, психотерапевт",
+      "aliases": "—",
+      "author_characterization": "властный, деловой, пьющий",
+      "gender": "мужской",
+      "age": "—",
+      "other": "служащий; майор, врач-психотерапевт спецклиники Мвд; приезжает на «восьмерке»"
+    },
+    {
+      "id": "stepanov",
+      "name": "Степанов",
+      "full_name": "Степан Степанов",
+      "main": false,
+      "who": "старшина Гаи",
+      "aliases": "Степан Степанов; старшина Степанов; Степа",
+      "author_characterization": "красноносый, пьющий, грубоватый",
+      "gender": "мужской",
+      "age": "—",
+      "other": "служащий; старшина; его пренебрежительно зовут «Коля!»"
+    },
+    {
+      "id": "kolya",
+      "name": "Коля",
+      "full_name": "—",
+      "main": false,
+      "who": "рядовой сотрудник Гаи",
+      "aliases": "—",
+      "author_characterization": "пьет меньше всех",
+      "gender": "мужской",
+      "age": "—",
+      "other": "служащий; другие пренебрежительно обзывают его «Коля!»"
+    },
+    {
+      "id": "kum_grunya",
+      "name": "Кум Груня",
+      "full_name": "Груня",
+      "main": false,
+      "who": "кум Василия",
+      "aliases": "Груня; кум",
+      "author_characterization": "гостеприимный, пьющий, многословный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "женат; рабочий; бывший работник спиртзавода, пенсионер; копит спирт «на похороны»"
+    },
+    {
+      "id": "babka_kuma",
+      "name": "Бабка кума",
+      "full_name": "—",
+      "main": false,
+      "who": "жена кума",
+      "aliases": "бабка",
+      "author_characterization": "ворчливая",
+      "gender": "женский",
+      "age": "—",
+      "other": "замужем; сидит с кумом у телевизора"
+    },
+    {
+      "id": "ivan_pimenovich",
+      "name": "Иван Пименович",
+      "full_name": "Иван Пименович",
+      "main": false,
+      "who": "пенсионер-водитель «Запорожца»",
+      "aliases": "дед; пенсионер; Иван Пименович",
+      "author_characterization": "веселый, гармонист, выпивоха, плясун, бабник",
+      "gender": "мужской",
+      "age": "лет шестидесяти пяти",
+      "other": "женат; рабочий; бывший слесарь первого разряда; едет на именины"
+    },
+    {
+      "id": "supruga_ivana_pimenovicha",
+      "name": "Супруга Ивана Пименовича",
+      "full_name": "—",
+      "main": false,
+      "who": "жена Ивана Пименовича",
+      "aliases": "бабка; супруга",
+      "author_characterization": "тяжелая, властная, ругает мужа",
+      "gender": "женский",
+      "age": "—",
+      "other": "замужем"
+    },
+    {
+      "id": "fedya",
+      "name": "Федя",
+      "full_name": "Федя",
+      "main": false,
+      "who": "тракторист",
+      "aliases": "дядя Федя; тракторист Федя",
+      "author_characterization": "грязный, сонный или больной, очень почтительный после выпивки",
+      "gender": "мужской",
+      "age": "—",
+      "other": "рабочий; тракторист; едет с сеном"
+    },
+    {
+      "id": "nadenka",
+      "name": "Наденька",
+      "full_name": "Наденька",
+      "main": false,
+      "who": "жена Василия Петровича",
+      "aliases": "Надя; Наденька; Надька; жена; жена Василия Петровича",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "замужем; уходит с детьми к бабке"
+    },
+    {
+      "id": "semenych",
+      "name": "Семеныч",
+      "full_name": "—",
+      "main": false,
+      "who": "односельчанин",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "в его стогу засыпает Василий"
+    },
+    {
+      "id": "cherti",
+      "name": "Черти",
+      "full_name": "—",
+      "main": false,
+      "who": "мистические существа, являющиеся Василию на трассе",
+      "aliases": "—",
+      "author_characterization": "Маленькие, поросшие шерстью иль щетиной, с розовой свиной хрючкой и с поросясьими же ушами, с хрупкими, как у ягнят, копытцами, рогами и хвостом во весь чертов рост",
+      "gender": "—",
+      "age": "—",
+      "other": "стали появляться в автомобиле и наводить беспорядок"
+    }
+  ],
+  "links": [
+    {
+      "source": "vasily_petrovich",
+      "target": "rasskazchik",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.38,
+      "evidence": [
+        "«И ты здесь, Алексей»"
+      ],
+      "notes": "учитель общается с рассказчиком в школе и у памятника"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "festival",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.13,
+      "evidence": [
+        "«Фестиваль был как будто весел сегодня, подсел ко мне» ; «Мы сидели молча, курили»"
+      ],
+      "notes": "сидят рядом и выпивают у памятника"
+    },
+    {
+      "source": "festival",
+      "target": "vasily_petrovich",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.13,
+      "evidence": [
+        "«Выпив полстакана, он начал было рассказывать» ; «Фестиваль... всегда смеялся»"
+      ],
+      "notes": "вместе пьют и слушают рассказ Василия"
+    },
+    {
+      "source": "maloy_shvyrok",
+      "target": "vasily_petrovich",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.38,
+      "evidence": [
+        "«малой Швырок спросил: “А че дальше-то было?”»"
+      ],
+      "notes": "спрашивает о продолжении рассказа"
+    },
+    {
+      "source": "mayor",
+      "target": "vasily_petrovich",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.25,
+      "evidence": [
+        "«вы подлежите лечению в психиатрической клинике» ; «преподнесли... изрядный штраф»"
+      ],
+      "notes": "штрафует, угрожает психлечебницей и вымогает деньги"
+    },
+    {
+      "source": "stepanov",
+      "target": "vasily_petrovich",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.25,
+      "evidence": [
+        "«Тридцать пять кусков»"
+      ],
+      "notes": "участвует в давлении и вымогательстве"
+    },
+    {
+      "source": "kolya",
+      "target": "vasily_petrovich",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.25,
+      "evidence": [
+        "«Ознакомился с протоколом? Согласен со всем?»"
+      ],
+      "notes": "участвует в давлении на Василия"
+    },
+    {
+      "source": "vasily_petrovich",
+      "target": "kum_grunya",
+      "types": [
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 0.63,
+      "evidence": [
+        "«выдать мне же... тридцать пять тысяч» ; «налил две пластмассовые бутылки»",
+        "уговоры, объяснения, просьбы (глава 8)"
+      ],
+      "notes": "Василий просит о деньгах и спирте; кум дает деньги и спирт"
+    },
+    {
+      "source": "babka_kuma",
+      "target": "kum_grunya",
+      "types": [
+        "kinship",
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.38,
+      "evidence": [
+        "«Во приспичило!» ; «Все умныва из себе строит»"
+      ],
+      "notes": "жена кума ворчит на него у телевизора"
+    },
+    {
+      "source": "stepanov",
+      "target": "ivan_pimenovich",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "intensity": 4,
+      "weight": 0.5,
+      "evidence": [
+        "«Каа спир… тя-ни!»",
+        "«Веселье пошло новым ходом при участии... Ивана Пименовича» ; «они с майором еще дернули»"
+      ],
+      "notes": "Степанов заставляет Ивана Пименовича выпить; затем они вместе пьют и поют"
+    },
+    {
+      "source": "supruga_ivana_pimenovicha",
+      "target": "ivan_pimenovich",
+      "types": [
+        "kinship",
+        "conflict"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.25,
+      "evidence": [
+        "«Я те выпью! Токо попробуй!» ; «как был алкаш, так и остался»"
+      ],
+      "notes": "жена ругает Ивана Пименовича за выпивку"
+    },
+    {
+      "source": "fedya",
+      "target": "stepanov",
+      "types": [
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 2,
+      "intensity": 4,
+      "weight": 0.5,
+      "evidence": [
+        "«мы были рады познакомиться с трактористом Федей» ; «Вновь пошла гармонь и клятвы о дружбе до гроба»",
+        "«пригласил следовать за ним» ; «вместо ожидаемой трубки предложили выпить»"
+      ],
+      "notes": "Степанов приглашает Федю выпить; они вместе участвуют в застолье на посту"
+    },
+    {
+      "source": "vasily_petrovich",
+      "target": "nadenka",
+      "types": [
+        "kinship",
+        "conflict"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.25,
+      "evidence": [
+        "«Наденька» ; «как жить и любить жизнь, работу, жену… я же их люблю…»",
+        "«его жена с детьми перешла к бабке, сказав, что больше с ним жить не будет»"
+      ],
+      "notes": "Наденька — жена Василия Петровича; в финале она уходит от него с детьми"
+    },
+    {
+      "source": "vasily_petrovich",
+      "target": "semenych",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.13,
+      "evidence": [
+        "«сам Василий... уснул в стогу у Семеныча»"
+      ],
+      "notes": "Василий засыпает в стогу Семеныча"
+    },
+    {
+      "source": "vasily_petrovich",
+      "target": "cherti",
+      "types": [
+        "co_presence_joint_action",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "intensity": 3,
+      "weight": 0.38,
+      "evidence": [
+        "«Сидит на руле и рулит» ; «еще два черта... опустились ко мне на руль»",
+        "«принялся состязаться с ними в силе»"
+      ],
+      "notes": "черти появляются в машине Василия, мешают управлять, и Василий борется с ними за управление"
+    }
+  ]
+}

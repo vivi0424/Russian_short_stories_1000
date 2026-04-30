@@ -1,0 +1,240 @@
+{
+  "id": "E027",
+  "author": "Коровин Константин Алексеевич",
+  "title": "На Северной Двине",
+  "year": 1939,
+  "nodes": [
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "—",
+      "main": true,
+      "who": "участник поездки, повествователь",
+      "aliases": "я; мы",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "едет на Северную Двину"
+    },
+    {
+      "id": "serov",
+      "name": "Серов",
+      "full_name": "В. А. Серов",
+      "main": false,
+      "who": "художник, спутник рассказчика",
+      "aliases": "В. А. Серов; художник В. А. Серов; Серов",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "искусство; художник; едет с рассказчиком"
+    },
+    {
+      "id": "pavel_aleksandrovich_suchkov",
+      "name": "Павел Александрович Сучков",
+      "full_name": "Павел Александрович Сучков",
+      "main": false,
+      "who": "приятель, участник поездки",
+      "aliases": "Павел Александрович Сучков; Павел Александрович; Павел",
+      "author_characterization": "сердитый, решительный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "пристраивал остроги, ловил рыбу"
+    },
+    {
+      "id": "vasiliy_sergeevich_kuznetsov",
+      "name": "Василий Сергеевич Кузнецов",
+      "full_name": "Василий Сергеевич Кузнецов",
+      "main": false,
+      "who": "приятель, участник поездки",
+      "aliases": "Василий Сергеевич Кузнецов; Василий Сергеевич; Кузнецов",
+      "author_characterization": "мрачный, осторожный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "боится ночевки из-за медведя"
+    },
+    {
+      "id": "vasiliy_knyazhev",
+      "name": "Василий Княжев",
+      "full_name": "Василий Княжев",
+      "main": false,
+      "who": "спутник, рыбачит и сторожит ночью",
+      "aliases": "Василий Княжев; Василий",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "идет с Павлом за рыбой, сторожит палатку ночью, ловит живцов"
+    },
+    {
+      "id": "matros",
+      "name": "Матрос",
+      "full_name": "—",
+      "main": false,
+      "who": "матрос на пароходе",
+      "aliases": "матрос; один из матросов",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "член команды судна; матрос; рассказывает о медведе"
+    },
+    {
+      "id": "bufetchik",
+      "name": "Буфетчик",
+      "full_name": "—",
+      "main": false,
+      "who": "буфетчик в гостинице",
+      "aliases": "буфетчик",
+      "author_characterization": "«такого друга редко где встретишь»",
+      "gender": "мужской",
+      "age": "—",
+      "other": "торговля, обслуживание; буфетчик; угощает путешественников"
+    }
+  ],
+  "links": [
+    {
+      "source": "rasskazchik",
+      "target": "serov",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.2,
+      "evidence": [
+        "«вздумали мы с художником В. А. Серовым поехать на Северную Двину»"
+      ],
+      "notes": "вместе планируют и совершают поездку на Северную Двину"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "pavel_aleksandrovich_suchkov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.6,
+      "evidence": [
+        "«вечером пришел Павел Александрович Сучков и обиженно сказал: — Я еду с вами»"
+      ],
+      "notes": "Павел объявляет рассказчику о намерении ехать с ними"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "vasiliy_sergeevich_kuznetsov",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "intensity": 4,
+      "weight": 0.8,
+      "evidence": [
+        "«На другой день ― Василий Сергеевич Кузнецов. И тоже с обидой сказал: ― Я тоже еду с вами, мне Павел сказал. »",
+        "«сошли и мы» ; «Василий Сергеевич вбежал в палатку»"
+      ],
+      "notes": "Кузнецов говорит о поездке; вместе путешествуют и ночуют на берегу"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "vasiliy_knyazhev",
+      "types": [
+        "co_presence_joint_action",
+        "help_support"
+      ],
+      "episode_count": 2,
+      "intensity": 3,
+      "weight": 0.6,
+      "evidence": [
+        "«Я же решил с Василием ловить рыбу»",
+        "«Василий Княжев вызвался один сторожить до утра»"
+      ],
+      "notes": "вместе остаются у палатки и ловят рыбу ночью; Княжев вызывается сторожить ночью"
+    },
+    {
+      "source": "matros",
+      "target": "rasskazchik",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.6,
+      "evidence": [
+        "«говорил один из матросов» ; «На прошлой неделе здесь медведина лез по песку кверху»"
+      ],
+      "notes": "матрос рассказывает о медведе у этого берега"
+    },
+    {
+      "source": "bufetchik",
+      "target": "rasskazchik",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.4,
+      "evidence": [
+        "«буфетчик — такого друга редко где встретишь. Угощал на славу»"
+      ],
+      "notes": "буфетчик угощает путешественников"
+    },
+    {
+      "source": "pavel_aleksandrovich_suchkov",
+      "target": "vasiliy_sergeevich_kuznetsov",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 1,
+      "evidence": [
+        "«Брось! — прервал сердито Павел Александрович» ; «― Я остаюсь при своем мнении, ― нахмурившись и не глядя на Павла Александровича, сказал Кузнецов.»",
+        "«Довольно пошлостей. Именно здесь надо остаться» ; «нахмурившись и не глядя на Павла Александровича»"
+      ],
+      "notes": "они спорят о том, оставаться ли на берегу; между ними возникает явное раздраженное столкновение мнений"
+    },
+    {
+      "source": "pavel_aleksandrovich_suchkov",
+      "target": "vasiliy_knyazhev",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.2,
+      "evidence": [
+        "«Павел Александрович пристраивал острогу и собирался с Василием Княжевым идти доставать челн»"
+      ],
+      "notes": "Павел и Княжев вместе идут доставать челн"
+    },
+    {
+      "source": "pavel_aleksandrovich_suchkov",
+      "target": "serov",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.2,
+      "evidence": [
+        "«Да ведь мы будем в палатке и костер будем жечь, — сказал Серов» ; общий эпизод стоянки"
+      ],
+      "notes": "оба участвуют в общей стоянке и обсуждении ночевки"
+    },
+    {
+      "source": "vasiliy_sergeevich_kuznetsov",
+      "target": "serov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.6,
+      "evidence": [
+        "«Да ведь мы будем в палатке и костер будем жечь, — сказал Серов»"
+      ],
+      "notes": "Кузнецов отвечает Серову в споре о ночевке"
+    }
+  ]
+}

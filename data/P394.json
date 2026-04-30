@@ -1,0 +1,173 @@
+{
+  "id": "P394",
+  "author": "Бутов Михаил",
+  "title": "Астрономия насекомых",
+  "year": 1994,
+  "nodes": [
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "—",
+      "main": true,
+      "who": "участник компании, повествователь",
+      "aliases": "я; Фофанов",
+      "author_characterization": "наблюдательный, рефлексирующий",
+      "gender": "мужской",
+      "age": "32",
+      "other": "говорит от первого лица"
+    },
+    {
+      "id": "elka",
+      "name": "Элка",
+      "full_name": "—",
+      "main": true,
+      "who": "хозяйка квартиры, инициатор встречи",
+      "aliases": "—",
+      "author_characterization": "активная, эмоциональная",
+      "gender": "женский",
+      "age": "около 30",
+      "other": "замужем; имеет любовника"
+    },
+    {
+      "id": "makarov",
+      "name": "Макаров",
+      "full_name": "—",
+      "main": true,
+      "who": "друг в компании",
+      "aliases": "—",
+      "author_characterization": "склонен к рассуждениям, ироничен",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "terentyev",
+      "name": "Терентьев",
+      "full_name": "—",
+      "main": true,
+      "who": "друг в компании",
+      "aliases": "Терентьич",
+      "author_characterization": "рассудительный, скептичный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "женат, отец троих детей"
+    },
+    {
+      "id": "reporter",
+      "name": "Репортер",
+      "full_name": "—",
+      "main": false,
+      "who": "молодой поклонник Элки, инициатор съемки",
+      "aliases": "поклонник; журналист",
+      "author_characterization": "энергичный, навязчивый",
+      "gender": "мужской",
+      "age": "около 24",
+      "other": "работает на телевидении"
+    }
+  ],
+  "links": [
+    {
+      "source": "elka",
+      "target": "makarov",
+      "types": ["speech", "help_support", "conflict", "co_presence_joint_action"],
+      "episode_count": 7,
+      "intensity": 9,
+      "weight": 1.0,
+      "evidence": [
+        "«Ты перестань сейчас же!»",
+        "«обхватывает его лодыжки и тянет обратно»",
+        "«Да ну тебя»",
+        "совместное пребывание",
+        "вместе спускаются по лестнице",
+        "разговор на крыше",
+        "совместное участие"
+      ],
+      "notes": "разговоры, удержание от падения, конфликты и совместные действия"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "makarov",
+      "types": ["speech", "co_presence_joint_action"],
+      "episode_count": 3,
+      "intensity": 4,
+      "weight": 0.44,
+      "evidence": [
+        "«Само собой, ― говорит Макаров»",
+        "«Мы с Макаровым тихо обсуждали»",
+        "вместе спускаются по лестнице"
+      ],
+      "notes": "обсуждение и совместное пребывание"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "terentyev",
+      "types": ["speech", "co_presence_joint_action"],
+      "episode_count": 3,
+      "intensity": 4,
+      "weight": 0.44,
+      "evidence": [
+        "ответы в диалоге",
+        "совместное пребывание на крыше",
+        "вместе спускаются по лестнице"
+      ],
+      "notes": "обсуждения и совместное пребывание"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "elka",
+      "types": ["speech", "co_presence_joint_action"],
+      "episode_count": 3,
+      "intensity": 4,
+      "weight": 0.44,
+      "evidence": [
+        "совместные разговоры на крыше",
+        "«Мы залезли на крышу»",
+        "вместе спускаются по лестнице"
+      ],
+      "notes": "разговоры и совместное пребывание"
+    },
+    {
+      "source": "makarov",
+      "target": "terentyev",
+      "types": ["speech", "co_presence_joint_action"],
+      "episode_count": 3,
+      "intensity": 4,
+      "weight": 0.44,
+      "evidence": [
+        "«Это точно, ― сказал Терентьев»",
+        "совместное пребывание на крыше",
+        "вместе спускаются по лестнице"
+      ],
+      "notes": "обсуждения и совместное пребывание"
+    },
+    {
+      "source": "elka",
+      "target": "terentyev",
+      "types": ["speech", "co_presence_joint_action", "conflict"],
+      "episode_count": 4,
+      "intensity": 5,
+      "weight": 0.56,
+      "evidence": [
+        "«Может, обойдемся без хамства?»",
+        "совместное участие",
+        "совместное участие",
+        "«А на кой хрен ты нам все это устроила?»"
+      ],
+      "notes": "обсуждения, совместное участие и конфликты"
+    },
+    {
+      "source": "elka",
+      "target": "rasskazchik",
+      "types": ["speech", "co_presence_joint_action"],
+      "episode_count": 3,
+      "intensity": 4,
+      "weight": 0.44,
+      "evidence": [
+        "разговоры в компании",
+        "«Мы залезли на крышу»",
+        "вместе спускаются по лестнице"
+      ],
+      "notes": "разговоры и совместное пребывание"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "id": "S101",
+  "author": "Арский Павел Александрович",
+  "title": "Кровь рабочего",
+  "year": 1919,
+  "nodes": [
+    {
+      "id": "ivan_makhotochkin",
+      "name": "Иван Махоточкин",
+      "full_name": "Иван Махоточкин",
+      "main": true,
+      "who": "молодой солдат учебной команды",
+      "aliases": "Махоточкин; Иван",
+      "author_characterization": "безусый, румяный, добродушный, глуповатый, самый молодой, с голубыми глазами навыкате",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "военный; солдат учебной команды; с голубыми глазами навыкате"
+    },
+    {
+      "id": "zhokhov",
+      "name": "Жохов",
+      "full_name": "Жохов",
+      "main": false,
+      "who": "фельдфебель учебной команды",
+      "aliases": "фельдфебель Жохов; фельдфебель",
+      "author_characterization": "толстый, упитанный, сначала уверенный, потом растерянный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "военный; фельдфебель учебной команды; говорит о рабочих и царизме"
+    },
+    {
+      "id": "komandir_polka",
+      "name": "Командир полка",
+      "full_name": "—",
+      "main": false,
+      "who": "командир полка",
+      "aliases": "полковник; командир полка",
+      "author_characterization": "свирепый, грубый, вспыльчивый",
+      "gender": "мужской",
+      "age": "—",
+      "other": "военный; полковник; называет солдат «баранами»"
+    },
+    {
+      "id": "adyutant",
+      "name": "Адъютант",
+      "full_name": "—",
+      "main": false,
+      "who": "адъютант командира полка",
+      "aliases": "—",
+      "author_characterization": "стройный блондин, с завитыми в стрелку усиками, сюсюкающий",
+      "gender": "мужской",
+      "age": "—",
+      "other": "военный; адъютант; сопровождает полковника"
+    },
+    {
+      "id": "kapitan_rykov",
+      "name": "Капитан Рыков",
+      "full_name": "Рыков",
+      "main": false,
+      "who": "начальник команды",
+      "aliases": "Рыков; капитан Рыков; начальник команды; «бульдог»",
+      "author_characterization": "«бульдог», жестокий",
+      "gender": "мужской",
+      "age": "—",
+      "other": "военный; капитан; ударил Махоточкина"
+    },
+    {
+      "id": "efreytor_maligin",
+      "name": "Ефрейтор Малигин",
+      "full_name": "Андрей Матвеевич Малигин",
+      "main": false,
+      "who": "ефрейтор, собеседник Махоточкина",
+      "aliases": "Малигин; Андрей Матвеич",
+      "author_characterization": "злобно ругается, делится новостями",
+      "gender": "мужской",
+      "age": "—",
+      "other": "военный; ефрейтор; назван Андреем Матвеичем"
+    },
+    {
+      "id": "kapitan_chikulin",
+      "name": "Капитан Чикулин",
+      "full_name": "Чикулин",
+      "main": false,
+      "who": "капитан, прибывший верхом с известием",
+      "aliases": "Чикулин",
+      "author_characterization": "жестикулирующий, говорит повышенным тоном",
+      "gender": "мужской",
+      "age": "—",
+      "other": "военный; капитан; сообщает о событиях в четвертой роте"
+    },
+    {
+      "id": "knyaz_chekoldaev",
+      "name": "Князь Чеколдаев",
+      "full_name": "Чеколдаев",
+      "main": false,
+      "who": "ротный",
+      "aliases": "Чеколдаев; князь; ротный",
+      "author_characterization": "иронически ухмыляется, недоверчив",
+      "gender": "мужской",
+      "age": "—",
+      "other": "военный; князь, ротный; отдает приказ Жохову"
+    },
+    {
+      "id": "rabochiy_orator",
+      "name": "Рабочий-оратор",
+      "full_name": "—",
+      "main": false,
+      "who": "рабочий, обращающийся к солдатам",
+      "aliases": "рабочий",
+      "author_characterization": "возбужденный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "рабочий; кричит: «Товарищи! Братья!»"
+    },
+    {
+      "id": "ryzheborody_soldat_versta",
+      "name": "Рыжебородый солдат «Верста»",
+      "full_name": "—",
+      "main": false,
+      "who": "солдат четвертой роты, агитатор",
+      "aliases": "рыжебородый солдат; Верста",
+      "author_characterization": "высокий, рыжебородый, с богатырской грудью",
+      "gender": "мужской",
+      "age": "—",
+      "other": "военный; солдат; прозвище «Верста»"
+    }
+  ],
+  "links": [
+    {
+      "source": "zhokhov",
+      "target": "ivan_makhotochkin",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "intensity": 4,
+      "weight": 0.8,
+      "evidence": [
+        "Разговор о рабочих и царизме в казарме",
+        "Совместный марш к Троицкому мосту"
+      ],
+      "notes": "разговор о рабочих и царизме; совместный марш к Троицкому мосту"
+    },
+    {
+      "source": "komandir_polka",
+      "target": "ivan_makhotochkin",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.4,
+      "evidence": [
+        "Тычок кулаком в живот, оскорбления"
+      ],
+      "notes": "полковник оскорбляет и бьет Махоточкина"
+    },
+    {
+      "source": "komandir_polka",
+      "target": "adyutant",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.6,
+      "evidence": [
+        "Распоряжения о наказаниях"
+      ],
+      "notes": "командир полка отдает адъютанту распоряжения о наказаниях"
+    },
+    {
+      "source": "kapitan_rykov",
+      "target": "ivan_makhotochkin",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.4,
+      "evidence": [
+        "Удар по голове и пинок"
+      ],
+      "notes": "Рыков бьет Махоточкина"
+    },
+    {
+      "source": "rabochiy_orator",
+      "target": "ivan_makhotochkin",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 1,
+      "evidence": [
+        "«Товарищи! Братья! Не стреляйте!»",
+        "Выстрел в рабочего"
+      ],
+      "notes": "рабочий обращается к солдатам; Махоточкин стреляет в рабочего"
+    },
+    {
+      "source": "efreytor_maligin",
+      "target": "ivan_makhotochkin",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.6,
+      "evidence": [
+        "Разговор о пролитой крови и бунте 4-й роты"
+      ],
+      "notes": "Малигин обсуждает с Махоточкиным пролитую кровь и бунт четвертой роты"
+    },
+    {
+      "source": "kapitan_chikulin",
+      "target": "knyaz_chekoldaev",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.6,
+      "evidence": [
+        "Сообщение о восстании 4-й роты"
+      ],
+      "notes": "Чикулин сообщает Чеколдаеву о восстании четвертой роты"
+    },
+    {
+      "source": "knyaz_chekoldaev",
+      "target": "zhokhov",
+      "types": [
+        "request"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.4,
+      "evidence": [
+        "Приказ вести команду в казармы"
+      ],
+      "notes": "Чеколдаев приказывает Жохову вести команду в казармы"
+    },
+    {
+      "source": "ryzheborody_soldat_versta",
+      "target": "ivan_makhotochkin",
+      "types": [
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 1,
+      "evidence": [
+        "Объявление о революции",
+        "Призыв идти в крепость освобождать товарищей"
+      ],
+      "notes": "«Верста» объясняет, что началась революция, и зовет идти освобождать товарищей"
+    }
+  ]
+}

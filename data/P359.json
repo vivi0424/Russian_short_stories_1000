@@ -1,0 +1,394 @@
+{
+  "id": "P359",
+  "author": "Толстая Татьяна",
+  "title": "Сюжет",
+  "year": 1991,
+  "nodes": [
+    {
+      "id": "pushkin",
+      "name": "Пушкин",
+      "full_name": "Александр Пушкин",
+      "main": true,
+      "who": "центральный персонаж альтернативного сюжета",
+      "aliases": "Александр Пушкин; поэт; старик; арап",
+      "author_characterization": "раненый, затем старый, больной, старчески неопрятный, но вспыльчивый",
+      "gender": "мужской",
+      "age": "от молодого до старого (в разных частях)",
+      "other": "литератор; поэт, писатель, историк; женат; дворянин; выживает после дуэли"
+    },
+    {
+      "id": "dantes",
+      "name": "Дантес",
+      "full_name": "Дантес",
+      "main": false,
+      "who": "противник Пушкина на дуэли",
+      "aliases": "—",
+      "author_characterization": "злодей",
+      "gender": "мужской",
+      "age": "—",
+      "other": "на дуэли смертельно ранен"
+    },
+    {
+      "id": "natalya_nikolaevna",
+      "name": "Наталья Николаевна",
+      "full_name": "Наталья Николаевна",
+      "main": false,
+      "who": "жена Пушкина",
+      "aliases": "жена Пушкина",
+      "author_characterization": "истеричная, скучающая, капризная",
+      "gender": "женский",
+      "age": "—",
+      "other": "замужем; дворянка"
+    },
+    {
+      "id": "dal",
+      "name": "Даль",
+      "full_name": "Владимир Иванович Даль",
+      "main": false,
+      "who": "человек у постели Пушкина",
+      "aliases": "—",
+      "author_characterization": "заботливый",
+      "gender": "мужской",
+      "age": "—",
+      "other": "медик, литератор; врач; носит морошку, охлаждает лоб"
+    },
+    {
+      "id": "vasiliy_andreevich",
+      "name": "Василий Андреевич",
+      "full_name": "Василий Андреевич Жуковский",
+      "main": false,
+      "who": "старый друг и помощник Пушкина",
+      "aliases": "Жуковский",
+      "author_characterization": "суетливый, любящий, хлопотливый",
+      "gender": "мужской",
+      "age": "—",
+      "other": "литератор; хлопочет о ссылке и быте Пушкина"
+    },
+    {
+      "id": "ulyanov",
+      "name": "Ульянов",
+      "full_name": "Владимир Ильич Ульянов",
+      "main": true,
+      "who": "мальчик, затем чиновник в поздней части рассказа",
+      "aliases": "Владимир Ильич; Володя; Володенька; Владимир Ильич Ульянов; дедушка Ильич",
+      "author_characterization": "рыженький, прилежный, властный, карьерный, патриотичный, с причудами",
+      "gender": "мужской",
+      "age": "от ребенка до старика",
+      "other": "государственный деятель; министр внутренних дел; дворянин; в детстве избит Пушкиным"
+    },
+    {
+      "id": "mariya_aleksandrovna",
+      "name": "Мария Александровна",
+      "full_name": "Мария Александровна",
+      "main": false,
+      "who": "мать Ульянова",
+      "aliases": "маменька; маман",
+      "author_characterization": "заботливая, тревожная",
+      "gender": "женский",
+      "age": "—",
+      "other": "вдова; дворянка"
+    },
+    {
+      "id": "ilya_nikolaevich",
+      "name": "Илья Николаевич",
+      "full_name": "Илья Николаевич",
+      "main": false,
+      "who": "отец Ульянова",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "чиновник; инспектор; женат; дворянин; умирает"
+    },
+    {
+      "id": "sashenka",
+      "name": "Сашенька",
+      "full_name": "Сашенька",
+      "main": false,
+      "who": "старший сын в семье Ульяновых, брат Владимира",
+      "aliases": "Саша",
+      "author_characterization": "буян",
+      "gender": "мужской",
+      "age": "—",
+      "other": "дворянин; связывается с социалистами"
+    },
+    {
+      "id": "kukharka",
+      "name": "Кухарка",
+      "full_name": "Кухарка",
+      "main": false,
+      "who": "служанка в доме Ульяновых",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "прислуга; кухарка"
+    },
+    {
+      "id": "grafinya_t",
+      "name": "Графиня Т.",
+      "full_name": "Графиня Т.",
+      "main": false,
+      "who": "покровительница престарелого Ульянова",
+      "aliases": "—",
+      "author_characterization": "благоволит Ульянову",
+      "gender": "женский",
+      "age": "—",
+      "other": "аристократия; графиня; дворянка; отвозит его в Горки"
+    },
+    {
+      "id": "botkin",
+      "name": "Боткин",
+      "full_name": "Боткин",
+      "main": false,
+      "who": "придворный доктор",
+      "aliases": "—",
+      "author_characterization": "любопытный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "медик; лейб-медик; вскрывает череп Ульянова"
+    },
+    {
+      "id": "nikolay_aleksandrovich",
+      "name": "Николай Александрович",
+      "full_name": "Николай II",
+      "main": false,
+      "who": "царь",
+      "aliases": "Его Величество; царь",
+      "author_characterization": "благосклонный, смеющийся, затем умирающий",
+      "gender": "мужской",
+      "age": "—",
+      "other": "монарх"
+    },
+    {
+      "id": "molodoy_tsar",
+      "name": "Молодой царь",
+      "full_name": "Молодой царь",
+      "main": false,
+      "who": "новый царь после Николая Александровича",
+      "aliases": "—",
+      "author_characterization": "плачет, но дозволяет вскрытие",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "монарх"
+    },
+    {
+      "id": "ptichka",
+      "name": "Птичка",
+      "full_name": "Птичка",
+      "main": false,
+      "who": "птичка, изменившая ход истории",
+      "aliases": "—",
+      "author_characterization": "рядовая, непоэтическая птичка Божия",
+      "gender": "—",
+      "age": "—",
+      "other": "какает на длань злодея"
+    }
+  ],
+  "links": [
+    {
+      "source": "ptichka",
+      "target": "dantes",
+      "types": [
+        "transfer"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.4,
+      "evidence": [
+        "«птичка Божия... какает на длань злодея. Кляк!»"
+      ],
+      "notes": "Птичка какает на руку Дантеса перед выстрелом"
+    },
+    {
+      "source": "dantes",
+      "target": "pushkin",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 2,
+      "intensity": 4,
+      "weight": 0.8,
+      "evidence": [
+        "«белый указательный палец Дантеса уже лежит на спусковом крючке» ; «Пушкин ранен в грудь»",
+        "«он целится, стреляет в ответ; падает и Дантес»"
+      ],
+      "notes": "Дуэль: Дантес стреляет в Пушкина; Пушкин стреляет в ответ — Дантес падает"
+    },
+    {
+      "source": "natalya_nikolaevna",
+      "target": "pushkin",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Наталья Николаевна в истерике» ; «слезливая скука Натальи Николаевны»"
+      ],
+      "notes": "супруги"
+    },
+    {
+      "source": "dal",
+      "target": "pushkin",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.4,
+      "evidence": [
+        "«Даль все таскает и таскает в дом моченую морошку» ; «кто-то положил остужающую руку на горячечный лоб — Даль?»"
+      ],
+      "notes": "Уход за раненым Пушкиным"
+    },
+    {
+      "source": "vasiliy_andreevich",
+      "target": "pushkin",
+      "types": [
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 1.0,
+      "evidence": [
+        "«Василий Андреевич вывешивает скорбные листы» ; «сияет: выхлопотал-таки победившему ученику ссылку в Михайловское»",
+        "«молчи, молчи, голубчик» ; «все потом! Все путем. Все образуется»"
+      ],
+      "notes": "Хлопоты о ссылке в Михайловское; утешения Пушкину"
+    },
+    {
+      "source": "pushkin",
+      "target": "ulyanov",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 2,
+      "intensity": 4,
+      "weight": 0.8,
+      "evidence": [
+        "«Пушкин... бьет, лупит клюкой» ; «сынка Ульяновых заезжий арап отлупил палкой по голове»",
+        "«Обезьяна! — радостно вопит мальчонка... Старая обезьяна!»"
+      ],
+      "notes": "Старый Пушкин избивает мальчика Ульянова клюкой; мальчик обзывает старика «обезьяной»"
+    },
+    {
+      "source": "mariya_aleksandrovna",
+      "target": "ulyanov",
+      "types": [
+        "kinship",
+        "conflict",
+        "speech"
+      ],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 1.0,
+      "evidence": [
+        "«Мария-то Александровна» ; «мать же, мать!»",
+        "«Ма-алча-ать! Не сметь рассуждать!!!»",
+        "«Мы пойдем другим путем, маменька!»"
+      ],
+      "notes": "мать и сын; крик «Молчать! Не сметь рассуждать!»; «Мы пойдем другим путем, маменька!»"
+    },
+    {
+      "source": "ilya_nikolaevich",
+      "target": "ulyanov",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Илья Николаевич... на кого детей оставить?»"
+      ],
+      "notes": "отец и сын"
+    },
+    {
+      "source": "sashenka",
+      "target": "ulyanov",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Сашенька тревожит» ; «средненького»"
+      ],
+      "notes": "братья"
+    },
+    {
+      "source": "ulyanov",
+      "target": "kukharka",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.4,
+      "evidence": [
+        "«Не бывать этому никогда!» ; «почему кухарка управлять не может»"
+      ],
+      "notes": "Ульянов не допускает кухарку к управлению домом"
+    },
+    {
+      "source": "nikolay_aleksandrovich",
+      "target": "ulyanov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.6,
+      "evidence": [
+        "«Эк хватили, батенька»"
+      ],
+      "notes": "Добродушный ответ на проект салюта"
+    },
+    {
+      "source": "grafinya_t",
+      "target": "ulyanov",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.4,
+      "evidence": [
+        "«Графиня Т. ... отвезла его в свое имение в Горках» ; «его держали целый день в саду»"
+      ],
+      "notes": "Отвозит больного Ульянова в Горки"
+    },
+    {
+      "source": "botkin",
+      "target": "ulyanov",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.4,
+      "evidence": [
+        "«лейб-медик Боткин... испросил дозволения вскрыть покойнику череп»"
+      ],
+      "notes": "Вскрытие черепа после смерти"
+    },
+    {
+      "source": "molodoy_tsar",
+      "target": "botkin",
+      "types": [
+        "request"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.4,
+      "evidence": [
+        "«дозволили»"
+      ],
+      "notes": "Дозволение на вскрытие"
+    }
+  ]
+}
