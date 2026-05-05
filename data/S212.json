@@ -1,0 +1,164 @@
+{
+  "id": "S212",
+  "author": "Аросев Александр Яковлевич",
+  "title": "Первая звездочка",
+  "year": 1927,
+  "nodes": [
+    {
+      "id": "zhenya",
+      "name": "Женя",
+      "full_name": "Женя",
+      "main": true,
+      "who": "мальчик, сирота",
+      "aliases": "Женя; Женька",
+      "author_characterization": "смелый, решительный, любознательный",
+      "gender": "мужской",
+      "age": "шесть лет",
+      "other": "остается один после увода матери, ведет других детей"
+    },
+    {
+      "id": "vasya",
+      "name": "Васька",
+      "full_name": "Васька",
+      "main": true,
+      "who": "бойкий мальчик, товарищ Жени",
+      "aliases": "Васька",
+      "author_characterization": "подвижный, энергичный, смелый",
+      "gender": "мужской",
+      "age": "девять лет",
+      "other": "ведет Жене, помогает освобождать собаку и участвует в действиях с детьми"
+    },
+    {
+      "id": "kursa",
+      "name": "Курса",
+      "full_name": "Курса",
+      "main": false,
+      "who": "собака на цепи",
+      "aliases": "Курса",
+      "author_characterization": "преданная, настороженная",
+      "gender": "—",
+      "age": "—",
+      "other": "на цепи, помогает Жене эмоционально, участвует в освобождении"
+    },
+    {
+      "id": "tetya_dunya",
+      "name": "тетка Дуня",
+      "full_name": "тетка Дуня",
+      "main": false,
+      "who": "опекун Жени",
+      "aliases": "тетка Дуня; Дуня",
+      "author_characterization": "строгая, тревожная, властная",
+      "gender": "женский",
+      "age": "средних лет",
+      "other": "догоняет Жене и управляет ситуацией с детьми"
+    },
+    {
+      "id": "kalach_bezrodny",
+      "name": "Калач-безродный",
+      "full_name": "Калач-безродный",
+      "main": false,
+      "who": "сирота, товарищ Жени и Васьки",
+      "aliases": "Калач-безродный",
+      "author_characterization": "—",
+      "gender": "—",
+      "age": "—",
+      "other": "сирота, участвует в группе детей в доме"
+    }
+  ],
+  "links": [
+    {
+      "source": "zhenya",
+      "target": "vasya",
+      "types": ["co_presence_joint_action", "help_support"],
+      "episode_count": 6,
+      "intensity": 2,
+      "weight": 1,
+      "evidence": [
+        "Васька ведет Жене к дому",
+        "Женя и Васька освобождают собаку Курса",
+        "Совместное присутствие на улице и во дворе",
+        "Васька учит Жене о красных и белых",
+        "Совместная осада дома",
+        "Вместе участвуют в организации митинга"
+      ],
+      "notes": "совместное присутствие и помощь друг другу, лидерство и поддержка"
+    },
+    {
+      "source": "zhenya",
+      "target": "kursa",
+      "types": ["help_support"],
+      "episode_count": 2,
+      "intensity": 2,
+      "weight": 1,
+      "evidence": [
+        "Женя пытается освободить Курсу с цепи",
+        "Женя гладит и целует собаку, заботясь о ней"
+      ],
+      "notes": "Женя заботится о собаке, проявляет помощь и поддержку"
+    },
+    {
+      "source": "zhenya",
+      "target": "tetya_dunya",
+      "types": ["conflict", "speech"],
+      "episode_count": 4,
+      "intensity": 5,
+      "weight": 1,
+      "evidence": [
+        "Тетка Дуня запрещает Жене выходить",
+        "Женя пытается спросить про маму",
+        "Тетка Дуня кричит на Жене во время митинга",
+        "Разговоры и спор о красных и маме"
+      ],
+      "notes": "конфликт и диалог между опекуном и ребенком о безопасности и поведении"
+    },
+    {
+      "source": "zhenya",
+      "target": "kalach_bezrodny",
+      "types": ["co_presence_joint_action"],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Женя и Калач-безродный остаются вместе в доме"
+      ],
+      "notes": "совместное присутствие в доме с другими детьми"
+    },
+    {
+      "source": "vasya",
+      "target": "kursa",
+      "types": ["co_presence_joint_action"],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Васька участвует в освобождении Курсы"
+      ],
+      "notes": "совместное присутствие при освобождении собаки"
+    },
+    {
+      "source": "vasya",
+      "target": "tetya_dunya",
+      "types": ["conflict", "speech"],
+      "episode_count": 2,
+      "intensity": 5,
+      "weight": 1,
+      "evidence": [
+        "Тетка Дуня пытается остановить Ваську и Жене",
+        "Васька реагирует и убегает с Женей"
+      ],
+      "notes": "конфликт и разговор с опекуном"
+    },
+    {
+      "source": "zhenya",
+      "target": "vasya",
+      "types": ["kinship"],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "—"
+      ],
+      "notes": "—"
+    }
+  ]
+}

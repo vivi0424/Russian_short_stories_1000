@@ -1,0 +1,212 @@
+{
+  "id": "S295",
+  "author": "Смирнов Николай Павлович",
+  "title": "Далекое",
+  "year": 1926,
+  "nodes": [
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "—",
+      "main": true,
+      "who": "мальчик, начинающий охотник",
+      "aliases": "Рассказчик; я",
+      "author_characterization": "возбужденный, восторженный, внимательный",
+      "gender": "мужской",
+      "age": "ребенок",
+      "other": "учится охоте с шести лет, проживает в приволжском городке"
+    },
+    {
+      "id": "dyadya_viktor",
+      "name": "Дядя Виктор",
+      "full_name": "—",
+      "main": false,
+      "who": "дядя, наставник рассказчика",
+      "aliases": "Черный дядя; дядя Виктор",
+      "author_characterization": "добродушный, внимательный, опытный охотник",
+      "gender": "мужской",
+      "age": "средних лет",
+      "other": "обучает рассказчика охоте"
+    },
+    {
+      "id": "dyadya_gavriil",
+      "name": "Дядя Гавриил",
+      "full_name": "—",
+      "main": false,
+      "who": "дядя, наставник рассказчика",
+      "aliases": "рыжеусый дядя; дядя Гавриил",
+      "author_characterization": "энергичный, внимательный, строгий",
+      "gender": "мужской",
+      "age": "средних лет",
+      "other": "участвует в охоте и обучении рассказчика"
+    },
+    {
+      "id": "budishka",
+      "name": "Будишка",
+      "full_name": "—",
+      "main": false,
+      "who": "охотничья собака",
+      "aliases": "Будишка",
+      "author_characterization": "животная, умная, активная",
+      "gender": "женский",
+      "age": "взрослая",
+      "other": "охотничья собака рассказчика и дядей"
+    },
+    {
+      "id": "karay",
+      "name": "Карай",
+      "full_name": "—",
+      "main": false,
+      "who": "охотничья собака",
+      "aliases": "Карай",
+      "author_characterization": "спокойная, умная, наблюдательная",
+      "gender": "мужской",
+      "age": "взрослая",
+      "other": "охотничья собака рассказчика и дядей"
+    },
+    {
+      "id": "trevoga",
+      "name": "Тревога",
+      "full_name": "—",
+      "main": false,
+      "who": "внучка Будишки, охотничья собака",
+      "aliases": "Тревога",
+      "author_characterization": "молодая, энергичная, наследница Будишки",
+      "gender": "женский",
+      "age": "молодой",
+      "other": "охотничья собака рассказчика"
+    }
+  ],
+  "links": [
+    {
+      "source": "rasskazchik",
+      "target": "dyadya_viktor",
+      "types": ["co_presence_joint_action", "speech"],
+      "episode_count": 3,
+      "intensity": 4,
+      "weight": 1,
+      "evidence": [
+        "участие в охоте вместе с дядей Виктором",
+        "диалоги и наставления по охоте",
+        "дядя Виктор наблюдает и оценивает действия рассказчика"
+      ],
+      "notes": "взаимодействие в охоте и обучение"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "dyadya_gavriil",
+      "types": ["co_presence_joint_action", "speech"],
+      "episode_count": 3,
+      "intensity": 4,
+      "weight": 1,
+      "evidence": [
+        "участие в охоте вместе с дядей Гавриилом",
+        "инструкции и советы по охоте",
+        "наблюдение за действиями рассказчика"
+      ],
+      "notes": "взаимодействие в охоте и наставничество"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "budishka",
+      "types": ["co_presence_joint_action", "help_support"],
+      "episode_count": 4,
+      "intensity": 4,
+      "weight": 1,
+      "evidence": [
+        "Будишка участвует в охоте за зайцем",
+        "рассказчик приучает и направляет Будишку",
+        "собака реагирует на команды и помогает ловить зверя",
+        "взаимодействие при полевом гоне"
+      ],
+      "notes": "собака помогает и сопровождает рассказчика в охоте"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "karay",
+      "types": ["co_presence_joint_action", "help_support"],
+      "episode_count": 3,
+      "intensity": 3,
+      "weight": 0.75,
+      "evidence": [
+        "Карай участвует в охоте, следуя за рассказчиком",
+        "спокойно выполняет указания",
+        "взаимодействие в поле с животными и дядями"
+      ],
+      "notes": "собака сопровождает и поддерживает действия рассказчика"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "trevoga",
+      "types": ["co_presence_joint_action", "help_support"],
+      "episode_count": 2,
+      "intensity": 2,
+      "weight": 0.5,
+      "evidence": [
+        "Тревога участвует в охоте, как наследница Будишки",
+        "взаимодействие с рассказчиком и другими собаками"
+      ],
+      "notes": "молодая собака, сопровождает рассказчика"
+    },
+    {
+      "source": "dyadya_viktor",
+      "target": "budishka",
+      "types": ["co_presence_joint_action"],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.25,
+      "evidence": [
+        "Виктор использует Будишку для охоты и контроля за зверем"
+      ],
+      "notes": "совместное присутствие при охоте"
+    },
+    {
+      "source": "dyadya_gavriil",
+      "target": "budishka",
+      "types": ["co_presence_joint_action"],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.25,
+      "evidence": [
+        "Гавриил участвует в охоте, работая с Будишкой"
+      ],
+      "notes": "совместное присутствие при охоте"
+    },
+    {
+      "source": "dyadya_viktor",
+      "target": "karay",
+      "types": ["co_presence_joint_action"],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.25,
+      "evidence": [
+        "Виктор использует Карая для охоты"
+      ],
+      "notes": "совместное присутствие при охоте"
+    },
+    {
+      "source": "dyadya_gavriil",
+      "target": "karay",
+      "types": ["co_presence_joint_action"],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.25,
+      "evidence": [
+        "Гавриил работает с Караем во время охоты"
+      ],
+      "notes": "совместное присутствие при охоте"
+    },
+    {
+      "source": "budishka",
+      "target": "trevoga",
+      "types": ["kinship"],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "Тревога — внучка Будишки"
+      ],
+      "notes": "родственная связь между охотничьими собаками"
+    }
+  ]
+}
