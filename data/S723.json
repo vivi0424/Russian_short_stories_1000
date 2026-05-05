@@ -1,0 +1,203 @@
+{
+  "id": "S723",
+  "author": "Тыркова Ариадна Владимировна",
+  "title": "Три встречи",
+  "year": 1915,
+  "nodes": [
+    {
+      "id": "masha",
+      "name": "Маша",
+      "full_name": "Маша",
+      "main": true,
+      "who": "молодая девушка, центральная фигура сюжета",
+      "aliases": "Маша; молодая девушка; странница",
+      "author_characterization": "настойчивая, заботливая, эмоциональная",
+      "gender": "женский",
+      "age": "молодой",
+      "other": "—"
+    },
+    {
+      "id": "stefan",
+      "name": "Стефан",
+      "full_name": "Степан Генрихович",
+      "main": true,
+      "who": "немец, молодой человек, знакомый Маши",
+      "aliases": "Стефан; Степан; немец",
+      "author_characterization": "серьезный, строгий, красивый",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "—"
+    },
+    {
+      "id": "nastya",
+      "name": "Настя",
+      "full_name": "Настя",
+      "main": false,
+      "who": "кузина Маши, умершая девочка",
+      "aliases": "Настя; белокурая девочка",
+      "author_characterization": "веселая, беззаботная",
+      "gender": "женский",
+      "age": "ребенок",
+      "other": "умерла после родов"
+    },
+    {
+      "id": "sister_rokotova",
+      "name": "Сестра Рокотова",
+      "full_name": "Сестра Рокотова",
+      "main": false,
+      "who": "сестра милосердия, ухаживающая за ранеными",
+      "aliases": "Сестра Рокотова; сестра",
+      "author_characterization": "заботливая, спокойная",
+      "gender": "женский",
+      "age": "средних лет",
+      "other": "дежурная в перевязочной"
+    },
+    {
+      "id": "sister_nelyubova",
+      "name": "Сестра Нелюбова",
+      "full_name": "Сестра Нелюбова",
+      "main": false,
+      "who": "сестра милосердия",
+      "aliases": "Сестра Нелюбова; сестра",
+      "author_characterization": "молодая, строгая",
+      "gender": "женский",
+      "age": "молодой",
+      "other": "—"
+    },
+    {
+      "id": "plenny",
+      "name": "Пленный",
+      "full_name": "—",
+      "main": false,
+      "who": "раненый немец, находящийся под опекой Маши",
+      "aliases": "пленный; герман",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "раненый"
+    },
+    {
+      "id": "tatarin",
+      "name": "Татарин",
+      "full_name": "—",
+      "main": false,
+      "who": "раненый солдат",
+      "aliases": "татарин",
+      "author_characterization": "спокойный, наблюдательный",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "раненый"
+    },
+    {
+      "id": "malenkiy_doktor",
+      "name": "Маленький доктор",
+      "full_name": "—",
+      "main": false,
+      "who": "молодой врач, организует перевязочную",
+      "aliases": "маленький доктор; доктор",
+      "author_characterization": "гордый, аккуратный",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "—"
+    }
+  ],
+  "links": [
+    {
+      "source": "masha",
+      "target": "stefan",
+      "types": ["speech", "help_support"],
+      "episode_count": 7,
+      "intensity": 17,
+      "weight": 1,
+      "evidence": [
+        "Маша ухаживает за Стефаном",
+        "Стефан зовет Машу по имени",
+        "Маша поддерживает его, дает руку",
+        "Он отвечает, говорит с ней",
+        "Маша шепчет ему, утешает",
+        "Стефан узнает Машу и видит её",
+        "Маша говорит с ним по-французски"
+      ],
+      "notes": "Маша ухаживает за Стефаном; поддержка, забота, разговоры, эмоциональные эпизоды"
+    },
+    {
+      "source": "masha",
+      "target": "nastya",
+      "types": ["kinship", "help_support"],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.12,
+      "evidence": [
+        "Настя — кузина Маши",
+        "Маша заботилась о Насте, ублаживала её",
+        "Настя умерла"
+      ],
+      "notes": "родственная связь; забота и любовь Маши к Насте"
+    },
+    {
+      "source": "masha",
+      "target": "sister_rokotova",
+      "types": ["help_support", "co_presence_joint_action"],
+      "episode_count": 3,
+      "intensity": 5,
+      "weight": 0.29,
+      "evidence": [
+        "Сестра Рокотова ухаживает за ранеными вместе с Машей",
+        "Маша помогает сестре на перевязочном столе",
+        "Сестра Рокотова дежурит с Машей"
+      ],
+      "notes": "совместная помощь и уход за ранеными"
+    },
+    {
+      "source": "masha",
+      "target": "sister_nelyubova",
+      "types": ["co_presence_joint_action"],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.06,
+      "evidence": [
+        "Сестра Нелюбова работает рядом с Машей"
+      ],
+      "notes": "совместное присутствие в перевязочной"
+    },
+    {
+      "source": "masha",
+      "target": "plenny",
+      "types": ["help_support", "speech"],
+      "episode_count": 3,
+      "intensity": 5,
+      "weight": 0.29,
+      "evidence": [
+        "Маша заботится о пленном",
+        "Обращается к нему, дает указания",
+        "Пленный отвечает ей"
+      ],
+      "notes": "забота и взаимодействие с раненным пленным"
+    },
+    {
+      "source": "masha",
+      "target": "tatarin",
+      "types": ["help_support", "co_presence_joint_action"],
+      "episode_count": 2,
+      "intensity": 3,
+      "weight": 0.18,
+      "evidence": [
+        "Маша заботится о татарине",
+        "Татарин наблюдает за ней"
+      ],
+      "notes": "забота Маши и совместное присутствие в перевязочной"
+    },
+    {
+      "source": "masha",
+      "target": "malenkiy_doktor",
+      "types": ["co_presence_joint_action"],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.06,
+      "evidence": [
+        "Маша взаимодействует с маленьким доктором во время перевязки"
+      ],
+      "notes": "совместное присутствие и работа в перевязочной"
+    }
+  ]
+}
