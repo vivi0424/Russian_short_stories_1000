@@ -1,0 +1,101 @@
+{
+  "id": "P310",
+  "author": "Искандер Фазиль",
+  "title": "Антип уехал в Казантип",
+  "year": 1999,
+  "nodes": [
+    {
+      "id": "selsky_poet",
+      "name": "Сельский поэт",
+      "full_name": "—",
+      "main": true,
+      "who": "местный собеседник, ведущий разговор об Антипе",
+      "aliases": "—",
+      "author_characterization": "шутник, говорливый, остроумный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "зарабатывает языком"
+    },
+    {
+      "id": "sobesednik",
+      "name": "Собеседник",
+      "full_name": "—",
+      "main": true,
+      "who": "человек, ищущий Антипа и требующий долг",
+      "aliases": "курортник-москвич",
+      "author_characterization": "недоверчивый, раздраженный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "назван «курортник-москвич»"
+    },
+    {
+      "id": "antip",
+      "name": "Антип",
+      "full_name": "Антип",
+      "main": false,
+      "who": "должник, рыбак, предмет разговора",
+      "aliases": "—",
+      "author_characterization": "молодой, сложный человек, стервец-удалец, строг",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "ездит в Казантип"
+    },
+    {
+      "id": "galka",
+      "name": "Галка",
+      "full_name": "Галка",
+      "main": false,
+      "who": "молодка, связанная с Антипом",
+      "aliases": "молодка",
+      "author_characterization": "ядовитая",
+      "gender": "женский",
+      "age": "—",
+      "other": "находится в Казантипе"
+    }
+  ],
+  "links": [
+    {
+      "source": "selsky_poet",
+      "target": "sobesednik",
+      "types": [
+        "speech",
+        "request"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "основной диалог рассказа",
+        "просит у него сто рублей"
+      ],
+      "notes": "основной диалог рассказа; сельский поэт просит у собеседника сто рублей"
+    },
+    {
+      "source": "sobesednik",
+      "target": "antip",
+      "types": [
+        "request",
+        "transfer"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "требует вернуть долг и ищет встречи",
+        "ранее дал Антипу деньги в долг"
+      ],
+      "notes": "собеседник ищет Антипа, требует вернуть долг и ранее дал ему деньги"
+    },
+    {
+      "source": "antip",
+      "target": "galka",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "вместе находятся в лодке и в Казантипе"
+      ],
+      "notes": "Антип и Галка вместе находятся в лодке и в Казантипе"
+    }
+  ]
+}

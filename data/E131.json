@@ -1,0 +1,202 @@
+{
+  "id": "E131",
+  "author": "Смуров П.",
+  "title": "Мёртвые воскресают",
+  "year": 1943,
+  "nodes": [
+    {
+      "id": "otto_valter",
+      "name": "Отто Вальтер",
+      "full_name": "Отто Вальтер",
+      "main": true,
+      "who": "начальник немецкого гарнизона, главный противник партизанок",
+      "aliases": "полковник Отто Вальтер; полковник; начальник гарнизона",
+      "author_characterization": "жестокий, самоуверенный, суеверно встревоженный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "живет в сельской школе"
+    },
+    {
+      "id": "geynau",
+      "name": "Гейнау",
+      "full_name": "Гейнау",
+      "main": false,
+      "who": "адъютант полковника",
+      "aliases": "капитан Гейнау; Гейнау; адъютант полковника; капитан",
+      "author_characterization": "видавший виды",
+      "gender": "мужской",
+      "age": "—",
+      "other": "выполняет распоряжения полковника"
+    },
+    {
+      "id": "pervaya_devushka_ukraina",
+      "name": "Первая девушка «Украина»",
+      "full_name": "—",
+      "main": true,
+      "who": "молодая партизанка, схваченная у моста и повешенная на площади",
+      "aliases": "молодая партизанка; партизанка; девушка; пленница; повешенная; Украина",
+      "author_characterization": "спокойная, убежденная, мужественная",
+      "gender": "женский",
+      "age": "двадцать лет",
+      "other": "училась в сельской школе и потом учительствовала здесь"
+    },
+    {
+      "id": "vtoraya_devushka_ukraina",
+      "name": "Вторая девушка «Украина»",
+      "full_name": "—",
+      "main": false,
+      "who": "женщина, пойманная после взрыва склада боеприпасов",
+      "aliases": "женщина; виновница взрыва; повешенная; Украина",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "имеет сходство с первой"
+    },
+    {
+      "id": "tretya_devushka_ukraina",
+      "name": "Третья девушка «Украина»",
+      "full_name": "—",
+      "main": false,
+      "who": "девушка, пойманная после взрыва моста и застреленная полковником",
+      "aliases": "девушка; повешенная и сожженная украинка; Украина",
+      "author_characterization": "лицо казалось моложе, как будто обновленной и помолодевшей",
+      "gender": "женский",
+      "age": "—",
+      "other": "имеет сходство с первой"
+    },
+    {
+      "id": "chetvertaya_devushka_ukraina",
+      "name": "Четвертая девушка «Украина»",
+      "full_name": "—",
+      "main": false,
+      "who": "девушка, убившая полковника",
+      "aliases": "украинка; девушка; тень повешенной",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "имеет сходство с первой"
+    },
+    {
+      "id": "krants",
+      "name": "Кранц",
+      "full_name": "Кранц",
+      "main": false,
+      "who": "солдат на посту у моста и позже на площади",
+      "aliases": "солдат Кранц; Кранц; солдат",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "включает прожектор и стреляет по убегавшей девушке"
+    }
+  ],
+  "links": [
+    {
+      "source": "otto_valter",
+      "target": "pervaya_devushka_ukraina",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "полковник допрашивает пленную партизанку",
+        "полковник приказывает казнить первую девушку"
+      ],
+      "notes": "полковник допрашивает пленную партизанку и приказывает ее казнить"
+    },
+    {
+      "source": "geynau",
+      "target": "pervaya_devushka_ukraina",
+      "types": [
+        "speech",
+        "transfer"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "Гейнау обращается к пленнице при подготовке к казни",
+        "Гейнау бросает девушке одежду"
+      ],
+      "notes": "Гейнау обращается к первой девушке перед казнью и бросает ей одежду"
+    },
+    {
+      "source": "otto_valter",
+      "target": "geynau",
+      "types": [
+        "request"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "полковник отдает Гейнау и другим подчиненным распоряжения о казни"
+      ],
+      "notes": "Отто Вальтер отдает Гейнау распоряжения о казни"
+    },
+    {
+      "source": "otto_valter",
+      "target": "vtoraya_devushka_ukraina",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "полковник велит сжечь вторую пленницу"
+      ],
+      "notes": "Отто Вальтер велит сжечь вторую пленницу"
+    },
+    {
+      "source": "otto_valter",
+      "target": "tretya_devushka_ukraina",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "полковник стреляет в третью девушку после ее поимки"
+      ],
+      "notes": "Отто Вальтер стреляет в третью девушку после ее поимки"
+    },
+    {
+      "source": "krants",
+      "target": "tretya_devushka_ukraina",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Кранц стреляет по девушке у моста"
+      ],
+      "notes": "Кранц стреляет по третьей девушке у моста"
+    },
+    {
+      "source": "chetvertaya_devushka_ukraina",
+      "target": "otto_valter",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "четвертая девушка убивает полковника"
+      ],
+      "notes": "четвертая девушка убивает Отто Вальтера"
+    },
+    {
+      "source": "geynau",
+      "target": "chetvertaya_devushka_ukraina",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Гейнау преследует и разыскивает девушек «Украина» как врагов гарнизона"
+      ],
+      "notes": "Гейнау преследует и разыскивает девушек «Украина» как врагов гарнизона"
+    }
+  ]
+}

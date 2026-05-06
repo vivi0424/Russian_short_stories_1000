@@ -1,0 +1,190 @@
+{
+  "id": "P363",
+  "author": "Немченко Гарий Леонтьевич",
+  "title": "Отец",
+  "year": 1977,
+  "nodes": [
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "—",
+      "main": true,
+      "who": "повествователь, сын отца",
+      "aliases": "я; сын",
+      "author_characterization": "рефлексирующий, чувствительный",
+      "gender": "мужской",
+      "age": "взрослый",
+      "other": "носит усы"
+    },
+    {
+      "id": "otets",
+      "name": "Отец",
+      "full_name": "Леонтий Степанович",
+      "main": false,
+      "who": "отец рассказчика",
+      "aliases": "отец; Леонтий Степанович; папа; Степаныч; дядя Леня",
+      "author_characterization": "добрый, мягкий с подчиненными, вольнолюбивый",
+      "gender": "мужской",
+      "age": "пожилой",
+      "other": "участник войны; умер"
+    },
+    {
+      "id": "mat",
+      "name": "Мать",
+      "full_name": "—",
+      "main": false,
+      "who": "мать рассказчика",
+      "aliases": "мать; мама; Тоня",
+      "author_characterization": "часто болела",
+      "gender": "женский",
+      "age": "пожилая",
+      "other": "—"
+    },
+    {
+      "id": "zhena_rasskazchika",
+      "name": "Жена рассказчика",
+      "full_name": "—",
+      "main": false,
+      "who": "жена рассказчика",
+      "aliases": "жена",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "взрослая",
+      "other": "—"
+    },
+    {
+      "id": "brat",
+      "name": "Брат",
+      "full_name": "Валера",
+      "main": false,
+      "who": "брат рассказчика",
+      "aliases": "Валера; брат",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "grisha",
+      "name": "Гриша",
+      "full_name": "—",
+      "main": false,
+      "who": "сосед, жених",
+      "aliases": "Гриша",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "—"
+    },
+    {
+      "id": "babka_grishi",
+      "name": "Бабка Гриши",
+      "full_name": "Дуся",
+      "main": false,
+      "who": "родственница Гриши",
+      "aliases": "Дуся; бабка",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "пожилая",
+      "other": "—"
+    }
+  ],
+  "links": [
+    {
+      "source": "rasskazchik",
+      "target": "otets",
+      "types": [
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 4,
+      "weight": 1,
+      "evidence": [
+        "разговор об усах после приезда в станицу",
+        "поздний разговор-принятие, отец одобряет усы",
+        "разговоры во время болезни рассказчика, воспоминания отца",
+        "отец ухаживает за больным сыном"
+      ],
+      "notes": "разговоры рассказчика с отцом об усах, воспоминаниях и жизни; отец ухаживает за больным сыном"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "zhena_rasskazchika",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "разговоры и совместная жизнь"
+      ],
+      "notes": "разговоры и совместная жизнь"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "brat",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "разговор о матери"
+      ],
+      "notes": "разговор о матери"
+    },
+    {
+      "source": "grisha",
+      "target": "otets",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "обращение к покойному"
+      ],
+      "notes": "обращение Гриши к покойному отцу рассказчика"
+    },
+    {
+      "source": "babka_grishi",
+      "target": "otets",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "просьба разрешения на свадьбу"
+      ],
+      "notes": "просьба бабки Гриши к покойному Леонтию Степановичу разрешить свадьбу"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "mat",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "разговор рассказчика с матерью об отце",
+        "тяжелый разговор о том, что рассказчик больше не хочет вмешиваться в конфликт родителей"
+      ],
+      "notes": "разговоры рассказчика с матерью об отце и семейном конфликте"
+    },
+    {
+      "source": "otets",
+      "target": "mat",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "постоянные семейные ссоры из-за пьянства отца"
+      ],
+      "notes": "постоянные семейные ссоры из-за пьянства отца"
+    }
+  ]
+}

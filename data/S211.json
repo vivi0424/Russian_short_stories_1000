@@ -1,0 +1,243 @@
+{
+  "id": "S211",
+  "author": "Анучина Евгения Николаевна",
+  "title": "Солдаты",
+  "year": 1926,
+  "nodes": [
+    {
+      "id": "taya",
+      "name": "Тая",
+      "full_name": "Тая",
+      "main": true,
+      "who": "старшая сестра",
+      "aliases": "Тая; старшая",
+      "author_characterization": "старшая, заботливая",
+      "gender": "женский",
+      "age": "—",
+      "other": "нашла больницу, разожгла печку"
+    },
+    {
+      "id": "zoya",
+      "name": "Зоя",
+      "full_name": "Зоя",
+      "main": true,
+      "who": "младшая сестра",
+      "aliases": "Зоя; младшая сестра; младшая",
+      "author_characterization": "младшая, мечтательная",
+      "gender": "женский",
+      "age": "—",
+      "other": "разглядывает кино-ленту, не умеет топить печку"
+    },
+    {
+      "id": "bolnoy_soldat",
+      "name": "Больной солдат",
+      "full_name": "—",
+      "main": false,
+      "who": "солдат, вошедший с другими",
+      "aliases": "косматый; больной",
+      "author_characterization": "косматый, больной, угрюмый",
+      "gender": "мужской",
+      "age": "—",
+      "other": "сел за стол, положил голову на руки"
+    },
+    {
+      "id": "lupoglazyy_soldat",
+      "name": "Лупоглазый солдат",
+      "full_name": "—",
+      "main": false,
+      "who": "молодой солдат",
+      "aliases": "молодой; молодой со светлыми выпуклыми глазами; лупоглазый",
+      "author_characterization": "молодой, со светлыми выпуклыми глазами",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "приносит дрова, сажает Зою на колени"
+    },
+    {
+      "id": "ryzhiy_soldat",
+      "name": "Рыжий солдат",
+      "full_name": "—",
+      "main": false,
+      "who": "старший среди солдат",
+      "aliases": "рыжий; старший; тот, что оброс рыжими волосами",
+      "author_characterization": "рыжий, оброс рыжими волосами",
+      "gender": "мужской",
+      "age": "—",
+      "other": "бранится, одергивает рябого"
+    },
+    {
+      "id": "ryaboy_soldat",
+      "name": "Рябой солдат",
+      "full_name": "—",
+      "main": false,
+      "who": "молодой солдат",
+      "aliases": "рябой; с калмыцкими глазами",
+      "author_characterization": "рябой, с калмыцкими глазами",
+      "gender": "мужской",
+      "age": "семнадцать лет",
+      "other": "говорит, что сам пошел в революцию"
+    },
+    {
+      "id": "malchik_s_sigarkoy",
+      "name": "Мальчик с цигаркой",
+      "full_name": "—",
+      "main": false,
+      "who": "мальчик на улице",
+      "aliases": "—",
+      "author_characterization": "с сизой отмороженной щекой, предводительствует ребятам",
+      "gender": "мужской",
+      "age": "—",
+      "other": "в материных ботинках"
+    },
+    {
+      "id": "rebyata_v_kolpakakh",
+      "name": "Ребята в колпаках",
+      "full_name": "—",
+      "main": false,
+      "who": "дети на улице",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "маршируют и поют"
+    }
+  ],
+  "links": [
+    {
+      "source": "taya",
+      "target": "zoya",
+      "types": [
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "Тая разжигает печку, успокаивает сестру",
+        "«Ничего, Зоя, это так себе»"
+      ],
+      "notes": "Тая помогает Зое и разговаривает с ней дома"
+    },
+    {
+      "source": "malchik_s_sigarkoy",
+      "target": "rebyata_v_kolpakakh",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "Команды: «В ногу! Смирно! Сучьи дети!»",
+        "Марширование и пение на улице"
+      ],
+      "notes": "мальчик с цигаркой командует ребятами; они вместе маршируют и поют на улице"
+    },
+    {
+      "source": "taya",
+      "target": "bolnoy_soldat",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«А вы почему?..» — «Собак морозить можно»"
+      ],
+      "notes": "Тая коротко разговаривает с больным солдатом после прихода солдат"
+    },
+    {
+      "source": "ryzhiy_soldat",
+      "target": "taya",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«старшие-то у вас где?» — «Старших нет»"
+      ],
+      "notes": "рыжий солдат спрашивает Таю о старших в доме"
+    },
+    {
+      "source": "zoya",
+      "target": "ryzhiy_soldat",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«А нам еще веселей... мы рисуем»"
+      ],
+      "notes": "Зоя вступает в разговор с рыжим солдатом"
+    },
+    {
+      "source": "lupoglazyy_soldat",
+      "target": "zoya",
+      "types": [
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "Обещает хлеб, сажает на колени",
+        "«Хлеба нет» ; «На ужин бывает селедка»"
+      ],
+      "notes": "лупоглазый солдат разговаривает с Зоей, обещает хлеб и сажает ее на колени"
+    },
+    {
+      "source": "taya",
+      "target": "lupoglazyy_soldat",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«А у нас вчера Юпитер сдох»"
+      ],
+      "notes": "Тая отвечает лупоглазому солдату"
+    },
+    {
+      "source": "ryzhiy_soldat",
+      "target": "ryaboy_soldat",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "«Ты, паразит, революцию менять на дроби»"
+      ],
+      "notes": "рыжий солдат грубо одергивает рябого солдата"
+    },
+    {
+      "source": "ryaboy_soldat",
+      "target": "taya",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "«У-мно-жение и де-ление...»",
+        "«мы уже периодические начали. У немки бородавка»"
+      ],
+      "notes": "рябой солдат и Тая разговаривают об учебе и дробях"
+    },
+    {
+      "source": "bolnoy_soldat",
+      "target": "zoya",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«Что? Это Интернационал. Скоро все запоют»"
+      ],
+      "notes": "больной солдат объясняет Зое про Интернационал"
+    }
+  ]
+}

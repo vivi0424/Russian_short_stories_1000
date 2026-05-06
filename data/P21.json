@@ -1,0 +1,181 @@
+{
+  "id": "P21",
+  "author": "Шевченко Михаил Петрович",
+  "title": "Попутчицы",
+  "year": 1955,
+  "nodes": [
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "—",
+      "main": true,
+      "who": "попутчик в поезде, повествователь",
+      "aliases": "я; попутчик",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "едет до Мичуринска"
+    },
+    {
+      "id": "grunya",
+      "name": "Груня",
+      "full_name": "—",
+      "main": true,
+      "who": "пассажирка поезда, попутчица Насти",
+      "aliases": "Грунечка, стрелочница",
+      "author_characterization": "сухощавая, с узким худым лицом; грустная",
+      "gender": "женский",
+      "age": "—",
+      "other": "едет до Ленинграда"
+    },
+    {
+      "id": "nastya",
+      "name": "Настя",
+      "full_name": "Настя",
+      "main": false,
+      "who": "попутчица Груни",
+      "aliases": "толстуха",
+      "author_characterization": "большегрудая, веснушчатая, тучная, необычайно подвижная",
+      "gender": "женский",
+      "age": "—",
+      "other": "едет с Груней в Ленинград"
+    },
+    {
+      "id": "grisha_soloveyko",
+      "name": "Гриша Соловейко",
+      "full_name": "Григорий Ефимович Соловейко",
+      "main": false,
+      "who": "возлюбленный Груни из прошлого",
+      "aliases": "Гриша; Григорий Ефимович Соловейко",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "погиб на войне"
+    },
+    {
+      "id": "zhenshchina_s_devochkoy",
+      "name": "Женщина с девочкой",
+      "full_name": "—",
+      "main": false,
+      "who": "пассажирка, выходящая в Грязях",
+      "aliases": "мать Симы; молодая женщина",
+      "author_characterization": "молодая",
+      "gender": "женский",
+      "age": "молодая",
+      "other": "жена милицейского капитана"
+    },
+    {
+      "id": "sima",
+      "name": "Сима",
+      "full_name": "Сима",
+      "main": false,
+      "who": "девочка, дочь женщины",
+      "aliases": "—",
+      "author_characterization": "полусонный ребенок",
+      "gender": "женский",
+      "age": "четырех-пяти лет",
+      "other": "дочь милицейского капитана"
+    },
+    {
+      "id": "militseyskiy_kapitan",
+      "name": "Милицейский капитан",
+      "full_name": "—",
+      "main": false,
+      "who": "встречающий на станции муж и отец",
+      "aliases": "папка; муж женщины",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "встречает жену и дочь"
+    }
+  ],
+  "links": [
+    {
+      "source": "grunya",
+      "target": "nastya",
+      "types": [
+        "speech",
+        "request",
+        "help_support"
+      ],
+      "episode_count": 3,
+      "weight": 0.8,
+      "evidence": [
+        "Ночной разговор о брате Насти и жизни",
+        "Настя извиняется перед Груней",
+        "Груня доверяет Насте свои переживания"
+      ],
+      "notes": "Ночной разговор о брате Насти и жизни; Настя извиняется перед Груней; Груня доверяет Насте свои переживания"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "grunya",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "Разговор после ухода Насти",
+        "Сидят в купе вдвоём"
+      ],
+      "notes": "Разговор после ухода Насти; сидят в купе вдвоём"
+    },
+    {
+      "source": "grunya",
+      "target": "grisha_soloveyko",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "Прощание перед отправкой на войну"
+      ],
+      "notes": "Прощание перед отправкой на войну"
+    },
+    {
+      "source": "zhenshchina_s_devochkoy",
+      "target": "sima",
+      "types": [
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 3,
+      "weight": 0.9,
+      "evidence": [
+        "Мать застёгивает шубку девочке",
+        "Мать будит Симу перед выходом",
+        "Мать ведёт девочку к выходу"
+      ],
+      "notes": "Мать застёгивает шубку девочке; мать будит Симу перед выходом; мать ведёт девочку к выходу"
+    },
+    {
+      "source": "militseyskiy_kapitan",
+      "target": "sima",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Капитан берёт Симу на руки"
+      ],
+      "notes": "Капитан берёт Симу на руки"
+    },
+    {
+      "source": "militseyskiy_kapitan",
+      "target": "zhenshchina_s_devochkoy",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Капитан помогает жене сойти"
+      ],
+      "notes": "Капитан помогает жене сойти"
+    }
+  ]
+}

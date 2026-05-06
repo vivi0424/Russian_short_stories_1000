@@ -1,0 +1,303 @@
+{
+  "id": "P359",
+  "author": "Толстая Татьяна",
+  "title": "Сюжет",
+  "year": 1991,
+  "nodes": [
+    {
+      "id": "pushkin",
+      "name": "Пушкин",
+      "full_name": "Александр Пушкин",
+      "main": true,
+      "who": "центральный персонаж альтернативного сюжета",
+      "aliases": "Александр Пушкин; поэт; старик; арап",
+      "author_characterization": "раненый, затем старый, больной, старчески неопрятный, но вспыльчивый",
+      "gender": "мужской",
+      "age": "от молодого до старого (в разных частях)",
+      "other": "выживает после дуэли"
+    },
+    {
+      "id": "dantes",
+      "name": "Дантес",
+      "full_name": "—",
+      "main": false,
+      "who": "противник Пушкина на дуэли",
+      "aliases": "—",
+      "author_characterization": "злодей",
+      "gender": "мужской",
+      "age": "—",
+      "other": "на дуэли смертельно ранен"
+    },
+    {
+      "id": "dal",
+      "name": "Даль",
+      "full_name": "Владимир Иванович Даль",
+      "main": false,
+      "who": "человек у постели Пушкина",
+      "aliases": "—",
+      "author_characterization": "заботливый",
+      "gender": "мужской",
+      "age": "—",
+      "other": "носит морошку, охлаждает лоб"
+    },
+    {
+      "id": "vasiliy_andreevich",
+      "name": "Василий Андреевич",
+      "full_name": "Василий Андреевич Жуковский",
+      "main": false,
+      "who": "старый друг и помощник Пушкина",
+      "aliases": "Жуковский",
+      "author_characterization": "суетливый, любящий, хлопотливый",
+      "gender": "мужской",
+      "age": "—",
+      "other": "хлопочет о ссылке и быте Пушкина"
+    },
+    {
+      "id": "ulyanov",
+      "name": "Ульянов",
+      "full_name": "Владимир Ильич Ульянов",
+      "main": true,
+      "who": "мальчик, затем чиновник в поздней части рассказа",
+      "aliases": "Владимир Ильич; Володя; Володенька; Владимир Ильич Ульянов; дедушка Ильич",
+      "author_characterization": "рыженький, прилежный, властный, карьерный, патриотичный, с причудами",
+      "gender": "мужской",
+      "age": "от ребенка до старика",
+      "other": "в детстве избит Пушкиным"
+    },
+    {
+      "id": "mariya_aleksandrovna",
+      "name": "Мария Александровна",
+      "full_name": "Мария Александровна",
+      "main": false,
+      "who": "мать Ульянова",
+      "aliases": "маменька; маман",
+      "author_characterization": "заботливая, тревожная",
+      "gender": "женский",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "kukharka",
+      "name": "Кухарка",
+      "full_name": "—",
+      "main": false,
+      "who": "служанка в доме Ульяновых",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "grafinya_t",
+      "name": "Графиня Т.",
+      "full_name": "—",
+      "main": false,
+      "who": "покровительница престарелого Ульянова",
+      "aliases": "—",
+      "author_characterization": "благоволит Ульянову",
+      "gender": "женский",
+      "age": "—",
+      "other": "отвозит его в Горки"
+    },
+    {
+      "id": "botkin",
+      "name": "Боткин",
+      "full_name": "—",
+      "main": false,
+      "who": "придворный доктор",
+      "aliases": "—",
+      "author_characterization": "любопытный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "вскрывает череп Ульянова"
+    },
+    {
+      "id": "nikolay_aleksandrovich",
+      "name": "Николай Александрович",
+      "full_name": "Николай II",
+      "main": false,
+      "who": "царь",
+      "aliases": "Его Величество; царь",
+      "author_characterization": "благосклонный, смеющийся, затем умирающий",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "molodoy_tsar",
+      "name": "Молодой царь",
+      "full_name": "—",
+      "main": false,
+      "who": "новый царь после Николая Александровича",
+      "aliases": "—",
+      "author_characterization": "плачет, но дозволяет вскрытие",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "—"
+    },
+    {
+      "id": "ptichka",
+      "name": "Птичка",
+      "full_name": "—",
+      "main": false,
+      "who": "птичка, изменившая ход истории",
+      "aliases": "—",
+      "author_characterization": "рядовая, непоэтическая птичка Божия",
+      "gender": "—",
+      "age": "—",
+      "other": "какает на длань злодея"
+    }
+  ],
+  "links": [
+    {
+      "source": "ptichka",
+      "target": "dantes",
+      "types": [
+        "transfer"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Птичка какает на руку Дантеса перед выстрелом"
+      ],
+      "notes": "Птичка какает на руку Дантеса перед выстрелом"
+    },
+    {
+      "source": "dantes",
+      "target": "pushkin",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "Дуэль — Дантес стреляет в Пушкина",
+        "Пушкин стреляет в ответ — Дантес падает"
+      ],
+      "notes": "Дуэль: Дантес стреляет в Пушкина, Пушкин стреляет в ответ"
+    },
+    {
+      "source": "dal",
+      "target": "pushkin",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Уход за раненым Пушкиным"
+      ],
+      "notes": "Даль ухаживает за раненым Пушкиным"
+    },
+    {
+      "source": "vasiliy_andreevich",
+      "target": "pushkin",
+      "types": [
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "Хлопоты о ссылке в Михайловское",
+        "Утешения: «молчи, молчи, голубчик»"
+      ],
+      "notes": "Василий Андреевич хлопочет о судьбе Пушкина и утешает его"
+    },
+    {
+      "source": "pushkin",
+      "target": "ulyanov",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "Старый Пушкин избивает мальчика Ульянова клюкой",
+        "Мальчик обзывает старика «обезьяной»"
+      ],
+      "notes": "Старый Пушкин избивает мальчика Ульянова клюкой; Ульянов обзывает Пушкина «обезьяной»"
+    },
+    {
+      "source": "ulyanov",
+      "target": "kukharka",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Ульянов не допускает кухарку к управлению домом"
+      ],
+      "notes": "Ульянов не допускает кухарку к управлению домом"
+    },
+    {
+      "source": "ulyanov",
+      "target": "mariya_aleksandrovna",
+      "types": [
+        "conflict",
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "Крик «Молчать! Не сметь рассуждать!»",
+        "«Мы пойдем другим путем, маменька!»"
+      ],
+      "notes": "Ульянов говорит матери, как поступать, и кричит на нее"
+    },
+    {
+      "source": "nikolay_aleksandrovich",
+      "target": "ulyanov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Добродушный ответ на проект салюта"
+      ],
+      "notes": "Николай Александрович добродушно откликается на проект Ульянова"
+    },
+    {
+      "source": "grafinya_t",
+      "target": "ulyanov",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Отвозит больного Ульянова в Горки"
+      ],
+      "notes": "Графиня Т. отвозит больного Ульянова в Горки"
+    },
+    {
+      "source": "botkin",
+      "target": "ulyanov",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Вскрытие черепа после смерти"
+      ],
+      "notes": "Боткин производит вскрытие черепа Ульянова после смерти"
+    },
+    {
+      "source": "molodoy_tsar",
+      "target": "botkin",
+      "types": [
+        "request"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Дозволение на вскрытие"
+      ],
+      "notes": "Молодой царь дозволяет Боткину вскрыть череп Ульянова"
+    }
+  ]
+}

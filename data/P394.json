@@ -1,0 +1,213 @@
+{
+  "id": "P394",
+  "author": "Бутов Михаил",
+  "title": "Астрономия насекомых",
+  "year": 1994,
+  "nodes": [
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "—",
+      "main": true,
+      "who": "участник компании, повествователь",
+      "aliases": "я; Фофанов",
+      "author_characterization": "наблюдательный, рефлексирующий",
+      "gender": "мужской",
+      "age": "32",
+      "other": "говорит от первого лица"
+    },
+    {
+      "id": "elka",
+      "name": "Элка",
+      "full_name": "—",
+      "main": true,
+      "who": "хозяйка квартиры, инициатор встречи",
+      "aliases": "—",
+      "author_characterization": "активная, эмоциональная",
+      "gender": "женский",
+      "age": "около 30",
+      "other": "имеет любовника"
+    },
+    {
+      "id": "makarov",
+      "name": "Макаров",
+      "full_name": "—",
+      "main": true,
+      "who": "друг в компании",
+      "aliases": "—",
+      "author_characterization": "склонен к рассуждениям, ироничен",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "terentyev",
+      "name": "Терентьев",
+      "full_name": "—",
+      "main": true,
+      "who": "друг в компании",
+      "aliases": "Терентьич",
+      "author_characterization": "рассудительный, скептичный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "reporter",
+      "name": "Репортер",
+      "full_name": "—",
+      "main": false,
+      "who": "молодой поклонник Элки, инициатор съемки",
+      "aliases": "поклонник; журналист",
+      "author_characterization": "энергичный, навязчивый",
+      "gender": "мужской",
+      "age": "около 24",
+      "other": "работает на телевидении"
+    }
+  ],
+  "links": [
+    {
+      "source": "rasskazchik",
+      "target": "makarov",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 4,
+      "weight": 0.8,
+      "evidence": [
+        "обсуждение книги",
+        "совместное пребывание на крыше",
+        "разговор на крыше",
+        "вместе спускаются по лестнице"
+      ],
+      "notes": "обсуждение книги, разговор на крыше, совместное пребывание на крыше и спуск по лестнице"
+    },
+    {
+      "source": "reporter",
+      "target": "makarov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "обсуждение идеи съемки"
+      ],
+      "notes": "обсуждение идеи съемки"
+    },
+    {
+      "source": "elka",
+      "target": "makarov",
+      "types": [
+        "speech",
+        "co_presence_joint_action",
+        "conflict",
+        "help_support"
+      ],
+      "episode_count": 6,
+      "weight": 1,
+      "evidence": [
+        "обсуждение идеи съемки",
+        "совместное пребывание на крыше",
+        "Элка кричит, чтобы Макаров перестал вывешиваться за край крыши",
+        "удерживает его от падения",
+        "разговор на крыше",
+        "вместе спускаются по лестнице"
+      ],
+      "notes": "Элка и Макаров обсуждают съемку, вместе находятся на крыше и спускаются по лестнице; Элка конфликтует с Макаровым из-за его опасного поведения и удерживает его от падения"
+    },
+    {
+      "source": "reporter",
+      "target": "terentyev",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "обсуждение идеи съемки"
+      ],
+      "notes": "обсуждение идеи съемки"
+    },
+    {
+      "source": "reporter",
+      "target": "elka",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "обсуждение идеи съемки"
+      ],
+      "notes": "обсуждение идеи съемки"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "terentyev",
+      "types": [
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 3,
+      "weight": 0.5,
+      "evidence": [
+        "совместное пребывание на крыше",
+        "разговор на крыше",
+        "вместе спускаются по лестнице"
+      ],
+      "notes": "совместное пребывание на крыше, разговор на крыше и спуск по лестнице"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "elka",
+      "types": [
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 3,
+      "weight": 0.5,
+      "evidence": [
+        "совместное пребывание на крыше",
+        "разговор на крыше",
+        "вместе спускаются по лестнице"
+      ],
+      "notes": "совместное пребывание на крыше, разговор на крыше и спуск по лестнице"
+    },
+    {
+      "source": "makarov",
+      "target": "terentyev",
+      "types": [
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 3,
+      "weight": 0.5,
+      "evidence": [
+        "совместное пребывание на крыше",
+        "разговор на крыше",
+        "вместе спускаются по лестнице"
+      ],
+      "notes": "совместное пребывание на крыше, разговор на крыше и спуск по лестнице"
+    },
+    {
+      "source": "elka",
+      "target": "terentyev",
+      "types": [
+        "co_presence_joint_action",
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 4,
+      "weight": 0.7,
+      "evidence": [
+        "совместное пребывание на крыше",
+        "разговор на крыше",
+        "упреки",
+        "вместе спускаются по лестнице"
+      ],
+      "notes": "Элка и Терентьев вместе находятся на крыше, разговаривают, спускаются по лестнице; между ними возникают упреки"
+    }
+  ]
+}

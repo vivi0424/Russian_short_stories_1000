@@ -1,0 +1,294 @@
+{
+  "id": "P457",
+  "author": "Болотовский Михаил",
+  "title": "Абдулов, гуляющий сам по себе",
+  "year": 1985,
+  "nodes": [
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "—",
+      "main": true,
+      "who": "рассказчик, сосед по палате",
+      "aliases": "я",
+      "author_characterization": "наблюдательный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "пациент шоферской больницы"
+    },
+    {
+      "id": "fedya_abdulov",
+      "name": "Федя Абдулов",
+      "full_name": "Абдулов Фатих Исмаилович",
+      "main": true,
+      "who": "центральный собеседник, пациент",
+      "aliases": "Федя; Федор; Абдул; Фатих Исмаилович",
+      "author_characterization": "злой с виду, резкий, противоречивый",
+      "gender": "мужской",
+      "age": "—",
+      "other": "татарин; лицо искривлено тиком"
+    },
+    {
+      "id": "petrovich",
+      "name": "Петрович",
+      "full_name": "Петрович",
+      "main": false,
+      "who": "сосед по палате",
+      "aliases": "Петрович",
+      "author_characterization": "обстоятельный, ворчливый",
+      "gender": "мужской",
+      "age": "пенсионный возраст",
+      "other": "до пенсии работал в такси"
+    },
+    {
+      "id": "slavka",
+      "name": "Славка",
+      "full_name": "Славка",
+      "main": false,
+      "who": "сосед по палате",
+      "aliases": "Слава; Славка",
+      "author_characterization": "насмешливый",
+      "gender": "мужской",
+      "age": "—",
+      "other": "пациент шоферской больницы"
+    },
+    {
+      "id": "bog",
+      "name": "Бог",
+      "full_name": "—",
+      "main": false,
+      "who": "персонаж сна, собеседник Феди",
+      "aliases": "—",
+      "author_characterization": "суровый, сочувственный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "allakh",
+      "name": "Аллах",
+      "full_name": "—",
+      "main": false,
+      "who": "персонаж сна, собеседник Феди",
+      "aliases": "—",
+      "author_characterization": "ироничный, спорящий",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "doch_fedi",
+      "name": "Дочь Феди",
+      "full_name": "—",
+      "main": false,
+      "who": "дочь Феди, важная фигура его рассказов",
+      "aliases": "Махоркина; дочка",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "22 года",
+      "other": "Федя зовет ее «Махоркина»"
+    },
+    {
+      "id": "zhena_fedi",
+      "name": "Жена Феди",
+      "full_name": "—",
+      "main": false,
+      "who": "жена Феди",
+      "aliases": "жена",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "bratya_fedi",
+      "name": "Братья Феди",
+      "full_name": "—",
+      "main": false,
+      "who": "братья Феди",
+      "aliases": "брат; мои братья",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "двое братьев"
+    }
+  ],
+  "links": [
+    {
+      "source": "rasskazchik",
+      "target": "fedya_abdulov",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 3,
+      "weight": 0.7,
+      "evidence": [
+        "разговоры в палате и после сна",
+        "разговор после сна",
+        "соседи по палате, вместе едят салат"
+      ],
+      "notes": "разговоры в палате и после сна; соседи по палате, вместе едят салат"
+    },
+    {
+      "source": "petrovich",
+      "target": "fedya_abdulov",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 3,
+      "weight": 0.8,
+      "evidence": [
+        "зовет Федю на ужин",
+        "спорят и расспрашивают друг друга",
+        "Петрович осуждает Федю"
+      ],
+      "notes": "Петрович зовет Федю на ужин, спорит с ним, расспрашивает и осуждает его"
+    },
+    {
+      "source": "slavka",
+      "target": "fedya_abdulov",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 3,
+      "weight": 0.8,
+      "evidence": [
+        "разговоры в палате",
+        "звал Федю из окна",
+        "Славка язвит и спорит с Федей"
+      ],
+      "notes": "Славка разговаривает с Федей, зовет его из окна, язвит и спорит с ним"
+    },
+    {
+      "source": "petrovich",
+      "target": "slavka",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "обмениваются репликами в палате",
+        "Разговор перед ужином"
+      ],
+      "notes": "Петрович и Славка обмениваются репликами в палате и разговаривают перед ужином"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "petrovich",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "краткие реплики и совместное наблюдение"
+      ],
+      "notes": "краткие реплики и совместное наблюдение"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "slavka",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "краткие реплики и совместное наблюдение"
+      ],
+      "notes": "краткие реплики и совместное наблюдение"
+    },
+    {
+      "source": "bog",
+      "target": "fedya_abdulov",
+      "types": [
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "беседуют во сне о жизни Феди",
+        "Бог защищает и утешает Федю"
+      ],
+      "notes": "Бог беседует с Федей во сне, защищает и утешает его"
+    },
+    {
+      "source": "allakh",
+      "target": "fedya_abdulov",
+      "types": [
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "беседуют во сне о жизни Феди",
+        "Аллах поправляет его самооговоры"
+      ],
+      "notes": "Аллах беседует с Федей во сне и поправляет его самооговоры"
+    },
+    {
+      "source": "bog",
+      "target": "allakh",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "спорят между собой",
+        "спорят о подробностях и оценках"
+      ],
+      "notes": "Бог и Аллах спорят между собой о подробностях и оценках"
+    },
+    {
+      "source": "fedya_abdulov",
+      "target": "doch_fedi",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Федя ругает дочь и грозит ей"
+      ],
+      "notes": "Федя ругает дочь и грозит ей"
+    },
+    {
+      "source": "fedya_abdulov",
+      "target": "bratya_fedi",
+      "types": [
+        "conflict",
+        "help_support"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "упоминает старый конфликт по пьяне",
+        "привозили лекарства маленькой дочке"
+      ],
+      "notes": "Федя упоминает старый конфликт с братьями и их помощь с лекарствами для маленькой дочки"
+    },
+    {
+      "source": "fedya_abdulov",
+      "target": "zhena_fedi",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "разговор о дочке",
+        "Федя бил и обижал свою жену"
+      ],
+      "notes": "Федя говорит с женой о дочке, а также признается, что бил и обижал жену"
+    }
+  ]
+}

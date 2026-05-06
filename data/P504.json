@@ -1,0 +1,234 @@
+{
+  "id": "P504",
+  "author": "Сальников Пётр",
+  "title": "Точило",
+  "year": 1990,
+  "nodes": [
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "Петра",
+      "main": true,
+      "who": "повествователь, внук",
+      "aliases": "Петра; внук; детенок; казюк",
+      "author_characterization": "наблюдательный, привязанный к семье",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "ded",
+      "name": "Дед",
+      "full_name": "Ксенофонт Кондратьевич",
+      "main": true,
+      "who": "дед рассказчика, мастер",
+      "aliases": "Ксенофонт Кондратьевич; дедушка",
+      "author_characterization": "умелец, строгий, гордый, стойкий",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "mat",
+      "name": "Мать",
+      "full_name": "—",
+      "main": false,
+      "who": "мать рассказчика",
+      "aliases": "—",
+      "author_characterization": "заботливая",
+      "gender": "женский",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "babka",
+      "name": "Бабка",
+      "full_name": "—",
+      "main": false,
+      "who": "бабушка",
+      "aliases": "бабушка",
+      "author_characterization": "эмоциональная, плачет",
+      "gender": "женский",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "volodka",
+      "name": "Володька",
+      "full_name": "—",
+      "main": false,
+      "who": "младший брат рассказчика",
+      "aliases": "брат; братик; несмышленыш",
+      "author_characterization": "несмышленый",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "starshii_militsioner",
+      "name": "Старший милиционер",
+      "full_name": "—",
+      "main": false,
+      "who": "милиционер",
+      "aliases": "милиционер; старшой; милиционер со свистком; старший",
+      "author_characterization": "грубый, властный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "mladshii_militsioner",
+      "name": "Младший милиционер",
+      "full_name": "Шамотов",
+      "main": false,
+      "who": "милиционер",
+      "aliases": "Шамотов; младший",
+      "author_characterization": "исполнительный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "batyushka",
+      "name": "Батюшка",
+      "full_name": "—",
+      "main": false,
+      "who": "священник",
+      "aliases": "—",
+      "author_characterization": "спокойный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    }
+  ],
+  "links": [
+    {
+      "source": "ded",
+      "target": "rasskazchik",
+      "types": [
+        "request",
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 3,
+      "weight": 0.8,
+      "evidence": [
+        "«Ну, Петра, крути-верти!»",
+        "обучал работе, давал инструменты",
+        "«Бабка сказывала, нынешней осенью ты в школу пойдешь?»"
+      ],
+      "notes": "дед дает рассказчику указания, обучает и поддерживает его, обсуждает с ним школу"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "volodka",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«Какой милиционер?»"
+      ],
+      "notes": "разговор между братьями"
+    },
+    {
+      "source": "starshii_militsioner",
+      "target": "rasskazchik",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "«Марш отседова!»"
+      ],
+      "notes": "старший милиционер угрожает ребенку"
+    },
+    {
+      "source": "starshii_militsioner",
+      "target": "ded",
+      "types": [
+        "conflict",
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "«демидовщину развели»",
+        "«А где мужики твои, старый хрен? Работнички сподручные?»"
+      ],
+      "notes": "старший милиционер конфликтует с дедом, обвиняет его и разговаривает с ним перед допросами"
+    },
+    {
+      "source": "mladshii_militsioner",
+      "target": "ded",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "участвует в разгроме мастерской"
+      ],
+      "notes": "младший милиционер участвует в обыске и разгроме мастерской деда"
+    },
+    {
+      "source": "babka",
+      "target": "rasskazchik",
+      "types": [
+        "request"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "«беги в кузню и покличь дедушку»"
+      ],
+      "notes": "бабка отправляет рассказчика за дедом"
+    },
+    {
+      "source": "mat",
+      "target": "ded",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«привела к нему батюшку»"
+      ],
+      "notes": "мать приводит к деду священника"
+    },
+    {
+      "source": "batyushka",
+      "target": "ded",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«с батюшкой поговорил мирно»"
+      ],
+      "notes": "батюшка разговаривает с дедом перед смертью"
+    },
+    {
+      "source": "starshii_militsioner",
+      "target": "mladshii_militsioner",
+      "types": [
+        "request",
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 4,
+      "weight": 0.7,
+      "evidence": [
+        "«приказал младшему милиционеру: ― Грузи струмент, Шамотов!»",
+        "«Два милиционера в белых матерчатых касках с двумя козырьками ― на лоб и на затылок ― по-воровски шарили в мастерской»",
+        "«А с этим агрегатом что будем делать? ― младший спросил старшего»",
+        "«Тот попробовал и не сдвинул точильного козла с места»"
+      ],
+      "notes": "старший милиционер отдает приказы младшему; вместе они проводят обыск, обсуждают точило и пытаются сдвинуть точильного козла"
+    }
+  ]
+}

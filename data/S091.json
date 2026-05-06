@@ -1,0 +1,539 @@
+{
+  "id": "S091",
+  "author": "Толстой Лев Николаевич",
+  "title": "Ягоды",
+  "year": 1905,
+  "nodes": [
+    {
+      "id": "nikolay_semenych",
+      "name": "Николай Семеныч",
+      "full_name": "Николай Семеныч",
+      "main": true,
+      "who": "хозяин дачи, муж Мари, отец детей",
+      "aliases": "Николай Семеныч",
+      "author_characterization": "чисто русский человек, православный, с оттенком славянофильства",
+      "gender": "мужской",
+      "age": "—",
+      "other": "владеет многими тысячами десятин земли"
+    },
+    {
+      "id": "peterburgskiy_gost",
+      "name": "Петербургский гость",
+      "full_name": "—",
+      "main": true,
+      "who": "гость, друг Николая Семеныча",
+      "aliases": "барин; петербургский барин; гость; петербуржец",
+      "author_characterization": "известный либеральный деятель; страшно занятой человек",
+      "gender": "мужской",
+      "age": "—",
+      "other": "товарищ детства Николая Семеныча"
+    },
+    {
+      "id": "mari",
+      "name": "Мари",
+      "full_name": "Мари",
+      "main": true,
+      "who": "жена Николая Семеныча, мать детей",
+      "aliases": "Мари; барыня",
+      "author_characterization": "очень нервная женщина",
+      "gender": "женский",
+      "age": "—",
+      "other": "озабочена здоровьем Гоги"
+    },
+    {
+      "id": "doktor",
+      "name": "Доктор",
+      "full_name": "—",
+      "main": false,
+      "who": "врач при семье Николая Семеныча",
+      "aliases": "доктор; либеральный врач",
+      "author_characterization": "либеральный врач",
+      "gender": "мужской",
+      "age": "—",
+      "other": "лечит Гогу"
+    },
+    {
+      "id": "ivan",
+      "name": "Иван",
+      "full_name": "Иван",
+      "main": false,
+      "who": "лакей в доме Николая Семеныча",
+      "aliases": "Иван; лакей",
+      "author_characterization": "бывший дворовый",
+      "gender": "мужской",
+      "age": "—",
+      "other": "кормит службой большую семью"
+    },
+    {
+      "id": "gornichnaya",
+      "name": "Горничная",
+      "full_name": "—",
+      "main": false,
+      "who": "служанка в доме Николая Семеныча",
+      "aliases": "горничная",
+      "author_characterization": "сирота",
+      "gender": "женский",
+      "age": "—",
+      "other": "прежде служила у купцов и чиновника"
+    },
+    {
+      "id": "goga",
+      "name": "Гога",
+      "full_name": "Николай Николаевич",
+      "main": false,
+      "who": "младший сын Николая Семеныча и Мари",
+      "aliases": "Гога; Николай Николаевич; меньшой мальчик Николай",
+      "author_characterization": "больной мальчик",
+      "gender": "мужской",
+      "age": "детский",
+      "other": "дома его зовут Гога"
+    },
+    {
+      "id": "valya",
+      "name": "Валя",
+      "full_name": "Валя",
+      "main": false,
+      "who": "старший сын Николая Семеныча и Мари",
+      "aliases": "Валя; старший мальчик",
+      "author_characterization": "двенадцатилетний мальчик",
+      "gender": "мужской",
+      "age": "12 лет",
+      "other": "отдыхает от классической гимназии"
+    },
+    {
+      "id": "olgushka",
+      "name": "Ольгушка",
+      "full_name": "Ольгушка",
+      "main": true,
+      "who": "деревенская девочка, собирает ягоды",
+      "aliases": "Ольгушка; Ольга",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "детский",
+      "other": "сестра Тараски и Федьки"
+    },
+    {
+      "id": "grushka",
+      "name": "Грушка",
+      "full_name": "Грушка",
+      "main": false,
+      "who": "деревенская девочка, собирает ягоды",
+      "aliases": "Грушка; Грушка-а",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "детский",
+      "other": "ходит за ягодами с Ольгушкой"
+    },
+    {
+      "id": "taraska_rezunov",
+      "name": "Тараска Резунов",
+      "full_name": "Тараска Резунов",
+      "main": true,
+      "who": "деревенский мальчик, брат Ольгушки",
+      "aliases": "Тараска; Тарас-ка; Тараска Резунов",
+      "author_characterization": "малый лет двенадцати",
+      "gender": "мужской",
+      "age": "около 12 лет",
+      "other": "возвращается из ночного, потом идет за ягодами"
+    },
+    {
+      "id": "mat",
+      "name": "Мать",
+      "full_name": "—",
+      "main": false,
+      "who": "мать Тараски, Ольгушки и Федьки",
+      "aliases": "мать",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "доит корову, принимает деньги от Ольгушки"
+    },
+    {
+      "id": "otets",
+      "name": "Отец",
+      "full_name": "—",
+      "main": false,
+      "who": "отец деревенских детей",
+      "aliases": "отец",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "перепахивает картофель"
+    },
+    {
+      "id": "tetka_akulina",
+      "name": "Тетка Акулина",
+      "full_name": "Акулина",
+      "main": false,
+      "who": "родственница или соседка, собирает ягоды",
+      "aliases": "Акулина; тетка Акулина",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "приходит в лес по ягоды"
+    },
+    {
+      "id": "mishka",
+      "name": "Мишка",
+      "full_name": "Мишка",
+      "main": false,
+      "who": "малый Акулины",
+      "aliases": "Мишка; малый; Акулининов малый",
+      "author_characterization": "крошечный толстопузый мальчик",
+      "gender": "мужской",
+      "age": "детский",
+      "other": "теряется в лесу и засыпает"
+    },
+    {
+      "id": "nyanya",
+      "name": "Няня",
+      "full_name": "—",
+      "main": false,
+      "who": "няня в доме Николая Семеныча",
+      "aliases": "няня",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "выдает Вале деньги на ягоды"
+    }
+  ],
+  "links": [
+    {
+      "source": "nikolay_semenych",
+      "target": "peterburgskiy_gost",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 3,
+      "weight": 0.5,
+      "evidence": [
+        "Долго беседуют и спорят о политике",
+        "Вместе обедают",
+        "Вместе сидят на веранде"
+      ],
+      "notes": "долго беседуют и спорят о политике; вместе обедают и сидят на веранде"
+    },
+    {
+      "source": "peterburgskiy_gost",
+      "target": "ivan",
+      "types": [
+        "request"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Гость велит передать ямщику, что скоро поедет"
+      ],
+      "notes": "гость велит Ивану передать ямщику, что скоро поедет"
+    },
+    {
+      "source": "ivan",
+      "target": "nikolay_semenych",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Иван приходит сообщить о беспокойстве ямщика"
+      ],
+      "notes": "Иван приходит сообщить о беспокойстве ямщика"
+    },
+    {
+      "source": "doktor",
+      "target": "nikolay_semenych",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Доктор спорит с Николаем Семенычем и обсуждает положение"
+      ],
+      "notes": "доктор спорит с Николаем Семенычем и обсуждает положение"
+    },
+    {
+      "source": "doktor",
+      "target": "peterburgskiy_gost",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Доктор вступает в спор и поддерживает гостя"
+      ],
+      "notes": "доктор вступает в спор и поддерживает гостя"
+    },
+    {
+      "source": "gornichnaya",
+      "target": "nikolay_semenych",
+      "types": [
+        "request"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Горничная зовет Николая Семеныча к больному ребенку"
+      ],
+      "notes": "горничная зовет Николая Семеныча к больному ребенку"
+    },
+    {
+      "source": "gornichnaya",
+      "target": "doktor",
+      "types": [
+        "request"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Горничная зовет доктора по просьбе барыни"
+      ],
+      "notes": "горничная зовет доктора по просьбе барыни"
+    },
+    {
+      "source": "nikolay_semenych",
+      "target": "mari",
+      "types": [
+        "conflict",
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "Ссорятся из-за ягод, данных Гоге",
+        "Разговаривают о состоянии Гоги и о причинах болезни"
+      ],
+      "notes": "Николай Семеныч и Мари разговаривают о состоянии Гоги и ссорятся из-за ягод"
+    },
+    {
+      "source": "mari",
+      "target": "goga",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Мари ухаживает за больным ребенком"
+      ],
+      "notes": "Мари ухаживает за больным ребенком"
+    },
+    {
+      "source": "nikolay_semenych",
+      "target": "goga",
+      "types": [
+        "transfer"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Николай Семеныч дает детям купленные ягоды, в том числе Гоге"
+      ],
+      "notes": "Николай Семеныч дает детям купленные ягоды, в том числе Гоге"
+    },
+    {
+      "source": "doktor",
+      "target": "goga",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Доктор осматривает и лечит Гогу"
+      ],
+      "notes": "доктор осматривает и лечит Гогу"
+    },
+    {
+      "source": "doktor",
+      "target": "mari",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Доктор объясняет состояние Гоги и успокаивает Мари"
+      ],
+      "notes": "доктор объясняет состояние Гоги и успокаивает Мари"
+    },
+    {
+      "source": "valya",
+      "target": "olgushka",
+      "types": [
+        "speech",
+        "transfer"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "Валя спрашивает цену ягод и договаривается о покупке",
+        "Валя отдает деньги и получает ягоды"
+      ],
+      "notes": "Валя спрашивает цену ягод, договаривается о покупке, отдает деньги и получает ягоды"
+    },
+    {
+      "source": "valya",
+      "target": "grushka",
+      "types": [
+        "transfer"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Деньги за ягоды отдаются девочкам"
+      ],
+      "notes": "деньги за ягоды отдаются девочкам"
+    },
+    {
+      "source": "nyanya",
+      "target": "valya",
+      "types": [
+        "transfer"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Няня дает Вале деньги на покупку ягод"
+      ],
+      "notes": "няня дает Вале деньги на покупку ягод"
+    },
+    {
+      "source": "mari",
+      "target": "olgushka",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Мари, увидев девочек с ягодами, отказывает"
+      ],
+      "notes": "Мари, увидев девочек с ягодами, отказывает"
+    },
+    {
+      "source": "mari",
+      "target": "grushka",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Мари, увидев девочек с ягодами, отказывает"
+      ],
+      "notes": "Мари, увидев девочек с ягодами, отказывает"
+    },
+    {
+      "source": "olgushka",
+      "target": "mat",
+      "types": [
+        "transfer"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Ольгушка отдает матери вырученные деньги"
+      ],
+      "notes": "Ольгушка отдает матери вырученные деньги"
+    },
+    {
+      "source": "taraska_rezunov",
+      "target": "olgushka",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "Тараска будит Ольгушку",
+        "Тараска перекликается с Ольгушкой в лесу"
+      ],
+      "notes": "Тараска будит Ольгушку и перекликается с ней в лесу"
+    },
+    {
+      "source": "olgushka",
+      "target": "grushka",
+      "types": [
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "Вместе собирают ягоды, идут к реке, несут ягоды на дачу",
+        "Перекликаются и разговаривают в лесу"
+      ],
+      "notes": "Ольгушка и Грушка вместе собирают ягоды, идут к реке, несут ягоды на дачу, перекликаются и разговаривают в лесу"
+    },
+    {
+      "source": "olgushka",
+      "target": "tetka_akulina",
+      "types": [
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "Переговариваются о зайце и затем о пропавшем мальчике",
+        "Ольгушка помогает искать Мишку и зовет Акулину, когда находит его"
+      ],
+      "notes": "Ольгушка переговаривается с теткой Акулиной и помогает искать Мишку"
+    },
+    {
+      "source": "olgushka",
+      "target": "mishka",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Ольгушка находит спящего Мишку и дает ему ягод"
+      ],
+      "notes": "Ольгушка находит спящего Мишку и дает ему ягод"
+    },
+    {
+      "source": "mat",
+      "target": "taraska_rezunov",
+      "types": [
+        "transfer"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Мать дает Тараске кружку молока"
+      ],
+      "notes": "мать дает Тараске кружку молока"
+    },
+    {
+      "source": "olgushka",
+      "target": "otets",
+      "types": [
+        "transfer"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Девочки несут отцу обед на поле"
+      ],
+      "notes": "девочки несут отцу обед на поле"
+    },
+    {
+      "source": "taraska_rezunov",
+      "target": "otets",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "Тараска с завтрака пропахивает с отцом картофель"
+      ],
+      "notes": "Тараска с завтрака пропахивает с отцом картофель"
+    }
+  ]
+}

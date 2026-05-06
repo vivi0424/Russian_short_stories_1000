@@ -1,0 +1,358 @@
+{
+  "id": "P326",
+  "author": "Войнович Владимир",
+  "title": "В кругу друзей",
+  "year": 1967,
+  "nodes": [
+    {
+      "id": "tovarishch_koba",
+      "name": "товарищ Коба",
+      "full_name": "—",
+      "main": true,
+      "who": "центральная фигура рассказа, хозяин дома и вечеринки",
+      "aliases": "Коба; товарищ Коба; он; Coco; Соселло; вождь; генералиссимус",
+      "author_characterization": "подозрительный, доверчивый к Адику, хитрый, коварный, артистичный, маленький, рябой, больной",
+      "gender": "мужской",
+      "age": "пожилой",
+      "other": "в детстве его называли Coco; подписывал стихи псевдонимом Соселло"
+    },
+    {
+      "id": "pokhlebyshev",
+      "name": "Похлебышев",
+      "full_name": "—",
+      "main": false,
+      "who": "личный секретарь товарища Кобы",
+      "aliases": "товарищ Похлебышев; Похлебышев; личный секретарь",
+      "author_characterization": "лысеющий, суровый с виду, плачущий, исполнительный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "товарищ Похлебышев"
+    },
+    {
+      "id": "starushka_uborshchitsa",
+      "name": "старушка-уборщица",
+      "full_name": "—",
+      "main": false,
+      "who": "уборщица в тайной комнате товарища Кобы",
+      "aliases": "старушка-уборщица; старуха; уборщица",
+      "author_characterization": "деловитая, безмятежная, неглупая",
+      "gender": "женский",
+      "age": "пожилая",
+      "other": "—"
+    },
+    {
+      "id": "leontiy_ariya",
+      "name": "Леонтий Ария",
+      "full_name": "Леонтий Ария",
+      "main": false,
+      "who": "один из «ребят» товарища Кобы на вечеринке",
+      "aliases": "Леонтий Ария; Ария; Леонтий",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "носит кинжал"
+    },
+    {
+      "id": "nikola_borshchov",
+      "name": "Никола Борщов",
+      "full_name": "—",
+      "main": false,
+      "who": "один из «ребят» товарища Кобы на вечеринке",
+      "aliases": "Никола Борщов; Борщов; Борщев; Никола",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "в тексте также назван Борщевым"
+    },
+    {
+      "id": "efim_vershilov",
+      "name": "Ефим Вершилов",
+      "full_name": "—",
+      "main": false,
+      "who": "один из «ребят» товарища Кобы на вечеринке",
+      "aliases": "Ефим Вершилов; Вершилов",
+      "author_characterization": "спешащий, шумный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "lazer_kazanovich",
+      "name": "Лазер Казанович",
+      "full_name": "—",
+      "main": false,
+      "who": "один из «ребят» товарища Кобы на вечеринке",
+      "aliases": "Лазер Казанович; Казанович",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "zhorzh_merenkov",
+      "name": "Жорж Меренков",
+      "full_name": "—",
+      "main": false,
+      "who": "один из «ребят» товарища Кобы на вечеринке",
+      "aliases": "Жорж Меренков; Меренков",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "opanas_mirzoyan",
+      "name": "Опанас Мирзоян",
+      "full_name": "—",
+      "main": false,
+      "who": "один из «ребят» товарища Кобы на вечеринке",
+      "aliases": "Опанас Мирзоян; Мирзоян",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "mocheslav_molokov",
+      "name": "Мочеслав Молоков",
+      "full_name": "—",
+      "main": false,
+      "who": "один из «ребят» товарища Кобы на вечеринке",
+      "aliases": "Мочеслав Молоков; Молоков; Моча",
+      "author_characterization": "бледный, в очках, опальный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "zhbanov",
+      "name": "Жбанов",
+      "full_name": "—",
+      "main": false,
+      "who": "один из «ребят» товарища Кобы на вечеринке",
+      "aliases": "товарищ Жбанов; Жбанов; Антоша; Антон Жданов; Антон; Антоша",
+      "author_characterization": "грустный, преданный, плачущий",
+      "gender": "мужской",
+      "age": "—",
+      "other": "в тексте также встречается форма Жданов; Антоша"
+    },
+    {
+      "id": "akademik_pleshivenko",
+      "name": "академик Плешивенко",
+      "full_name": "—",
+      "main": false,
+      "who": "ученый-биолог, которому звонят ночью",
+      "aliases": "товарищ Плешивенко; Плешивенко; Троша",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "Троша"
+    }
+  ],
+  "links": [
+    {
+      "source": "tovarishch_koba",
+      "target": "pokhlebyshev",
+      "types": [
+        "request",
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 3,
+      "weight": 0.7,
+      "evidence": [
+        "Коба просит собрать ребят",
+        "Разговор о кроссворде (бронтозавр)",
+        "Коба бьёт Похлебышева трубкой по голове"
+      ],
+      "notes": "Коба просит собрать ребят; разговор о кроссворде; Коба бьёт Похлебышева трубкой по голове"
+    },
+    {
+      "source": "tovarishch_koba",
+      "target": "starushka_uborshchitsa",
+      "types": [
+        "speech",
+        "transfer"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "Разговор о пшене и масле",
+        "Коба пишет записку на склад"
+      ],
+      "notes": "Разговор о пшене и масле; Коба пишет записку на склад"
+    },
+    {
+      "source": "tovarishch_koba",
+      "target": "leontiy_ariya",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Коба спрашивает, что за люди дерутся"
+      ],
+      "notes": "Коба спрашивает, что за люди дерутся"
+    },
+    {
+      "source": "tovarishch_koba",
+      "target": "efim_vershilov",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "Коба плюёт Вершилову в лицо (первый раз)",
+        "Коба плюёт Вершилову в рот (второй раз)"
+      ],
+      "notes": "Коба плюёт Вершилову в лицо и в рот"
+    },
+    {
+      "source": "tovarishch_koba",
+      "target": "mocheslav_molokov",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "Разговор об очках",
+        "Коба мучает Молокова вопросом об очках"
+      ],
+      "notes": "Разговор об очках; Коба мучает Молокова вопросом об очках"
+    },
+    {
+      "source": "tovarishch_koba",
+      "target": "zhbanov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Коба хвалит Жбанова («настоящий большевик»)"
+      ],
+      "notes": "Коба хвалит Жбанова"
+    },
+    {
+      "source": "tovarishch_koba",
+      "target": "akademik_pleshivenko",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Ночной звонок о бронтозавре"
+      ],
+      "notes": "Коба ночью говорит с Плешивенко по телефону о бронтозавре"
+    },
+    {
+      "source": "tovarishch_koba",
+      "target": "zhorzh_merenkov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Меренков участвует в разговоре и заседании в присутствии Кобы"
+      ],
+      "notes": "Меренков вступает в общий разговор на вечеринке и участвует в заседании о том, будить ли Кобу"
+    },
+    {
+      "source": "tovarishch_koba",
+      "target": "opanas_mirzoyan",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Мирзоян участвует в разговоре и заседании в присутствии Кобы"
+      ],
+      "notes": "Мирзоян вступает в общий разговор на вечеринке и участвует в заседании о том, будить ли Кобу"
+    },
+    {
+      "source": "efim_vershilov",
+      "target": "lazer_kazanovich",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Драка после игры в карты"
+      ],
+      "notes": "Драка после игры в карты"
+    },
+    {
+      "source": "nikola_borshchov",
+      "target": "mocheslav_molokov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Разговор на рассвете о жизни и работе"
+      ],
+      "notes": "Разговор на рассвете о жизни и работе"
+    },
+    {
+      "source": "leontiy_ariya",
+      "target": "efim_vershilov",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Ария разнимает драку, бьёт Вершилова"
+      ],
+      "notes": "Ария разнимает драку, бьёт Вершилова"
+    },
+    {
+      "source": "leontiy_ariya",
+      "target": "lazer_kazanovich",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Ария бьёт Казановича"
+      ],
+      "notes": "Ария бьёт Казановича"
+    },
+    {
+      "source": "zhbanov",
+      "target": "nikola_borshchov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Жбанов аккомпанирует, Борщов пляшет"
+      ],
+      "notes": "Жбанов аккомпанирует, Борщов пляшет"
+    },
+    {
+      "source": "zhorzh_merenkov",
+      "target": "opanas_mirzoyan",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Участие в заседании о том, будить ли Кобу"
+      ],
+      "notes": "Участие в заседании о том, будить ли Кобу"
+    }
+  ]
+}

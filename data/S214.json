@@ -1,0 +1,397 @@
+{
+  "id": "S214",
+  "author": "Бабель Исаак Эммануилович",
+  "title": "Карл-Янкель",
+  "year": 1930,
+  "nodes": [
+    {
+      "id": "ioyna_brutman",
+      "name": "Иойна Брутман",
+      "full_name": "Иойна Брутман",
+      "main": false,
+      "who": "кузнец, глава семьи Брутманов",
+      "aliases": "Иойна; Иойна Брутман; кузнец",
+      "author_characterization": "пугливый, маленький, приученный к вину, кроткий",
+      "gender": "мужской",
+      "age": "—",
+      "other": "держал кузницу на Пересыпи"
+    },
+    {
+      "id": "brana_brutman",
+      "name": "Жена Иойны",
+      "full_name": "Брана Брутман",
+      "main": false,
+      "who": "жена Иойны, мать семейства",
+      "aliases": "Брана; старуха; гражданка Брутман; жена Иойны",
+      "author_characterization": "набожная",
+      "gender": "женский",
+      "age": "62 года",
+      "other": "ходила в хасидскую синагогу"
+    },
+    {
+      "id": "semen_brutman",
+      "name": "Семен Брутман",
+      "full_name": "Семен Брутман",
+      "main": false,
+      "who": "сын Иойны, красный командир",
+      "aliases": "Семен; Семен Брутман",
+      "author_characterization": "рубака, наездник, партизан",
+      "gender": "мужской",
+      "age": "—",
+      "other": "служил у Примакова"
+    },
+    {
+      "id": "polina_belotserkovskaya",
+      "name": "Поля",
+      "full_name": "Полина Белоцерковская",
+      "main": true,
+      "who": "младшая дочь Брутманов, мать Карл-Янкеля",
+      "aliases": "Поля; Полина; Полина Белоцерковская; свидетельница Белоцерковская",
+      "author_characterization": "пугливая, близорукая, с нежной кожей; измученная",
+      "gender": "женский",
+      "age": "—",
+      "other": "одна во всей семье пошла в маленького Иойну"
+    },
+    {
+      "id": "ovsey_belotserkovskiy",
+      "name": "Овсей Белоцерковский",
+      "full_name": "Овсей Белоцерковский",
+      "main": true,
+      "who": "муж Поли, отец Карл-Янкеля",
+      "aliases": "Овсей; Овсей Белоцерковский; свидетель Белоцерковский",
+      "author_characterization": "долговязый",
+      "gender": "мужской",
+      "age": "—",
+      "other": "носит галифе и кавалерийские ботфорты"
+    },
+    {
+      "id": "naftula_gerchik",
+      "name": "Нафтула Герчик",
+      "full_name": "Нафтула Герчик",
+      "main": true,
+      "who": "малый оператор, совершающий обрезание",
+      "aliases": "Нафтула; Нафтула Герчик; малый оператор",
+      "author_characterization": "рыжий, захмелевший, гнусавый, развязный",
+      "gender": "мужской",
+      "age": "старик",
+      "other": "ходил с акушерской сумкой"
+    },
+    {
+      "id": "bychach",
+      "name": "Бычач",
+      "full_name": "Бычач",
+      "main": false,
+      "who": "секретарь ячейки Госторга",
+      "aliases": "Бычач; секретарь ячейки",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "советует Овсею начать дело"
+    },
+    {
+      "id": "orlov",
+      "name": "Орлов",
+      "full_name": "Орлов",
+      "main": false,
+      "who": "прокурор на процессе",
+      "aliases": "Орлов; прокурор; Зусман",
+      "author_characterization": "гремит с кафедры",
+      "gender": "мужской",
+      "age": "—",
+      "other": "урожденный Зусман"
+    },
+    {
+      "id": "samuil_lining",
+      "name": "Самуил Лининг",
+      "full_name": "Самуил Лининг",
+      "main": false,
+      "who": "защитник на процессе, бывший присяжный поверенный",
+      "aliases": "Лининг; Самуил Лининг; бывший присяжный поверенный",
+      "author_characterization": "старик, сутулый",
+      "gender": "мужской",
+      "age": "старик",
+      "other": "пишет жалобы, как трактаты Талмуда"
+    },
+    {
+      "id": "karl_yankel",
+      "name": "Карл-Янкель",
+      "full_name": "—",
+      "main": true,
+      "who": "младенец, сын Поли и Овсея",
+      "aliases": "Карл-Янкель; Карл; Янкель; мальчик; младенец",
+      "author_characterization": "пухлый человек пяти месяцев от роду",
+      "gender": "мужской",
+      "age": "5 месяцев",
+      "other": "назван Карлом и Янкелем"
+    },
+    {
+      "id": "rabotnitsa_kirgizka",
+      "name": "Работница-киргизка",
+      "full_name": "—",
+      "main": false,
+      "who": "работница, кормящая Карл-Янкеля",
+      "aliases": "киргизка; работница с лицом киргизки",
+      "author_characterization": "с лицом киргизки",
+      "gender": "женский",
+      "age": "—",
+      "other": "кормит ребенка в красном уголке"
+    },
+    {
+      "id": "devochka_v_krasnom_platochke",
+      "name": "Девочка в красном платочке",
+      "full_name": "—",
+      "main": false,
+      "who": "девушка при ребенке",
+      "aliases": "девочка; девчонка; девочка в красном платочке",
+      "author_characterization": "щеки торчали как шишки",
+      "gender": "женский",
+      "age": "лет 17",
+      "other": "вытирает клеенку Карл-Янкеля"
+    }
+  ],
+  "links": [
+    {
+      "source": "ioyna_brutman",
+      "target": "brana_brutman",
+      "types": [
+        "kinship_social"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Жена Иойны»"
+      ],
+      "notes": "Муж и жена"
+    },
+    {
+      "source": "brana_brutman",
+      "target": "polina_belotserkovskaya",
+      "types": [
+        "conflict",
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "«Поля ушла в больницу» ; «старуха похитила новорожденного внука»",
+        "«О чем ты думаешь, Поля... ребенок с утра не кормленный»"
+      ],
+      "notes": "Старуха действует вопреки семейной воле молодых; старуха кричит дочери о ребенке в зале суда"
+    },
+    {
+      "source": "polina_belotserkovskaya",
+      "target": "ovsey_belotserkovskiy",
+      "types": [
+        "kinship_social"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Поля выбрала Овсея Белоцерковского» ; «молодые живут счастливо»"
+      ],
+      "notes": "Муж и жена"
+    },
+    {
+      "source": "ovsey_belotserkovskiy",
+      "target": "karl_yankel",
+      "types": [
+        "kinship_social"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«телеграмму о рождении сына» ; «он указал назвать сына Карлом»"
+      ],
+      "notes": "Отец и сын"
+    },
+    {
+      "source": "polina_belotserkovskaya",
+      "target": "karl_yankel",
+      "types": [
+        "kinship_social"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«новорожденного внука» ; «свидетельница Белоцерковская» как мать ребенка"
+      ],
+      "notes": "Мать и сын"
+    },
+    {
+      "source": "brana_brutman",
+      "target": "karl_yankel",
+      "types": [
+        "transfer"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«похитила новорожденного внука, отнесла его к малому оператору»"
+      ],
+      "notes": "Брана уносит младенца к оператору"
+    },
+    {
+      "source": "brana_brutman",
+      "target": "naftula_gerchik",
+      "types": [
+        "request"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "«отнесла его к малому оператору Нафтуле Герчику»"
+      ],
+      "notes": "Приносит младенца для обряда"
+    },
+    {
+      "source": "naftula_gerchik",
+      "target": "karl_yankel",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«над младенцем был совершен обряд обрезания»"
+      ],
+      "notes": "Совершает над младенцем обрезание"
+    },
+    {
+      "source": "ovsey_belotserkovskiy",
+      "target": "bychach",
+      "types": [
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "«Он решил посоветоваться с секретарем ячейки Госторга Бычачем»",
+        "«Ты должен двинуть это дело»"
+      ],
+      "notes": "Овсей советуется с секретарем ячейки; Бычач подталкивает Овсея начать дело"
+    },
+    {
+      "source": "ovsey_belotserkovskiy",
+      "target": "brana_brutman",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "«он подал в суд на тещу свою Брану Брутман»",
+        "«Через год после женитьбы он подал в суд на тещу свою Брану Брутман»"
+      ],
+      "notes": "Овсей подает в суд на тещу; теща действует против воли зятя, что приводит к судебному делу"
+    },
+    {
+      "source": "ovsey_belotserkovskiy",
+      "target": "naftula_gerchik",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "«Малый оператор Нафтула Герчик и Брана Брутман... очутились на скамье подсудимых»"
+      ],
+      "notes": "Овсей вовлекает Нафтулу в судебное преследование"
+    },
+    {
+      "source": "orlov",
+      "target": "naftula_gerchik",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "«Верите ли вы в бога?» ; «Вас не удивил приход гражданки Брутман...»",
+        "«Прокурор Орлов остановил Нафтулу в его обходе» ; «Прокурор доказывал»"
+      ],
+      "notes": "Прокурор допрашивает Нафтулу; обвинение строится против Нафтулы"
+    },
+    {
+      "source": "orlov",
+      "target": "ovsey_belotserkovskiy",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«Несколько вопросов задал прокурор»"
+      ],
+      "notes": "Овсей дает показания на процессе"
+    },
+    {
+      "source": "samuil_lining",
+      "target": "polina_belotserkovskaya",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "«Скажите, свидетельница...» ; «Идем далее»",
+        "«имею представить суду справку» ; «Полина... всем телом налегла на барьер»"
+      ],
+      "notes": "Лининг ведет перекрестный допрос Поли; Лининг подрывает ее свидетельство"
+    },
+    {
+      "source": "rabotnitsa_kirgizka",
+      "target": "karl_yankel",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«работница с лицом киргизки... кормила Карл-Янкеля»"
+      ],
+      "notes": "Кормит младенца"
+    },
+    {
+      "source": "devochka_v_krasnom_platochke",
+      "target": "karl_yankel",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«Она вытирала досуха клеенку Карл-Янкеля»"
+      ],
+      "notes": "Ухаживает за ребенком"
+    },
+    {
+      "source": "rabotnitsa_kirgizka",
+      "target": "devochka_v_krasnom_platochke",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«Он военный будет» ; «он авиатор у нас будет»"
+      ],
+      "notes": "Обсуждают будущее Карл-Янкеля"
+    },
+    {
+      "source": "semen_brutman",
+      "target": "karl_yankel",
+      "types": [
+        "kinship_social"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Дети Семена кочевали вместе с его дивизией» ; «внука она дождалась от младшей дочери Поли»"
+      ],
+      "notes": "дядя и племянник"
+    }
+  ]
+}

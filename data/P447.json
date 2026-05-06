@@ -1,0 +1,234 @@
+{
+  "id": "P447",
+  "author": "Недосекин Роальд Константинович",
+  "title": "Учительница",
+  "year": 1952,
+  "nodes": [
+    {
+      "id": "valya_fedotova",
+      "name": "Валя Федотова",
+      "full_name": "Валентина Ивановна Федотова",
+      "main": true,
+      "who": "молодая учительница",
+      "aliases": "Валя; Валентина; Валентина Ивановна; Валентина Ивановна Федотова",
+      "author_characterization": "круглолицая, голубоглазая, живая, общительная",
+      "gender": "женский",
+      "age": "молодая",
+      "other": "также названа Валя, Валентина, Валентина Ивановна"
+    },
+    {
+      "id": "felitsata_vasilevna_zaytseva",
+      "name": "Фелицата Васильевна Зайцева",
+      "full_name": "Фелицата Васильевна Зайцева",
+      "main": false,
+      "who": "опытная учительница, у которой живёт Валя",
+      "aliases": "Зайцева; Занцева",
+      "author_characterization": "опытная, добродушная",
+      "gender": "женский",
+      "age": "—",
+      "other": "также названа Зайцева, Занцева"
+    },
+    {
+      "id": "gavrilych",
+      "name": "Гаврилыч",
+      "full_name": "дед Гаврилыч",
+      "main": false,
+      "who": "школьный плотник",
+      "aliases": "дед Гаврилыч",
+      "author_characterization": "старый, ласковый, подслеповатый",
+      "gender": "мужской",
+      "age": "пожилой",
+      "other": "школьный плотник"
+    },
+    {
+      "id": "otets_vali",
+      "name": "Отец Вали",
+      "full_name": "—",
+      "main": false,
+      "who": "отец Валентины",
+      "aliases": "отец; Валин отец",
+      "author_characterization": "старый",
+      "gender": "мужской",
+      "age": "пожилой",
+      "other": "часто навещает дочь"
+    },
+    {
+      "id": "grisha_gurtaev",
+      "name": "Гриша Гуртаев",
+      "full_name": "Гриша Гуртаев",
+      "main": false,
+      "who": "ученик",
+      "aliases": "Гриша",
+      "author_characterization": "способный, проказник",
+      "gender": "мужской",
+      "age": "—",
+      "other": "мечтает стать моряком"
+    },
+    {
+      "id": "mat_lidy_bolshakovoy",
+      "name": "Мать Лиды Большаковой",
+      "full_name": "—",
+      "main": false,
+      "who": "мать ученицы",
+      "aliases": "мать Лиды; её мать",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "мать Лиды"
+    },
+    {
+      "id": "slava_miterev",
+      "name": "Слава Митерев",
+      "full_name": "Слава Митерев",
+      "main": false,
+      "who": "ученик",
+      "aliases": "Слава",
+      "author_characterization": "развитый, начитанный, отличник",
+      "gender": "мужской",
+      "age": "—",
+      "other": "«белоручка», «маменькин сынок»"
+    },
+    {
+      "id": "yuliya_ivanovna_shulishnina",
+      "name": "Юлия Ивановна Шулишнина",
+      "full_name": "Юлия Ивановна Шулишнина",
+      "main": false,
+      "who": "молодая учительница",
+      "aliases": "Юлия Ивановна; Юля; Юлечка; Шулишнина",
+      "author_characterization": "невысокая, ясноглазая, тревожная",
+      "gender": "женский",
+      "age": "молодая",
+      "other": "также названа Юля, Юлечка"
+    },
+    {
+      "id": "direktor_shkoly",
+      "name": "Директор школы",
+      "full_name": "—",
+      "main": false,
+      "who": "директор школы",
+      "aliases": "директор",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "поздравляет Валю с первым уроком"
+    }
+  ],
+  "links": [
+    {
+      "source": "gavrilych",
+      "target": "valya_fedotova",
+      "types": [
+        "speech",
+        "request"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "Встреча в школе, приветствие и просьба",
+        "Просьба воспитать внука"
+      ],
+      "notes": "Гаврилыч приветствует Валю в школе и просит воспитать внука"
+    },
+    {
+      "source": "felitsata_vasilevna_zaytseva",
+      "target": "valya_fedotova",
+      "types": [
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "Советы перед началом учебного года",
+        "Наставления и поддержка"
+      ],
+      "notes": "Фелицата Васильевна Зайцева дает Вале советы и поддерживает ее перед началом работы"
+    },
+    {
+      "source": "otets_vali",
+      "target": "valya_fedotova",
+      "types": [
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "Наставление о комсомольском долге",
+        "Моральная поддержка"
+      ],
+      "notes": "Отец Вали наставляет дочь и морально поддерживает ее"
+    },
+    {
+      "source": "direktor_shkoly",
+      "target": "valya_fedotova",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Поздравление после первого урока"
+      ],
+      "notes": "Директор школы поздравляет Валю после первого урока"
+    },
+    {
+      "source": "valya_fedotova",
+      "target": "grisha_gurtaev",
+      "types": [
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "Беседа о мечте стать моряком",
+        "Выдача книги о нахимовцах"
+      ],
+      "notes": "Валя ведет с Гришей воспитательную беседу и помогает ему книгой о нахимовцах"
+    },
+    {
+      "source": "valya_fedotova",
+      "target": "mat_lidy_bolshakovoy",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Сообщение об успехе дочери"
+      ],
+      "notes": "Валя сообщает матери Лиды Большаковой об успехе дочери"
+    },
+    {
+      "source": "valya_fedotova",
+      "target": "slava_miterev",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Борьба за перевоспитание"
+      ],
+      "notes": "Валя ведет борьбу за перевоспитание Славы Митерева"
+    },
+    {
+      "source": "yuliya_ivanovna_shulishnina",
+      "target": "valya_fedotova",
+      "types": [
+        "request",
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 3,
+      "weight": 0.8,
+      "evidence": [
+        "Просьба о помощи в дороге",
+        "Обещание помочь",
+        "Разговоры по дороге в школу"
+      ],
+      "notes": "Юлия Ивановна просит Валю о помощи, Валя обещает помочь, они разговаривают по дороге в школу"
+    }
+  ]
+}

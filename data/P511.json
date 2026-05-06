@@ -1,0 +1,151 @@
+{
+  "id": "P511",
+  "author": "Лощиц Юрий Михайлович",
+  "title": "Тутотка",
+  "year": 1992,
+  "nodes": [
+    {
+      "id": "baba_nyura",
+      "name": "Баба Нюра",
+      "full_name": "Анна Михайловна",
+      "main": true,
+      "who": "центральная фигура рассказа, деревенская жительница",
+      "aliases": "Анна Михайловна; баба Нюра; голубушка",
+      "author_characterization": "крупная, крепко сбитая, круглолицая, с чуть вытаращенными глазами; одинокая; словесно одаренная",
+      "gender": "женский",
+      "age": "старая",
+      "other": "ходит босиком; живет одна; говорит «тутотка» и «тамотка»"
+    },
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "—",
+      "main": true,
+      "who": "повествователь, приезжий знакомый бабы Нюры",
+      "aliases": "я",
+      "author_characterization": "наблюдательный, внимательный к речи бабы Нюры",
+      "gender": "мужской",
+      "age": "—",
+      "other": "приезжает летом"
+    },
+    {
+      "id": "koza",
+      "name": "Коза",
+      "full_name": "—",
+      "main": false,
+      "who": "домашнее животное бабы Нюры",
+      "aliases": "пеструха",
+      "author_characterization": "прожора-пеструха",
+      "gender": "—",
+      "age": "—",
+      "other": "объект окриков бабы Нюры"
+    },
+    {
+      "id": "doch_baby_nyury",
+      "name": "Дочь бабы Нюры",
+      "full_name": "—",
+      "main": false,
+      "who": "дочь бабы Нюры",
+      "aliases": "дочь",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "живет в заречном селе"
+    },
+    {
+      "id": "zyat_baby_nyury",
+      "name": "Зять бабы Нюры",
+      "full_name": "—",
+      "main": false,
+      "who": "зять бабы Нюры",
+      "aliases": "зять",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "живет в заречном селе"
+    },
+    {
+      "id": "vnuchki_baby_nyury",
+      "name": "Внучки бабы Нюры",
+      "full_name": "—",
+      "main": false,
+      "who": "внучки бабы Нюры",
+      "aliases": "внучки",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "зовут ее «баба Нюра»"
+    }
+  ],
+  "links": [
+    {
+      "source": "rasskazchik",
+      "target": "baba_nyura",
+      "types": [
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 4,
+      "weight": 1,
+      "evidence": [
+        "рассказчик регулярно встречает ее и слушает",
+        "разговор о здоровье и церкви",
+        "разговор про археолога",
+        "баба Нюра говорит, что не знает рассказчика"
+      ],
+      "notes": "рассказчик регулярно встречает бабу Нюру, слушает ее и разговаривает с ней о здоровье, церкви, археологе и памяти"
+    },
+    {
+      "source": "baba_nyura",
+      "target": "koza",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "окрики и брань, обращенные к козе"
+      ],
+      "notes": "баба Нюра окликает и бранит козу"
+    },
+    {
+      "source": "doch_baby_nyury",
+      "target": "baba_nyura",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "дочь забирает бабу Нюру к себе"
+      ],
+      "notes": "дочь забирает бабу Нюру к себе"
+    },
+    {
+      "source": "zyat_baby_nyury",
+      "target": "baba_nyura",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "догоняет и возвращает ее от реки"
+      ],
+      "notes": "зять догоняет бабу Нюру и возвращает ее от реки"
+    },
+    {
+      "source": "vnuchki_baby_nyury",
+      "target": "baba_nyura",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "догоняют и возвращают ее от реки"
+      ],
+      "notes": "внучки догоняют бабу Нюру и возвращают ее от реки"
+    }
+  ]
+}

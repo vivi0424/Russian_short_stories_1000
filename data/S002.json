@@ -1,0 +1,503 @@
+{
+  "id": "S002",
+  "author": "Андреев Леонид Николаевич",
+  "title": "Рассказ о семи повешенных",
+  "year": 1908,
+  "nodes": [
+    {
+      "id": "ministr",
+      "name": "Министр",
+      "full_name": "—",
+      "main": false,
+      "who": "сановник, на которого готовится покушение",
+      "aliases": "министр; сановник; его превосходительство",
+      "author_characterization": "очень тучный, склонный к апоплексии",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "nachalnik_okhrany",
+      "name": "Начальник охраны",
+      "full_name": "—",
+      "main": false,
+      "who": "чиновник охраны, сообщающий министру о покушении",
+      "aliases": "начальник охраны",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "sergei_golovin",
+      "name": "Сергей Головин",
+      "full_name": "Сергей Головин",
+      "main": true,
+      "who": "осужденный террорист",
+      "aliases": "Сергей; Сережа; Сереженька; Головин",
+      "author_characterization": "молодой, белокурый, широкоплечий, здоровый",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "—"
+    },
+    {
+      "id": "musya",
+      "name": "Муся",
+      "full_name": "—",
+      "main": true,
+      "who": "осужденная террористка",
+      "aliases": "Муся; Мусечка",
+      "author_characterization": "молодая бледная девушка",
+      "gender": "женский",
+      "age": "девятнадцать лет или около того",
+      "other": "неизвестная, по прозвищу Муся"
+    },
+    {
+      "id": "verner",
+      "name": "Вернер",
+      "full_name": "—",
+      "main": true,
+      "who": "осужденный террорист",
+      "aliases": "Вернер; барин",
+      "author_characterization": "нежный и красивый; спокойной силы, непреоборимой твердости",
+      "gender": "мужской",
+      "age": "—",
+      "other": "неизвестный, по прозвищу Вернер"
+    },
+    {
+      "id": "vasilii_kashirin",
+      "name": "Василий Каширин",
+      "full_name": "Василий Каширин",
+      "main": true,
+      "who": "осужденный террорист",
+      "aliases": "Василий Каширин; Вася; Васенька; Васька Каширин; Василий",
+      "author_characterization": "весь состоял из одного сплошного, невыносимого ужаса смерти",
+      "gender": "мужской",
+      "age": "двадцать три года",
+      "other": "—"
+    },
+    {
+      "id": "tanya_kovalchuk",
+      "name": "Таня Ковальчук",
+      "full_name": "Таня Ковальчук",
+      "main": true,
+      "who": "осужденная террористка",
+      "aliases": "Таня Ковальчук; Таня; Танечка",
+      "author_characterization": "очень молода и краснощека; заботлива, любовна",
+      "gender": "женский",
+      "age": "очень молода",
+      "other": "—"
+    },
+    {
+      "id": "ivan_yanson",
+      "name": "Иван Янсон",
+      "full_name": "Иван Янсон",
+      "main": true,
+      "who": "осужденный крестьянин",
+      "aliases": "Иван Янсон; Янсон; Иван",
+      "author_characterization": "маленький, щуплый, веснушчатый, с сонными стеклянными глазками",
+      "gender": "мужской",
+      "age": "—",
+      "other": "родом эстонец"
+    },
+    {
+      "id": "nadziratel",
+      "name": "Надзиратель",
+      "full_name": "—",
+      "main": false,
+      "who": "тюремный надзиратель Янсона",
+      "aliases": "надзиратель; старик; дежурный надзиратель",
+      "author_characterization": "старик тупой и угрюмый",
+      "gender": "мужской",
+      "age": "старик",
+      "other": "—"
+    },
+    {
+      "id": "mikhail_golubets",
+      "name": "Михаил Голубец",
+      "full_name": "Михаил Голубец",
+      "main": true,
+      "who": "осужденный разбойник",
+      "aliases": "Михаил Голубец; Мишка Цыганок; Цыганок; Татарин",
+      "author_characterization": "черноволосый, худощавый, с коротким прямым взглядом",
+      "gender": "мужской",
+      "age": "—",
+      "other": "по кличке Мишка Цыганок, он же Татарин"
+    },
+    {
+      "id": "nikolai_sergeevich_golovin",
+      "name": "Николай Сергеевич Головин",
+      "full_name": "Николай Сергеевич Головин",
+      "main": false,
+      "who": "отец Сергея",
+      "aliases": "полковник; отец Сергея; Николай Сергеевич Головин",
+      "author_characterization": "весь ровно белый",
+      "gender": "мужской",
+      "age": "старый",
+      "other": "—"
+    },
+    {
+      "id": "mat_sergeya",
+      "name": "Мать Сергея",
+      "full_name": "—",
+      "main": false,
+      "who": "мать Сергея Головина",
+      "aliases": "мать; мать Сергея; жена; мамочка",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "старая",
+      "other": "—"
+    },
+    {
+      "id": "mat_vasiliya",
+      "name": "Мать Василия",
+      "full_name": "—",
+      "main": false,
+      "who": "мать Василия Каширина",
+      "aliases": "мать Василия; мамаша; старуха",
+      "author_characterization": "старуха",
+      "gender": "женский",
+      "age": "старая",
+      "other": "—"
+    }
+  ],
+  "links": [
+    {
+      "source": "nachalnik_okhrany",
+      "target": "ministr",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "начальник охраны сообщает министру о покушении"
+      ],
+      "notes": "начальник охраны сообщает министру о покушении"
+    },
+    {
+      "source": "sergei_golovin",
+      "target": "musya",
+      "types": [
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "вместе проходят суд",
+        "Говорят перед казнью"
+      ],
+      "notes": "вместе проходят суд и говорят перед казнью"
+    },
+    {
+      "source": "sergei_golovin",
+      "target": "verner",
+      "types": [
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 5,
+      "weight": 1,
+      "evidence": [
+        "вместе проходят суд",
+        "Говорят после суда",
+        "Говорят о еде",
+        "Говорят перед тем, как ехать",
+        "Говорят перед казнью"
+      ],
+      "notes": "вместе проходят суд и неоднократно разговаривают после суда и перед казнью"
+    },
+    {
+      "source": "sergei_golovin",
+      "target": "tanya_kovalchuk",
+      "types": [
+        "co_presence_joint_action",
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 3,
+      "weight": 0.7,
+      "evidence": [
+        "вместе проходят суд",
+        "Таня заботливо следит за Сергеем",
+        "Говорят перед казнью"
+      ],
+      "notes": "вместе проходят суд; Таня заботится о Сергее и говорит с ним перед казнью"
+    },
+    {
+      "source": "sergei_golovin",
+      "target": "vasilii_kashirin",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "weight": 0.2,
+      "evidence": [
+        "вместе проходят суд",
+        "Идут в паре на казнь"
+      ],
+      "notes": "вместе проходят суд и идут в паре на казнь"
+    },
+    {
+      "source": "musya",
+      "target": "verner",
+      "types": [
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 3,
+      "weight": 0.7,
+      "evidence": [
+        "вместе проходят суд",
+        "Говорят перед тем, как ехать",
+        "Говорят перед казнью"
+      ],
+      "notes": "вместе проходят суд и говорят перед отправкой и перед казнью"
+    },
+    {
+      "source": "musya",
+      "target": "tanya_kovalchuk",
+      "types": [
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 3,
+      "weight": 0.7,
+      "evidence": [
+        "вместе проходят суд",
+        "Говорят о кольце",
+        "Говорят перед казнью"
+      ],
+      "notes": "вместе проходят суд и разговаривают о кольце и перед казнью"
+    },
+    {
+      "source": "musya",
+      "target": "vasilii_kashirin",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "вместе проходят суд"
+      ],
+      "notes": "вместе проходят суд"
+    },
+    {
+      "source": "verner",
+      "target": "tanya_kovalchuk",
+      "types": [
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 3,
+      "weight": 0.7,
+      "evidence": [
+        "вместе проходят суд",
+        "Говорят после суда",
+        "Говорят перед тем, как ехать"
+      ],
+      "notes": "вместе проходят суд и говорят после суда и перед отправкой"
+    },
+    {
+      "source": "verner",
+      "target": "vasilii_kashirin",
+      "types": [
+        "co_presence_joint_action",
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 8,
+      "weight": 1,
+      "evidence": [
+        "вместе проходят суд",
+        "Вернер поддерживает Василия на суде",
+        "Вернер обращается к Василию, стараясь его успокоить",
+        "Вернер говорит Василию не фамильярничать со смертью",
+        "Говорят перед тем, как ехать",
+        "Говорят перед казнью",
+        "Говорит Василию повязать шарф",
+        "Говорят перед казнью"
+      ],
+      "notes": "Вернер поддерживает Василия, успокаивает его и говорит с ним на суде, перед отправкой и перед казнью"
+    },
+    {
+      "source": "tanya_kovalchuk",
+      "target": "vasilii_kashirin",
+      "types": [
+        "co_presence_joint_action",
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 4,
+      "weight": 0.8,
+      "evidence": [
+        "вместе проходят суд",
+        "Таня пытается помочь Василию перед казнью",
+        "Таня пытается помочь Василию перед казнью",
+        "Говорят перед казнью"
+      ],
+      "notes": "вместе проходят суд; Таня пытается помочь Василию и говорит с ним перед казнью"
+    },
+    {
+      "source": "nadziratel",
+      "target": "ivan_yanson",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 4,
+      "weight": 1,
+      "evidence": [
+        "надзиратель отвечает Янсону и наставляет его",
+        "надзиратель грубо разговаривает",
+        "надзиратель спрашивает, будет ли Янсон с кем-нибудь видеться",
+        "надзиратель говорит, что Янсон оглох"
+      ],
+      "notes": "надзиратель грубо разговаривает с Янсоном, наставляет его и отвечает на его вопросы"
+    },
+    {
+      "source": "nikolai_sergeevich_golovin",
+      "target": "sergei_golovin",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "отец говорит с Сергеем на последнем свидании"
+      ],
+      "notes": "отец говорит с Сергеем на последнем свидании"
+    },
+    {
+      "source": "mat_sergeya",
+      "target": "sergei_golovin",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "мать говорит с Сергеем на последнем свидании"
+      ],
+      "notes": "мать говорит с Сергеем на последнем свидании"
+    },
+    {
+      "source": "nikolai_sergeevich_golovin",
+      "target": "mat_sergeya",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "полковник наставляет жену перед свиданием"
+      ],
+      "notes": "полковник наставляет жену перед свиданием с Сергеем"
+    },
+    {
+      "source": "vasilii_kashirin",
+      "target": "mat_vasiliya",
+      "types": [
+        "conflict",
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "свидание проходит в ссоре и взаимном непонимании",
+        "мать говорит с Василием на последнем свидании"
+      ],
+      "notes": "последнее свидание Василия с матерью проходит в разговоре, ссоре и взаимном непонимании"
+    },
+    {
+      "source": "verner",
+      "target": "ivan_yanson",
+      "types": [
+        "help_support",
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 5,
+      "weight": 1,
+      "evidence": [
+        "Вернер берет Янсона за руку и поддерживает его в дороге",
+        "Вернер разговаривает с Янсоном по дороге на казнь",
+        "Вернер спрашивает, не холодно ли ему",
+        "Вернер спрашивает, не холодно ли ему",
+        "Идут в паре на казнь"
+      ],
+      "notes": "Вернер поддерживает Янсона, берет его за руку, разговаривает с ним и идет с ним в паре на казнь"
+    },
+    {
+      "source": "musya",
+      "target": "mikhail_golubets",
+      "types": [
+        "help_support",
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 3,
+      "weight": 0.7,
+      "evidence": [
+        "Муся соглашается идти с Цыганком и целует его",
+        "Говорят перед казнью",
+        "Идут в паре на казнь"
+      ],
+      "notes": "Муся соглашается идти с Цыганком, целует его, говорит с ним и идет с ним в паре на казнь"
+    },
+    {
+      "source": "mikhail_golubets",
+      "target": "verner",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Говорят перед казнью"
+      ],
+      "notes": "говорят перед казнью"
+    },
+    {
+      "source": "mikhail_golubets",
+      "target": "vasilii_kashirin",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Говорят перед казнью"
+      ],
+      "notes": "говорят перед казнью"
+    },
+    {
+      "source": "sergei_golovin",
+      "target": "ivan_yanson",
+      "types": [
+        "transfer"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Сергей дает Янсону папиросу"
+      ],
+      "notes": "Сергей дает Янсону папиросу"
+    },
+    {
+      "source": "tanya_kovalchuk",
+      "target": "ivan_yanson",
+      "types": [
+        "help_support"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Таня успокаивает Янсона"
+      ],
+      "notes": "Таня успокаивает Янсона"
+    }
+  ]
+}

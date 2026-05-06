@@ -1,0 +1,322 @@
+{
+  "id": "E148",
+  "author": "Фористер А.",
+  "title": "Меганейра",
+  "year": 1936,
+  "nodes": [
+    {
+      "id": "aleksandr_ivanovich",
+      "name": "Александр Иванович",
+      "full_name": "Александр Иванович",
+      "main": true,
+      "who": "начальник разведывательной партии, горный инженер",
+      "aliases": "Александр Иванович; Саша; Лексанваныч; начальник; горный инженер",
+      "author_characterization": "хитрый; начальник",
+      "gender": "мужской",
+      "age": "—",
+      "other": "также назван Саша; один из «наших Иванычей»"
+    },
+    {
+      "id": "zakhar_ivanovich_govorkov",
+      "name": "Захар Иванович Говорков",
+      "full_name": "Захар Иванович Говорков",
+      "main": true,
+      "who": "биолог в разведывательной партии",
+      "aliases": "Захар Иванович Говорков; Захар Иванович; Захар; Захарваныч; Говорков; биолог",
+      "author_characterization": "весь обвешан сумками; щуплый; непонятый; взволнованный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "также назван Говорков; Захар; Захарваныч; один из «наших Иванычей»"
+    },
+    {
+      "id": "misha",
+      "name": "Миша",
+      "full_name": "Михаил",
+      "main": true,
+      "who": "геодезист, охотник и помощник в работах партии",
+      "aliases": "Миша",
+      "author_characterization": "человек полезный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "после гибели инструментов специальность неопределенная"
+    },
+    {
+      "id": "richka",
+      "name": "Ричка",
+      "full_name": "—",
+      "main": false,
+      "who": "собака партии",
+      "aliases": "Ричка",
+      "author_characterization": "белая; короткошерстая",
+      "gender": "мужской",
+      "age": "—",
+      "other": "погибает ночью"
+    },
+    {
+      "id": "konyukh",
+      "name": "Конюх",
+      "full_name": "—",
+      "main": false,
+      "who": "проводник коней и участник табора",
+      "aliases": "конюх",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "осматривает лошадей и остается на таборе"
+    },
+    {
+      "id": "gladun",
+      "name": "Гладун",
+      "full_name": "Гладун",
+      "main": false,
+      "who": "старый приискатель в партии",
+      "aliases": "Гладун; товарищ Гладун; старый приискатель",
+      "author_characterization": "старый; басит",
+      "gender": "мужской",
+      "age": "старый",
+      "other": "также назван товарищ Гладун"
+    },
+    {
+      "id": "kostya_krasnov",
+      "name": "Костя Краснов",
+      "full_name": "Костя Краснов",
+      "main": false,
+      "who": "молодой рабочий в партии",
+      "aliases": "Костя Краснов; Краснов",
+      "author_characterization": "молодой",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "также назван Краснов"
+    },
+    {
+      "id": "meganeyra",
+      "name": "Меганейра",
+      "full_name": "—",
+      "main": false,
+      "who": "огромная ископаемая стрекоза",
+      "aliases": "Меганейра; ископаемая стрекоза; стрекоза",
+      "author_characterization": "огромная; с крыльями почти метр в размахе; длинное толстое туловище",
+      "gender": "—",
+      "age": "—",
+      "other": "названа ископаемой стрекозой"
+    },
+    {
+      "id": "spirtonos",
+      "name": "Спиртонос",
+      "full_name": "—",
+      "main": false,
+      "who": "лошадь",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "подвергся нападению меганейры"
+    }
+  ],
+  "links": [
+    {
+      "source": "aleksandr_ivanovich",
+      "target": "zakhar_ivanovich_govorkov",
+      "types": [
+        "speech",
+        "co_presence_joint_action",
+        "help_support"
+      ],
+      "episode_count": 4,
+      "weight": 1,
+      "evidence": [
+        "Захар просит лупу у Александра Ивановича",
+        "Александр Иванович хвалит Захара за находку",
+        "Совместное руководство партией в тайге",
+        "Спасение Захара Ивановича из воды у водопада"
+      ],
+      "notes": "Захар просит лупу у Александра Ивановича; Александр Иванович хвалит Захара за находку; совместное руководство партией в тайге; спасение Захара Ивановича из воды у водопада"
+    },
+    {
+      "source": "zakhar_ivanovich_govorkov",
+      "target": "misha",
+      "types": [
+        "speech",
+        "request",
+        "help_support"
+      ],
+      "episode_count": 3,
+      "weight": 0.8,
+      "evidence": [
+        "Захар показывает Мише находку (крыло насекомого)",
+        "Захар зовет Мишу посмотреть на находку",
+        "Миша передает ружье Захару"
+      ],
+      "notes": "Захар показывает Мише находку; Захар зовет Мишу посмотреть на находку; Миша передает ружье Захару"
+    },
+    {
+      "source": "aleksandr_ivanovich",
+      "target": "misha",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Александр Иванович просит Мишу догнать Захара с ружьем"
+      ],
+      "notes": "Александр Иванович просит Мишу догнать Захара с ружьем"
+    },
+    {
+      "source": "konyukh",
+      "target": "aleksandr_ivanovich",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Конюх докладывает о раненой лошади"
+      ],
+      "notes": "Конюх докладывает о раненой лошади"
+    },
+    {
+      "source": "konyukh",
+      "target": "richka",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "Конюх слышит ночной лай Рички"
+      ],
+      "notes": "Конюх слышит ночной лай Рички"
+    },
+    {
+      "source": "gladun",
+      "target": "aleksandr_ivanovich",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Гладун говорит о «заклятом месте»"
+      ],
+      "notes": "Гладун говорит о «заклятом месте»"
+    },
+    {
+      "source": "gladun",
+      "target": "zakhar_ivanovich_govorkov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Разговор после ночного нападения стрекозы"
+      ],
+      "notes": "Разговор после ночного нападения стрекозы"
+    },
+    {
+      "source": "kostya_krasnov",
+      "target": "aleksandr_ivanovich",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Краснов признается, что проспал дежурство"
+      ],
+      "notes": "Краснов признается, что проспал дежурство"
+    },
+    {
+      "source": "kostya_krasnov",
+      "target": "gladun",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "Совместное ночное дежурство (в разные смены)"
+      ],
+      "notes": "Совместное ночное дежурство в разные смены"
+    },
+    {
+      "source": "meganeyra",
+      "target": "richka",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Стрекоза убивает собаку Ричку"
+      ],
+      "notes": "Стрекоза убивает собаку Ричку"
+    },
+    {
+      "source": "meganeyra",
+      "target": "spirtonos",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Стрекоза ранит лошадь Спиртоноса"
+      ],
+      "notes": "Стрекоза ранит лошадь Спиртоноса"
+    },
+    {
+      "source": "meganeyra",
+      "target": "gladun",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Стрекоза нападает на спящего Гладуна"
+      ],
+      "notes": "Стрекоза нападает на спящего Гладуна"
+    },
+    {
+      "source": "zakhar_ivanovich_govorkov",
+      "target": "meganeyra",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Захар преследует стрекозу к водопаду"
+      ],
+      "notes": "Захар преследует стрекозу к водопаду"
+    },
+    {
+      "source": "aleksandr_ivanovich",
+      "target": "meganeyra",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Александр Иванович стреляет в стрекозу из браунинга"
+      ],
+      "notes": "Александр Иванович стреляет в стрекозу из браунинга"
+    },
+    {
+      "source": "misha",
+      "target": "meganeyra",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Миша стреляет в стрекозу из централки у водопада"
+      ],
+      "notes": "Миша стреляет в стрекозу из централки у водопада"
+    }
+  ]
+}

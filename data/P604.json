@@ -1,0 +1,395 @@
+{
+  "id": "P604",
+  "author": "Оттен Николай Давидович",
+  "title": "Сады пятнистого оленя",
+  "year": 1947,
+  "nodes": [
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "—",
+      "main": true,
+      "who": "повествователь, участник поездки и облавы",
+      "aliases": "я",
+      "author_characterization": "какой я охотник",
+      "gender": "мужской",
+      "age": "—",
+      "other": "обозначен как «я»"
+    },
+    {
+      "id": "nikolay_vasilevich",
+      "name": "Николай Васильевич",
+      "full_name": "Николай Васильевич",
+      "main": true,
+      "who": "директор совхоза",
+      "aliases": "Николай Васильевич; директор; директор совхоза",
+      "author_characterization": "огорчён нападениями волков",
+      "gender": "мужской",
+      "age": "—",
+      "other": "организует работы и облаву"
+    },
+    {
+      "id": "olenevod",
+      "name": "Оленевод",
+      "full_name": "—",
+      "main": false,
+      "who": "работник оленьих садов",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "работает в оленьих садах"
+    },
+    {
+      "id": "pomoshchnik_olenevoda",
+      "name": "Помощник оленевода",
+      "full_name": "—",
+      "main": false,
+      "who": "помощник при обработке оленей",
+      "aliases": "верховой; помощник",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "участвует в снятии пантов"
+    },
+    {
+      "id": "valya",
+      "name": "Валя",
+      "full_name": "Валя",
+      "main": false,
+      "who": "участница облавы, уезжающая студентка",
+      "aliases": "Валя; учительница",
+      "author_characterization": "тоненькая, как тростиночка",
+      "gender": "женский",
+      "age": "девятнадцать лет",
+      "other": "руководит в эпизоде облавы, говорит от имени уезжающих"
+    },
+    {
+      "id": "tonya",
+      "name": "Тоня",
+      "full_name": "Тоня",
+      "main": false,
+      "who": "участница облавы",
+      "aliases": "Тося",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "пятнадцать-семнадцать лет",
+      "other": "далее названа Тосей"
+    },
+    {
+      "id": "varya",
+      "name": "Варя",
+      "full_name": "Варя",
+      "main": false,
+      "who": "участница облавы",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "пятнадцать-семнадцать лет",
+      "other": "едет учиться в Томск"
+    },
+    {
+      "id": "anya",
+      "name": "Аня",
+      "full_name": "Аня",
+      "main": false,
+      "who": "участница облавы",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "пятнадцать-семнадцать лет",
+      "other": "—"
+    },
+    {
+      "id": "tanya",
+      "name": "Таня",
+      "full_name": "Таня",
+      "main": false,
+      "who": "участница облавы",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "пятнадцать-семнадцать лет",
+      "other": "—"
+    },
+    {
+      "id": "vera",
+      "name": "Вера",
+      "full_name": "Вера",
+      "main": false,
+      "who": "участница облавы",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "пятнадцать-семнадцать лет",
+      "other": "—"
+    },
+    {
+      "id": "predsedatel_kolkhoza",
+      "name": "Председатель колхоза",
+      "full_name": "—",
+      "main": false,
+      "who": "руководитель соседнего колхоза",
+      "aliases": "председатель",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "участвует в согласовании совместной облавы"
+    },
+    {
+      "id": "zhenshchina_na_sobranii",
+      "name": "Женщина на собрании",
+      "full_name": "—",
+      "main": false,
+      "who": "участница собрания доярок",
+      "aliases": "одна из женщин",
+      "author_characterization": "постарше, подородней",
+      "gender": "женский",
+      "age": "старше других женщин на собрании",
+      "other": "высказывает причину отказа от дежурства"
+    }
+  ],
+  "links": [
+    {
+      "source": "nikolay_vasilevich",
+      "target": "rasskazchik",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 3,
+      "weight": 0.5,
+      "evidence": [
+        "совместная поездка и разговор о происходящем",
+        "совместная поездка в оленьи сады",
+        "совместная поездка к председателю колхоза для согласования облавы"
+      ],
+      "notes": "совместная поездка, разговор о происходящем, поездка в оленьи сады и к председателю колхоза"
+    },
+    {
+      "source": "nikolay_vasilevich",
+      "target": "olenevod",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "участвуют в работе в садах и вместе отгоняют оленей во время облавы"
+      ],
+      "notes": "участвуют в работе в садах и вместе отгоняют оленей во время облавы"
+    },
+    {
+      "source": "olenevod",
+      "target": "pomoshchnik_olenevoda",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "совместно проводят обработку оленя"
+      ],
+      "notes": "совместно проводят обработку оленя"
+    },
+    {
+      "source": "nikolay_vasilevich",
+      "target": "valya",
+      "types": [
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 3,
+      "weight": 0.7,
+      "evidence": [
+        "участвуют в общей подготовке и проведении облавы",
+        "Николай Васильевич представляет Валю рассказчику и группе",
+        "Валя прощается с руководителями совхоза"
+      ],
+      "notes": "участвуют в подготовке и проведении облавы; Николай Васильевич представляет Валю, Валя прощается с руководителями совхоза"
+    },
+    {
+      "source": "nikolay_vasilevich",
+      "target": "tonya",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "знакомит с Тоней",
+        "участвуют в общей подготовке и проведении облавы"
+      ],
+      "notes": "Николай Васильевич знакомит с Тоней; они участвуют в общей подготовке и проведении облавы"
+    },
+    {
+      "source": "nikolay_vasilevich",
+      "target": "varya",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "знакомит с Варей",
+        "участвуют в общей подготовке и проведении облавы"
+      ],
+      "notes": "Николай Васильевич знакомит с Варей; они участвуют в общей подготовке и проведении облавы"
+    },
+    {
+      "source": "nikolay_vasilevich",
+      "target": "anya",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "знакомит с Аней",
+        "участвуют в общей подготовке и проведении облавы"
+      ],
+      "notes": "Николай Васильевич знакомит с Аней; они участвуют в общей подготовке и проведении облавы"
+    },
+    {
+      "source": "nikolay_vasilevich",
+      "target": "tanya",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "знакомит с Таней",
+        "участвуют в общей подготовке и проведении облавы"
+      ],
+      "notes": "Николай Васильевич знакомит с Таней; они участвуют в общей подготовке и проведении облавы"
+    },
+    {
+      "source": "nikolay_vasilevich",
+      "target": "vera",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "знакомит с Верой",
+        "участвуют в общей подготовке и проведении облавы"
+      ],
+      "notes": "Николай Васильевич знакомит с Верой; они участвуют в общей подготовке и проведении облавы"
+    },
+    {
+      "source": "nikolay_vasilevich",
+      "target": "predsedatel_kolkhoza",
+      "types": [
+        "request",
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "предлагает совместную волчью облаву",
+        "обсуждают вопрос борьбы с волками"
+      ],
+      "notes": "Николай Васильевич предлагает совместную волчью облаву и обсуждает с председателем борьбу с волками"
+    },
+    {
+      "source": "predsedatel_kolkhoza",
+      "target": "zhenshchina_na_sobranii",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "на собрании обсуждается ночное дежурство",
+        "отказ женщины поддержать предложённое дежурство создаёт спорную ситуацию"
+      ],
+      "notes": "на собрании обсуждается ночное дежурство; отказ женщины поддержать дежурство создает спорную ситуацию"
+    },
+    {
+      "source": "valya",
+      "target": "tonya",
+      "types": [
+        "request"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Валя возвращает Тоню на место и велит не уходить от линии"
+      ],
+      "notes": "Валя возвращает Тоню на место и велит не уходить от линии"
+    },
+    {
+      "source": "valya",
+      "target": "varya",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "вместе входят в группу девушек-охотниц"
+      ],
+      "notes": "вместе входят в группу девушек-охотниц"
+    },
+    {
+      "source": "valya",
+      "target": "anya",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "вместе входят в группу девушек-охотниц"
+      ],
+      "notes": "вместе входят в группу девушек-охотниц"
+    },
+    {
+      "source": "valya",
+      "target": "tanya",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "вместе входят в группу девушек-охотниц"
+      ],
+      "notes": "вместе входят в группу девушек-охотниц"
+    },
+    {
+      "source": "valya",
+      "target": "vera",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "вместе входят в группу девушек-охотниц"
+      ],
+      "notes": "вместе входят в группу девушек-охотниц"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "valya",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "остаются охотиться вместе после ухода директора и оленевода"
+      ],
+      "notes": "остаются охотиться вместе после ухода директора и оленевода"
+    }
+  ]
+}

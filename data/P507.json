@@ -1,0 +1,489 @@
+{
+  "id": "P507",
+  "author": "Гансовский Север",
+  "title": "Двадцать минут",
+  "year": 1970,
+  "nodes": [
+    {
+      "id": "misha_andreev",
+      "name": "Миша Андреев",
+      "full_name": "Михаил Андреев",
+      "main": true,
+      "who": "боец, часовой, размышляющий о войне и своей жизни",
+      "aliases": "Миша; Андреев; Мишенька",
+      "author_characterization": "задумчивый, рефлексирующий, чувствительный",
+      "gender": "мужской",
+      "age": "18",
+      "other": "студент до войны"
+    },
+    {
+      "id": "nikolay_biryukov",
+      "name": "Николай Бирюков",
+      "full_name": "Николай Бирюков",
+      "main": false,
+      "who": "боец взвода, разговаривает с Мишей",
+      "aliases": "Николай; Бирюков",
+      "author_characterization": "щуплый, тревожный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "efremov",
+      "name": "Ефремов",
+      "full_name": "—",
+      "main": false,
+      "who": "боец, склонный к дезертирству",
+      "aliases": "—",
+      "author_characterization": "самоуверенный, практичный, циничный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "планирует скрыться"
+    },
+    {
+      "id": "leytenant_fedorov",
+      "name": "Лейтенант Федоров",
+      "full_name": "Алексей Федоров",
+      "main": true,
+      "who": "командир взвода",
+      "aliases": "лейтенант; Федоров; Леша; Лешка; Алексей; мальчишка лейтенант",
+      "author_characterization": "молодой, ответственный, решительный",
+      "gender": "мужской",
+      "age": "18-19",
+      "other": "москвич"
+    },
+    {
+      "id": "nina_solovyeva",
+      "name": "Нина Соловьева",
+      "full_name": "Нина Соловьева",
+      "main": true,
+      "who": "санинструктор",
+      "aliases": "Нина; Соловьева; девушка; санинструктор",
+      "author_characterization": "живая, эмоциональная, сильная",
+      "gender": "женский",
+      "age": "—",
+      "other": "москвичка"
+    },
+    {
+      "id": "klepikov",
+      "name": "Клепиков",
+      "full_name": "Иван Клепиков",
+      "main": false,
+      "who": "сержант, боец взвода",
+      "aliases": "Иван",
+      "author_characterization": "исполнительный, простой",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "razuvaev",
+      "name": "Разуваев",
+      "full_name": "—",
+      "main": false,
+      "who": "боец, сибиряк",
+      "aliases": "Володя; Разуваев; Володька",
+      "author_characterization": "добродушный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "tishchenko",
+      "name": "Тищенко",
+      "full_name": "—",
+      "main": false,
+      "who": "агроном, боец",
+      "aliases": "агроном",
+      "author_characterization": "усталый, рассудительный",
+      "gender": "мужской",
+      "age": "37 лет",
+      "other": "агроном"
+    },
+    {
+      "id": "evseev",
+      "name": "Евсеев",
+      "full_name": "—",
+      "main": false,
+      "who": "опытный солдат",
+      "aliases": "—",
+      "author_characterization": "опытный, практичный",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "vanya",
+      "name": "Ваня",
+      "full_name": "—",
+      "main": false,
+      "who": "мальчик из деревни",
+      "aliases": "мальчик; Ваня; мальчишка",
+      "author_characterization": "местный, испуганный",
+      "gender": "мужской",
+      "age": "мальчик",
+      "other": "из Березовки"
+    },
+    {
+      "id": "mayor_tokarev",
+      "name": "Майор Токарев",
+      "full_name": "Токарев",
+      "main": false,
+      "who": "командир, принимает взвод под командование",
+      "aliases": "майор; Токарев",
+      "author_characterization": "опытный, усталый",
+      "gender": "мужской",
+      "age": "—",
+      "other": "командир дивизии"
+    }
+  ],
+  "links": [
+    {
+      "source": "misha_andreev",
+      "target": "nikolay_biryukov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Разговор о войне и чувствах"
+      ],
+      "notes": "разговор о войне и чувствах"
+    },
+    {
+      "source": "misha_andreev",
+      "target": "efremov",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "Общение на улице",
+        "Конфликт из-за вежливости и оружия"
+      ],
+      "notes": "общение на улице и конфликт из-за вежливости и оружия"
+    },
+    {
+      "source": "leytenant_fedorov",
+      "target": "nina_solovyeva",
+      "types": [
+        "speech",
+        "help_support"
+      ],
+      "episode_count": 3,
+      "weight": 0.9,
+      "evidence": [
+        "Нина предлагает перевязать рану",
+        "Нина предлагает перевязать рану",
+        "Говорят о смерти Ефремова"
+      ],
+      "notes": "Нина предлагает перевязать рану лейтенанту; они говорят о смерти Ефремова"
+    },
+    {
+      "source": "razuvaev",
+      "target": "nina_solovyeva",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 4,
+      "weight": 1,
+      "evidence": [
+        "Говорят о снеге",
+        "Говорят про театр",
+        "Говорят про фотографии",
+        "Общение о фотографиях"
+      ],
+      "notes": "Разуваев и Нина говорят о снеге, театре и фотографиях"
+    },
+    {
+      "source": "leytenant_fedorov",
+      "target": "klepikov",
+      "types": [
+        "speech",
+        "request"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "Клепиков предлагает взять лопату, телефонный провод",
+        "Отдает приказы"
+      ],
+      "notes": "Клепиков предлагает взять лопату и телефонный провод; лейтенант отдает приказы"
+    },
+    {
+      "source": "leytenant_fedorov",
+      "target": "vanya",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Допрос мальчика"
+      ],
+      "notes": "лейтенант допрашивает мальчика"
+    },
+    {
+      "source": "efremov",
+      "target": "leytenant_fedorov",
+      "types": [
+        "speech",
+        "transfer",
+        "conflict"
+      ],
+      "episode_count": 4,
+      "weight": 1,
+      "evidence": [
+        "Ефремов предлагает лейтенанту сало",
+        "Ефремов предлагает лейтенанту сало",
+        "Ефремов предлагает лейтенанту отступать",
+        "Спор о необходимости отступления"
+      ],
+      "notes": "Ефремов предлагает лейтенанту сало, обсуждает с ним дальнейшие действия и спорит о необходимости отступления"
+    },
+    {
+      "source": "tishchenko",
+      "target": "vanya",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Тищенко спрашивает Ваню про немцев"
+      ],
+      "notes": "Тищенко спрашивает Ваню про немцев"
+    },
+    {
+      "source": "nina_solovyeva",
+      "target": "vanya",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Нина присоединяется к разговору о немцах"
+      ],
+      "notes": "Нина присоединяется к разговору о немцах"
+    },
+    {
+      "source": "efremov",
+      "target": "vanya",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Ефремов присоединяется к разговору о немцах"
+      ],
+      "notes": "Ефремов присоединяется к разговору о немцах"
+    },
+    {
+      "source": "evseev",
+      "target": "klepikov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Говорят про снаряды"
+      ],
+      "notes": "говорят про снаряды"
+    },
+    {
+      "source": "vanya",
+      "target": "klepikov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Мальчик обращается к Клепикову как к самому доброму"
+      ],
+      "notes": "мальчик обращается к Клепикову как к самому доброму"
+    },
+    {
+      "source": "misha_andreev",
+      "target": "nina_solovyeva",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 4,
+      "weight": 1,
+      "evidence": [
+        "Говорят, сидя рядом",
+        "Нина спрашивает Мишу про танцы",
+        "Говорят о смерти Ефремова",
+        "Нина спрашивает, красивая ли она, и дальнейший диалог"
+      ],
+      "notes": "Миша и Нина разговаривают, сидя рядом; говорят о танцах, смерти Ефремова и личных чувствах"
+    },
+    {
+      "source": "razuvaev",
+      "target": "klepikov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Клепиков комментирует фотографии Разуваева"
+      ],
+      "notes": "Клепиков комментирует фотографии Разуваева"
+    },
+    {
+      "source": "efremov",
+      "target": "nina_solovyeva",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 4,
+      "weight": 1,
+      "evidence": [
+        "Ефремов предлагает Нине сесть ближе",
+        "Нина резко отказывает",
+        "Попытка склонить к побегу",
+        "Убийство Ефремова"
+      ],
+      "notes": "Ефремов общается с Ниной, пытается склонить ее к побегу; между ними возникает конфликт, завершающийся убийством Ефремова"
+    },
+    {
+      "source": "klepikov",
+      "target": "efremov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Обсуждение боя и техники"
+      ],
+      "notes": "обсуждение боя и техники"
+    },
+    {
+      "source": "leytenant_fedorov",
+      "target": "misha_andreev",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Обсуждение ситуации и решений"
+      ],
+      "notes": "обсуждение ситуации и решений"
+    },
+    {
+      "source": "mayor_tokarev",
+      "target": "leytenant_fedorov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Обсуждение позиции и приказов"
+      ],
+      "notes": "майор и лейтенант обсуждают позицию и приказы"
+    },
+    {
+      "source": "mayor_tokarev",
+      "target": "efremov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Токарев обращается к Ефремову"
+      ],
+      "notes": "Токарев обращается к Ефремову"
+    },
+    {
+      "source": "mayor_tokarev",
+      "target": "nina_solovyeva",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Нина отвечает Токареву"
+      ],
+      "notes": "Нина отвечает Токареву"
+    },
+    {
+      "source": "tishchenko",
+      "target": "razuvaev",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Общение о фотографиях"
+      ],
+      "notes": "общение о фотографиях"
+    },
+    {
+      "source": "misha_andreev",
+      "target": "razuvaev",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Общение о фотографиях"
+      ],
+      "notes": "общение о фотографиях"
+    },
+    {
+      "source": "nikolay_biryukov",
+      "target": "razuvaev",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Общение о фотографиях"
+      ],
+      "notes": "общение о фотографиях"
+    },
+    {
+      "source": "leytenant_fedorov",
+      "target": "razuvaev",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Общение о фотографиях"
+      ],
+      "notes": "общение о фотографиях"
+    },
+    {
+      "source": "nikolay_biryukov",
+      "target": "leytenant_fedorov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Бирюков сообщает о пехоте"
+      ],
+      "notes": "Бирюков сообщает лейтенанту о пехоте"
+    }
+  ]
+}

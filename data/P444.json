@@ -1,0 +1,205 @@
+{
+  "id": "P444",
+  "author": "Левин Кирилл Яковлевич",
+  "title": "Большой дом",
+  "year": 1949,
+  "nodes": [
+    {
+      "id": "stepan_ignatovich",
+      "name": "Степан Игнатович",
+      "full_name": "Степан Игнатович",
+      "main": true,
+      "who": "старый рабочий, отец Николая",
+      "aliases": "Игнатыч; Громов; старик; отец; батя",
+      "author_characterization": "старик; волнуется; привязан к заводу и сыну",
+      "gender": "мужской",
+      "age": "пожилой",
+      "other": "также назван Игнатыч, Громов"
+    },
+    {
+      "id": "nikolay",
+      "name": "Николай",
+      "full_name": "Николай Громов",
+      "main": true,
+      "who": "сын Степана Игнатовича, заводской работник",
+      "aliases": "Колька; Николай мой; сын",
+      "author_characterization": "рослый, белокурый, умелый, уверенный в себе",
+      "gender": "мужской",
+      "age": "—",
+      "other": "также назван Колька, Николай мой, сын"
+    },
+    {
+      "id": "zhena_stepana_ignatovicha",
+      "name": "Жена Степана Игнатовича",
+      "full_name": "Маша",
+      "main": false,
+      "who": "жена Степана Игнатовича, мать Николая",
+      "aliases": "Маша; жена; мать; старуха",
+      "author_characterization": "лицо заплакано, руки дрожали; старуха",
+      "gender": "женский",
+      "age": "пожилая",
+      "other": "также названа жена, мать"
+    },
+    {
+      "id": "semen_ivanovich",
+      "name": "Семен Иванович",
+      "full_name": "Семен Иванович",
+      "main": false,
+      "who": "главный инженер завода, позже директор",
+      "aliases": "Семен Иваныч; главный инженер; инженер; директор",
+      "author_characterization": "пожилой; с насмешливыми глазами; с вечной трубкой в зубах; сутулый, с рыжими усами",
+      "gender": "мужской",
+      "age": "пожилой",
+      "other": "также назван Семен Иваныч, инженер"
+    },
+    {
+      "id": "volodka",
+      "name": "Володька",
+      "full_name": "—",
+      "main": false,
+      "who": "внук Степана Игнатовича, сын Николая",
+      "aliases": "внук",
+      "author_characterization": "от усердия высунув язык",
+      "gender": "мужской",
+      "age": "ребенок",
+      "other": "также назван внук"
+    },
+    {
+      "id": "direktor_zavoda",
+      "name": "Директор завода",
+      "full_name": "—",
+      "main": false,
+      "who": "директор завода",
+      "aliases": "директор",
+      "author_characterization": "высокий, еще молодой; со Звездой Героя Социалистического Труда на груди",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "—"
+    },
+    {
+      "id": "prokhorov",
+      "name": "Прохоров",
+      "full_name": "Прохоров",
+      "main": false,
+      "who": "сменщик Степана Игнатовича, старый мастер",
+      "aliases": "сменщик; старый мастер",
+      "author_characterization": "худощавая фигурка; старый",
+      "gender": "мужской",
+      "age": "пожилой",
+      "other": "также назван сменщик"
+    },
+    {
+      "id": "sekretar_partkoma",
+      "name": "Секретарь парткома",
+      "full_name": "—",
+      "main": false,
+      "who": "секретарь парткома",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    }
+  ],
+  "links": [
+    {
+      "source": "stepan_ignatovich",
+      "target": "zhena_stepana_ignatovicha",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Разговор о сборах в Москву и решении Николая остаться"
+      ],
+      "notes": "Степан Игнатович и жена обсуждают сборы в Москву и решение Николая остаться"
+    },
+    {
+      "source": "stepan_ignatovich",
+      "target": "volodka",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Разговор в комнате Николая («Отца нет?»)"
+      ],
+      "notes": "Степан Игнатович разговаривает с Володькой в комнате Николая"
+    },
+    {
+      "source": "stepan_ignatovich",
+      "target": "nikolay",
+      "types": [
+        "speech",
+        "help_support",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 5,
+      "weight": 1,
+      "evidence": [
+        "Встреча в цехе, разговор о делах",
+        "Совместная работа над чертежом (предложение по станку)",
+        "Спор и обсуждение чертежа",
+        "Встреча в парткоме",
+        "Прогулка по улице после парткома"
+      ],
+      "notes": "Степан Игнатович и Николай разговаривают в цехе и парткоме, вместе обсуждают чертеж и идут по улице"
+    },
+    {
+      "source": "stepan_ignatovich",
+      "target": "semen_ivanovich",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "Разговор на заводе («Едешь, Степан Игнатович?»)",
+        "Осмотр завода и прощание на перроне"
+      ],
+      "notes": "Степан Игнатович и Семен Иванович разговаривают на заводе, вместе осматривают завод и прощаются на перроне"
+    },
+    {
+      "source": "stepan_ignatovich",
+      "target": "prokhorov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Прохоров сообщает о приезде сына"
+      ],
+      "notes": "Прохоров сообщает Степану Игнатовичу о приезде сына"
+    },
+    {
+      "source": "nikolay",
+      "target": "sekretar_partkoma",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Разговор в парткоме"
+      ],
+      "notes": "Николай разговаривает с секретарем парткома"
+    },
+    {
+      "source": "direktor_zavoda",
+      "target": "stepan_ignatovich",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Прощание на перроне"
+      ],
+      "notes": "Директор завода прощается со Степаном Игнатовичем на перроне"
+    }
+  ]
+}

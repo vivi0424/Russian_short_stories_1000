@@ -1,0 +1,256 @@
+{
+  "id": "S104",
+  "author": "Беленсон-Лугин Александр Эммануилович",
+  "title": "Египетская предсказательница",
+  "year": 1921,
+  "nodes": [
+    {
+      "id": "yakov_bauman",
+      "name": "Яков Бауман",
+      "full_name": "Яков Бауман",
+      "main": true,
+      "who": "центральный персонаж, любитель философских и мистических размышлений",
+      "aliases": "Яков; философ; мечтатель",
+      "author_characterization": "молодой еще, среднего роста, худощавый, задумчивый, с мечтательным выражением глаз",
+      "gender": "мужской",
+      "age": "около 33 лет",
+      "other": "собирался писать трактат; сохранил старинный перстень"
+    },
+    {
+      "id": "pokinutaya_nevesta",
+      "name": "Покинутая невеста",
+      "full_name": "—",
+      "main": false,
+      "who": "бывшая невеста Якова Баумана",
+      "aliases": "бывшая невеста; невеста",
+      "author_characterization": "прелестное создание",
+      "gender": "женский",
+      "age": "—",
+      "other": "подарила Якову старинный золотой перстень"
+    },
+    {
+      "id": "neznakomets",
+      "name": "Незнакомец",
+      "full_name": "—",
+      "main": false,
+      "who": "таинственный спутник Якова Баумана в видении",
+      "aliases": "таинственный спутник",
+      "author_characterization": "суровый, с неслыханно-нежным голосом",
+      "gender": "мужской",
+      "age": "—",
+      "other": "ведет Якова Баумана"
+    },
+    {
+      "id": "prekrasnaya_gospozha",
+      "name": "Прекрасная госпожа",
+      "full_name": "—",
+      "main": false,
+      "who": "молодая женщина в видении",
+      "aliases": "молодая женщина; прекрасная женщина; видение",
+      "author_characterization": "несказанно-прекрасная, чрезвычайно бледная",
+      "gender": "женский",
+      "age": "молодая",
+      "other": "в гладком черном платье"
+    },
+    {
+      "id": "odin_iz_pyati_muzhchin",
+      "name": "Один из пяти мужчин",
+      "full_name": "—",
+      "main": false,
+      "who": "мужчина в зале, подходит к Якову Бауману",
+      "aliases": "мужчина у круглого стола",
+      "author_characterization": "бритый, во фраке",
+      "gender": "мужской",
+      "age": "—",
+      "other": "один из пятерых у круглого стола"
+    },
+    {
+      "id": "drug",
+      "name": "Друг",
+      "full_name": "—",
+      "main": false,
+      "who": "спутник Якова Баумана во сне",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "идет с Яковом по дороге"
+    },
+    {
+      "id": "sosedka",
+      "name": "Соседка",
+      "full_name": "—",
+      "main": false,
+      "who": "женщина, прислуживающая Якову Бауману",
+      "aliases": "добрая соседка; женщина, прислуживавшая ему",
+      "author_characterization": "претолстая, добрая, добродушная",
+      "gender": "женский",
+      "age": "—",
+      "other": "соседка Якова"
+    },
+    {
+      "id": "priezzhaya_dama",
+      "name": "Приезжая дама",
+      "full_name": "—",
+      "main": false,
+      "who": "дама, приезжавшая к Якову Бауману",
+      "aliases": "дама; приезжая",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "имя не названо"
+    },
+    {
+      "id": "mat_yakova",
+      "name": "Мать Якова",
+      "full_name": "—",
+      "main": false,
+      "who": "мать, является в видении",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "юная (во сне Баумана)",
+      "other": "привилилась Бауману юной и веселой"
+    },
+    {
+      "id": "sobachka_nakhodka",
+      "name": "Собачка Находка",
+      "full_name": "Находка",
+      "main": false,
+      "who": "чёрная собачка Якова, появляется во сне",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "является другом и любимой собачкой Баумана"
+    }
+  ],
+  "links": [
+    {
+      "source": "pokinutaya_nevesta",
+      "target": "yakov_bauman",
+      "types": [
+        "transfer",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "Дарение старинного золотого перстня",
+        "Исчезновение перед свадьбой"
+      ],
+      "notes": "покинутая невеста дарит Якову Бауману перстень; Яков исчезает перед свадьбой"
+    },
+    {
+      "source": "neznakomets",
+      "target": "yakov_bauman",
+      "types": [
+        "speech",
+        "help_support",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 3,
+      "weight": 0.7,
+      "evidence": [
+        "«Пойдемте» — первое появление",
+        "Провожает через городской вал и в дом",
+        "Совместный путь, почти бег"
+      ],
+      "notes": "незнакомец говорит с Яковом Бауманом, сопровождает его и ведет через пространство видения"
+    },
+    {
+      "source": "prekrasnaya_gospozha",
+      "target": "yakov_bauman",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "Встреча в голубом свете, Яков падает на колени"
+      ],
+      "notes": "Яков Бауман встречает прекрасную госпожу в видении"
+    },
+    {
+      "source": "yakov_bauman",
+      "target": "mat_yakova",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "Видение матери, гладящей по глазам"
+      ],
+      "notes": "Якову Бауману является видение матери"
+    },
+    {
+      "source": "odin_iz_pyati_muzhchin",
+      "target": "yakov_bauman",
+      "types": [
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "Берёт за руку, подводит к окну",
+        "«Спешите» (трижды)"
+      ],
+      "notes": "один из пяти мужчин берет Якова Баумана за руку, подводит к окну и обращается к нему"
+    },
+    {
+      "source": "drug",
+      "target": "yakov_bauman",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "Совместная прогулка во сне"
+      ],
+      "notes": "друг сопровождает Якова Баумана во сне"
+    },
+    {
+      "source": "yakov_bauman",
+      "target": "sobachka_nakhodka",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "Собачка лижет руки, разговаривает"
+      ],
+      "notes": "собачка Находка сопровождает Якова Баумана во сне"
+    },
+    {
+      "source": "sosedka",
+      "target": "yakov_bauman",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "Сообщение о приезде дамы",
+        "Объявление об отъезде"
+      ],
+      "notes": "соседка сообщает Якову Бауману о приезде дамы; Яков говорит соседке об отъезде"
+    },
+    {
+      "source": "sosedka",
+      "target": "priezzhaya_dama",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "Соседка встречает даму"
+      ],
+      "notes": "соседка встречает приезжую даму и сообщает о ней"
+    }
+  ]
+}

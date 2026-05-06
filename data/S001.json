@@ -1,0 +1,145 @@
+{
+  "id": "S001",
+  "author": "Амфитеатров Александр Валентинович",
+  "title": "Курортный муж",
+  "year": 1911,
+  "nodes": [
+    {
+      "id": "rasskazchik",
+      "name": "Рассказчик",
+      "full_name": "—",
+      "main": true,
+      "who": "повествователь, слушающий или воображающий монолог незнакомца",
+      "aliases": "я",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "лежит у моря в Поццуоли"
+    },
+    {
+      "id": "neznakomets",
+      "name": "Незнакомец",
+      "full_name": "Николай Иванович",
+      "main": true,
+      "who": "курортный муж, ведущий длинный монолог о своей супружеской жизни",
+      "aliases": "Николай Иванович; курортный муж; муж",
+      "author_characterization": "сырой комплекции; с катаром желудка, одышкой, приливами к голове; мягкий, робкий",
+      "gender": "мужской",
+      "age": "около пятидесяти лет",
+      "other": "называет себя «курортным мужем»"
+    },
+    {
+      "id": "evgeniya_semenovna",
+      "name": "Евгения Семеновна",
+      "full_name": "Евгения Семеновна",
+      "main": false,
+      "who": "жена Николая Ивановича",
+      "aliases": "Евгения; моя супруга; супруга; жена",
+      "author_characterization": "«царица дачного сезона» в прошлом; пышная; тщеславная",
+      "gender": "женский",
+      "age": "за сорок лет",
+      "other": "любит курорты и купания"
+    },
+    {
+      "id": "papasha_nikolaya_ivanovicha",
+      "name": "Папаша Николая Ивановича",
+      "full_name": "—",
+      "main": false,
+      "who": "отец Николая Ивановича",
+      "aliases": "папаша; батька",
+      "author_characterization": "строгий и философ",
+      "gender": "мужской",
+      "age": "—",
+      "other": "воспитывал сына в строгости"
+    },
+    {
+      "id": "femistokl_alkiviadovich_alfonsopulo",
+      "name": "Фемистокл Алкивиадович Альфонсопуло",
+      "full_name": "Фемистокл Алкивиадович Альфонсопуло",
+      "main": false,
+      "who": "репетитор в семье Николая Ивановича",
+      "aliases": "Фемистокл Алкивиадович; Альфонсопуло",
+      "author_characterization": "у него «нос более греческий» и «глаза маслинами»",
+      "gender": "мужской",
+      "age": "—",
+      "other": "—"
+    }
+  ],
+  "links": [
+    {
+      "source": "rasskazchik",
+      "target": "neznakomets",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "разговор на берегу",
+        "оба находятся под утесом у моря"
+      ],
+      "notes": "разговор на берегу и совместное присутствие под утесом у моря"
+    },
+    {
+      "source": "neznakomets",
+      "target": "evgeniya_semenovna",
+      "types": [
+        "speech",
+        "conflict",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 5,
+      "weight": 1,
+      "evidence": [
+        "признание Евгении в том, что у нее симпатия к другому мужчине",
+        "разговор о непригодности репетитора",
+        "обсуждение ее наряда",
+        "супружеское противостояние и взаимное унижение",
+        "совместные поездки и курортная жизнь"
+      ],
+      "notes": "супружеские разговоры, признание Евгении, спор о репетиторе, обсуждение наряда, взаимное унижение и совместная курортная жизнь"
+    },
+    {
+      "source": "papasha_nikolaya_ivanovicha",
+      "target": "neznakomets",
+      "types": [
+        "speech",
+        "conflict"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "отец наставляет и поучает сына",
+        "отец бил сына "
+      ],
+      "notes": "отец наставляет, поучает и бьет сына"
+    },
+    {
+      "source": "evgeniya_semenovna",
+      "target": "femistokl_alkiviadovich_alfonsopulo",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "Евгения возит его с собой по курортам"
+      ],
+      "notes": "Евгения возит Фемистокла Алкивиадовича с собой по курортам"
+    },
+    {
+      "source": "neznakomets",
+      "target": "femistokl_alkiviadovich_alfonsopulo",
+      "types": [
+        "conflict"
+      ],
+      "episode_count": 1,
+      "weight": 0.2,
+      "evidence": [
+        "Николай Иванович враждебно относится к репетитору"
+      ],
+      "notes": "Николай Иванович враждебно относится к репетитору"
+    }
+  ]
+}

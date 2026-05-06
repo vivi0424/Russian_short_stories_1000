@@ -1,0 +1,470 @@
+{
+  "id": "P351",
+  "author": "Рыбас Святослав Юрьевич",
+  "title": "След",
+  "year": 1981,
+  "nodes": [
+    {
+      "id": "vitaly_ivanovich_lukyanov",
+      "name": "Виталий Иванович Лукьянов",
+      "full_name": "Виталий Иванович Лукьянов",
+      "main": true,
+      "who": "рассказчик, профессор, дед",
+      "aliases": "Виталий; Лукьянов; Витаха",
+      "author_characterization": "замкнутый, рефлексирующий, строгий к себе",
+      "gender": "муж",
+      "age": "старик",
+      "other": "—"
+    },
+    {
+      "id": "lyuba",
+      "name": "Люба",
+      "full_name": "—",
+      "main": false,
+      "who": "внучка",
+      "aliases": "внучка",
+      "author_characterization": "решительная, сильная",
+      "gender": "жен",
+      "age": "молодая",
+      "other": "мать Виташи"
+    },
+    {
+      "id": "vitasha",
+      "name": "Виташа",
+      "full_name": "—",
+      "main": false,
+      "who": "правнук",
+      "aliases": "правнук",
+      "author_characterization": "ребенок, доверчивый",
+      "gender": "муж",
+      "age": "ребенок",
+      "other": "тезка героя"
+    },
+    {
+      "id": "avrora_alekseevna",
+      "name": "Аврора Алексеевна",
+      "full_name": "Аврора Алексеевна",
+      "main": false,
+      "who": "знакомая, вдова",
+      "aliases": "Аврора",
+      "author_characterization": "деликатная, заботливая",
+      "gender": "жен",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "storozh",
+      "name": "Сторож",
+      "full_name": "—",
+      "main": false,
+      "who": "сосед по даче",
+      "aliases": "—",
+      "author_characterization": "настойчивый, практичный",
+      "gender": "муж",
+      "age": "около 60",
+      "other": "—"
+    },
+    {
+      "id": "storozhikha",
+      "name": "Сторожиха",
+      "full_name": "—",
+      "main": false,
+      "who": "жена сторожа",
+      "aliases": "—",
+      "author_characterization": "навязчивая, разговорчивая",
+      "gender": "жен",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "denis",
+      "name": "Денис",
+      "full_name": "—",
+      "main": false,
+      "who": "сожитель Любы",
+      "aliases": "—",
+      "author_characterization": "спокойный, дружелюбный",
+      "gender": "муж",
+      "age": "около 35",
+      "other": "отец другого ребенка"
+    },
+    {
+      "id": "anton",
+      "name": "Антон",
+      "full_name": "Антон",
+      "main": false,
+      "who": "брат жены героя",
+      "aliases": "Антон; шурин",
+      "author_characterization": "прямой, откровенный",
+      "gender": "муж",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "ivan_grigoryevich",
+      "name": "Иван Григорьевич",
+      "full_name": "Иван Григорьевич Лукьянов",
+      "main": false,
+      "who": "отец героя",
+      "aliases": "—",
+      "author_characterization": "смелый, горячий",
+      "gender": "муж",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "vera",
+      "name": "Вера",
+      "full_name": "Вера Петровна",
+      "main": false,
+      "who": "жена героя",
+      "aliases": "—",
+      "author_characterization": "заботливая",
+      "gender": "жен",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "nikolay",
+      "name": "Николай",
+      "full_name": "Николай",
+      "main": false,
+      "who": "сын героя",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "муж",
+      "age": "—",
+      "other": "погиб в шахте"
+    },
+    {
+      "id": "irina",
+      "name": "Ирина",
+      "full_name": "Ирина",
+      "main": false,
+      "who": "дочь героя",
+      "aliases": "—",
+      "author_characterization": "—",
+      "gender": "жен",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "lobanov",
+      "name": "Лобанов",
+      "full_name": "—",
+      "main": false,
+      "who": "врач",
+      "aliases": "—",
+      "author_characterization": "спокойный, рассуждающий",
+      "gender": "муж",
+      "age": "около 28 (в прошлом)",
+      "other": "—"
+    },
+    {
+      "id": "zinchenko",
+      "name": "Зинченко",
+      "full_name": "—",
+      "main": false,
+      "who": "начальник шахты",
+      "aliases": "—",
+      "author_characterization": "решительный",
+      "gender": "муж",
+      "age": "—",
+      "other": "—"
+    },
+    {
+      "id": "fedor_gavrilovich_kuznetsov",
+      "name": "Федор Гаврилович Кузнецов",
+      "full_name": "Федор Гаврилович Кузнецов",
+      "main": false,
+      "who": "отчим героя",
+      "aliases": "отчим",
+      "author_characterization": "бесстрашный, решительный",
+      "gender": "муж",
+      "age": "взрослый",
+      "other": "после возвращения героя поручился за него"
+    },
+    {
+      "id": "timoshenko",
+      "name": "Тимошенко",
+      "full_name": "—",
+      "main": false,
+      "who": "друг и сосед героя по даче, коллега",
+      "aliases": "—",
+      "author_characterization": "общительный, уверенный",
+      "gender": "муж",
+      "age": "взрослый",
+      "other": "важный персонаж воспоминаний"
+    },
+    {
+      "id": "grigory_lukyanov",
+      "name": "Григорий Лукьянов",
+      "full_name": "Григорий Лукьянов",
+      "main": false,
+      "who": "дед героя",
+      "aliases": "дед; дед Григорий",
+      "author_characterization": "предприимчивый, жесткий",
+      "gender": "муж",
+      "age": "—",
+      "other": "в его честь назван топоним Лукьяновка"
+    }
+  ],
+  "links": [
+    {
+      "source": "vitaly_ivanovich_lukyanov",
+      "target": "lyuba",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 5,
+      "weight": 1,
+      "evidence": [
+        "«Люба, а наш парень растет»",
+        "«Что?»"
+      ],
+      "notes": "разговоры и обсуждения; разговор после случая с соседкой-мошенницей; разговор в электричке; разговор про Аврору Алексеевну; разговор про Дениса"
+    },
+    {
+      "source": "vitaly_ivanovich_lukyanov",
+      "target": "vitasha",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 5,
+      "weight": 1,
+      "evidence": [
+        "рассказы, разговоры о природе"
+      ],
+      "notes": "разговоры, рассказы и обучение; поезд и разговор о дне; сказки на ночь; прогулка к ручью; разговор после удара ногой; финальная сцена с «зеленым всадником»"
+    },
+    {
+      "source": "lyuba",
+      "target": "vitasha",
+      "types": [
+        "kinship_social"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Не хочу с мамой, хочу с дедушкой!»"
+      ],
+      "notes": "мать и сын"
+    },
+    {
+      "source": "vitaly_ivanovich_lukyanov",
+      "target": "avrora_alekseevna",
+      "types": [
+        "co_presence_joint_action",
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "«Сходили»",
+        "«Мы условились встретиться»"
+      ],
+      "notes": "поход на кладбище; разговоры"
+    },
+    {
+      "source": "vitaly_ivanovich_lukyanov",
+      "target": "storozh",
+      "types": [
+        "conflict",
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.5,
+      "evidence": [
+        "«Рублей пятьдесят»",
+        "разговор о компенсации"
+      ],
+      "notes": "требование денег; переговоры"
+    },
+    {
+      "source": "storozhikha",
+      "target": "vitaly_ivanovich_lukyanov",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«может, вам неловко сделать ей предложение»"
+      ],
+      "notes": "советы о женитьбе"
+    },
+    {
+      "source": "lyuba",
+      "target": "denis",
+      "types": [
+        "kinship_social"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«скоро выйдет замуж»"
+      ],
+      "notes": "отношения"
+    },
+    {
+      "source": "denis",
+      "target": "vitasha",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«играл с ним в футбол»"
+      ],
+      "notes": "игры"
+    },
+    {
+      "source": "vitaly_ivanovich_lukyanov",
+      "target": "anton",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«спросил у меня Антон»"
+      ],
+      "notes": "разговор"
+    },
+    {
+      "source": "vitaly_ivanovich_lukyanov",
+      "target": "lobanov",
+      "types": [
+        "help_support",
+        "speech"
+      ],
+      "episode_count": 2,
+      "weight": 0.6,
+      "evidence": [
+        "«делал мне перевязку»",
+        "«Вы еще в возрасте чувств»"
+      ],
+      "notes": "медицинская помощь; разговор"
+    },
+    {
+      "source": "vitaly_ivanovich_lukyanov",
+      "target": "zinchenko",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«сидел и слушал»"
+      ],
+      "notes": "работа при спасении"
+    },
+    {
+      "source": "vitaly_ivanovich_lukyanov",
+      "target": "vera",
+      "types": [
+        "kinship_social"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«А где моя жена Вера?»"
+      ],
+      "notes": "муж и жена"
+    },
+    {
+      "source": "vitaly_ivanovich_lukyanov",
+      "target": "nikolay",
+      "types": [
+        "kinship_social"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Мне надо было еще сходить на могилу сына»"
+      ],
+      "notes": "отец и сын"
+    },
+    {
+      "source": "vitaly_ivanovich_lukyanov",
+      "target": "irina",
+      "types": [
+        "kinship_social"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«И где-то далеко живет моя дочь Ирина»"
+      ],
+      "notes": "отец и дочь"
+    },
+    {
+      "source": "vitaly_ivanovich_lukyanov",
+      "target": "ivan_grigoryevich",
+      "types": [
+        "kinship_social"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Мой отец Иван Григорьевич был штейгером на руднике»"
+      ],
+      "notes": "сын и отец"
+    },
+    {
+      "source": "vitaly_ivanovich_lukyanov",
+      "target": "fedor_gavrilovich_kuznetsov",
+      "types": [
+        "kinship_social"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Мой отчим Федор Гаврилович Кузнецов...»"
+      ],
+      "notes": "пасынок и отчим"
+    },
+    {
+      "source": "vitaly_ivanovich_lukyanov",
+      "target": "grigory_lukyanov",
+      "types": [
+        "kinship_social"
+      ],
+      "episode_count": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«там были мастерские моего деда Григория Лукьянова»"
+      ],
+      "notes": "внук и дед"
+    },
+    {
+      "source": "vitaly_ivanovich_lukyanov",
+      "target": "timoshenko",
+      "types": [
+        "speech",
+        "co_presence_joint_action"
+      ],
+      "episode_count": 2,
+      "weight": 0.4,
+      "evidence": [
+        "«\"Что ты за молчун?\" — спрашивал Тимошенко»",
+        "«У меня был друг, мы построились рядом»"
+      ],
+      "notes": "дружеские разговоры, воспоминания; соседи по даче, совместная история"
+    },
+    {
+      "source": "vitaly_ivanovich_lukyanov",
+      "target": "denis",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "weight": 0.3,
+      "evidence": [
+        "«Я выпил с ним рюмку водки...»"
+      ],
+      "notes": "знакомство, разговор, семейное общение"
+    }
+  ]
+}
