@@ -14,7 +14,7 @@
       "author_characterization": "неуклюжий, огромный, измученный, решительный",
       "gender": "мужской",
       "age": "—",
-      "other": "носит гранаты в карманах"
+      "other": "военный / партийный работник; доброволец Интернационального полка; бывший тамбовский губкомовец; носит гранаты в карманах"
     },
     {
       "id": "parenek_provodnik",
@@ -26,7 +26,7 @@
       "author_characterization": "местный",
       "gender": "мужской",
       "age": "—",
-      "other": "за небольшую мзду показывает путь"
+      "other": "крестьянин; за небольшую мзду показывает путь"
     },
     {
       "id": "krasny_razvedchik",
@@ -38,10 +38,10 @@
       "author_characterization": "—",
       "gender": "мужской",
       "age": "—",
-      "other": "ищет брод для своей части"
+      "other": "военный; разведчик; ищет брод для своей части"
     },
     {
-      "id": "krestyanin_hozyain",
+      "id": "krestyanin_khozyain",
       "name": "Крестьянин-хозяин",
       "full_name": "—",
       "main": false,
@@ -50,10 +50,10 @@
       "author_characterization": "робкий",
       "gender": "мужской",
       "age": "старый",
-      "other": "живет с женой"
+      "other": "крестьянин; женат; живет с женой"
     },
     {
-      "id": "staruha_hozyayka",
+      "id": "starukha_khozyayka",
       "name": "Старуха-хозяйка",
       "full_name": "—",
       "main": false,
@@ -62,10 +62,10 @@
       "author_characterization": "—",
       "gender": "женский",
       "age": "старая",
-      "other": "хозяйка избы"
+      "other": "крестьянка; замужем; хозяйка избы"
     },
     {
-      "id": "starshiy_kazak",
+      "id": "starshy_kazak",
       "name": "Старший казак",
       "full_name": "—",
       "main": false,
@@ -74,7 +74,7 @@
       "author_characterization": "злобный, властный",
       "gender": "мужской",
       "age": "—",
-      "other": "руководит казаками"
+      "other": "военный; казак; руководит казаками"
     },
     {
       "id": "marfusha",
@@ -110,7 +110,7 @@
       "author_characterization": "грузный, подвижный, строгий, храбрый",
       "gender": "мужской",
       "age": "—",
-      "other": "пользуется доверием солдат"
+      "other": "военный; комиссар; пользуется доверием солдат"
     },
     {
       "id": "shatilov",
@@ -122,7 +122,7 @@
       "author_characterization": "высокий, худощавый, в пенсне",
       "gender": "мужской",
       "age": "—",
-      "other": "наблюдает мятеж из губкома"
+      "other": "партийный работник; член губкома; наблюдает мятеж из губкома"
     },
     {
       "id": "direktor_uchilishcha",
@@ -134,10 +134,10 @@
       "author_characterization": "старый",
       "gender": "мужской",
       "age": "старый",
-      "other": "знает Шатилова по школьным годам"
+      "other": "служащий; директор училища; знает Шатилова по школьным годам"
     },
     {
-      "id": "vasiliy",
+      "id": "vasily",
       "name": "Василий",
       "full_name": "Василий",
       "main": false,
@@ -146,10 +146,10 @@
       "author_characterization": "—",
       "gender": "мужской",
       "age": "—",
-      "other": "предлагает спрятать беглецов в подвале"
+      "other": "служащий; сторож; предлагает спрятать беглецов в подвале"
     },
     {
-      "id": "sinitskiy",
+      "id": "sinitsky",
       "name": "Синицкий",
       "full_name": "Синицкий",
       "main": false,
@@ -158,7 +158,7 @@
       "author_characterization": "толстяк",
       "gender": "мужской",
       "age": "—",
-      "other": "бывший юнкер"
+      "other": "военный; штабс-капитан; бывший юнкер"
     },
     {
       "id": "avgust_kalnin",
@@ -170,10 +170,10 @@
       "author_characterization": "красный от волнения, сильный",
       "gender": "мужской",
       "age": "—",
-      "other": "товарищ Лоскутова по заключению"
+      "other": "военный / политработник; комиссар социалистического полка; товарищ Лоскутова по заключению"
     },
     {
-      "id": "uhov",
+      "id": "ukhov",
       "name": "Ухов",
       "full_name": "Ухов",
       "main": false,
@@ -182,7 +182,7 @@
       "author_characterization": "—",
       "gender": "мужской",
       "age": "—",
-      "other": "сидит среди арестованных"
+      "other": "рабочий; пороховик; сидит среди арестованных"
     },
     {
       "id": "stary_eser",
@@ -194,7 +194,7 @@
       "author_characterization": "длинноволосый, с козлиной бородой",
       "gender": "мужской",
       "age": "старый",
-      "other": "выкликает арестованных"
+      "other": "юрист / политик; присяжный поверенный; выкликает арестованных"
     }
   ],
   "links": [
@@ -206,12 +206,13 @@
         "transfer"
       ],
       "episode_count": 2,
-      "weight": 0.4,
+      "intensity": 3,
+      "weight": 0.23,
       "evidence": [
         "«взялся один местный паренек... указать Лоскутову путь» ; «перебрались Лоскутов с пареньком на ту сторону реки»",
         "«за небольшую мзду указать Лоскутову путь»"
       ],
-      "notes": "Вместе идут к Борисоглебску; Лоскутов платит пареньку за провод"
+      "notes": "вместе идут к Борисоглебску; Лоскутов платит пареньку за провод"
     },
     {
       "source": "loskutov",
@@ -221,22 +222,24 @@
         "co_presence_joint_action"
       ],
       "episode_count": 2,
-      "weight": 0.4,
+      "intensity": 4,
+      "weight": 0.31,
       "evidence": [
         "«Кто такие?» ; «Оказался всадник красным разведчиком»",
         "«присели на кочки» ; «вырос перед ними всадник»"
       ],
-      "notes": "Разговор у брода; краткая встреча на переправе"
+      "notes": "разговор у брода; краткая встреча на переправе"
     },
     {
       "source": "loskutov",
-      "target": "krestyanin_hozyain",
+      "target": "krestyanin_khozyain",
       "types": [
         "request",
         "help_support"
       ],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 4,
+      "weight": 0.31,
       "evidence": [
         "«постучался в первую избу. Попросился переночевать»",
         "«Пустили. Лег Лоскутов на лавку»"
@@ -244,27 +247,31 @@
       "notes": "Лоскутов просится переночевать; крестьянин-хозяин пускает Лоскутова переночевать"
     },
     {
-      "source": "krestyanin_hozyain",
-      "target": "staruha_hozyayka",
+      "source": "krestyanin_khozyain",
+      "target": "starukha_khozyayka",
       "types": [
+        "kinship",
         "request"
       ],
       "episode_count": 1,
-      "weight": 0.2,
+      "intensity": 2,
+      "weight": 0.15,
       "evidence": [
+        "«будил старик жену свою»",
         "«Баба! Баба! Вставай скорей!»"
       ],
-      "notes": "старик будит жену и велит искать еду"
+      "notes": "муж и жена; старик будит жену и велит искать еду"
     },
     {
-      "source": "starshiy_kazak",
-      "target": "krestyanin_hozyain",
+      "source": "starshy_kazak",
+      "target": "krestyanin_khozyain",
       "types": [
         "request",
         "conflict"
       ],
       "episode_count": 3,
-      "weight": 0.6,
+      "intensity": 6,
+      "weight": 0.46,
       "evidence": [
         "«приготовь поесть»",
         "«давай овса коням»",
@@ -273,40 +280,43 @@
       "notes": "казак требует еды и овса; бьет хозяина плетью"
     },
     {
-      "source": "staruha_hozyayka",
+      "source": "starukha_khozyayka",
       "target": "marfusha",
       "types": [
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.23,
       "evidence": [
         "«Что ты плачешь?» ; «Как же не плакать? Я — одна, а их пятеро»"
       ],
       "notes": "разговор о насилии со стороны казаков"
     },
     {
-      "source": "starshiy_kazak",
+      "source": "starshy_kazak",
       "target": "marfusha",
       "types": [
         "conflict"
       ],
       "episode_count": 1,
-      "weight": 0.2,
+      "intensity": 2,
+      "weight": 0.15,
       "evidence": [
         "«Марфуша, Марфуш!» ; «Я — одна, а их пятеро... И так — каждую ночь»"
       ],
-      "notes": "насильно удерживает и зовет к себе"
+      "notes": "старший казак насильно удерживает Марфушу и зовет к себе"
     },
     {
-      "source": "starshiy_kazak",
+      "source": "starshy_kazak",
       "target": "loskutov",
       "types": [
         "speech",
         "conflict"
       ],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 0.38,
       "evidence": [
         "«Кто ты такой?» ; «Какой части?»",
         "«выпил Лоскутов гранату... ударил в казака» ; «бросил ему под ноги вторую гранату»"
@@ -322,7 +332,8 @@
         "help_support"
       ],
       "episode_count": 3,
-      "weight": 0.8,
+      "intensity": 7,
+      "weight": 0.54,
       "evidence": [
         "«Подвезешь служивого?»",
         "«Из большевиков, небось, будешь?»",
@@ -339,7 +350,8 @@
         "speech"
       ],
       "episode_count": 6,
-      "weight": 1,
+      "intensity": 9,
+      "weight": 0.69,
       "evidence": [
         "«схватил Шатилова за рукав» ; «они — уже в тенистом заросшем саду»",
         "«Шатилова и Лоскутова обыскали, отняли оружие и повели куда-то»",
@@ -347,7 +359,7 @@
         "«Слушай, Лоскутов, давай вход в подвал дровами заложим»",
         "«товарищи с лихорадочной быстротой закидали вход дровами»"
       ],
-      "notes": "вместе бегут из губкома и вместе арестованы; Лоскутов спасает Шатилова, вытаскивая из губкома; Шатилов предлагает заложить вход в подвал дровами; вместе закладывают вход в подвал дровами"
+      "notes": "вместе бегут из губкома и арестованы; Лоскутов спасает Шатилова; Шатилов предлагает заложить вход в подвал дровами; вместе закладывают вход"
     },
     {
       "source": "shatilov",
@@ -357,60 +369,65 @@
         "help_support"
       ],
       "episode_count": 2,
-      "weight": 0.6,
+      "intensity": 5,
+      "weight": 0.38,
       "evidence": [
         "«Шатилов, это вы стреляете?»",
         "«Ступайте ко мне в училище»"
       ],
-      "notes": "краткий разговор во дворе училища; директор училища предлагает укрыться в училище"
+      "notes": "краткий разговор во дворе училища; директор предлагает укрыться в училище"
     },
     {
-      "source": "vasiliy",
+      "source": "vasily",
       "target": "loskutov",
       "types": [
         "help_support"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 2,
+      "weight": 0.15,
       "evidence": [
         "«Я вас в подвал сведу»"
       ],
       "notes": "Василий предлагает Лоскутову укрытие в подвале"
     },
     {
-      "source": "vasiliy",
+      "source": "vasily",
       "target": "shatilov",
       "types": [
         "help_support"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 2,
+      "weight": 0.15,
       "evidence": [
         "«Я вас в подвал сведу»"
       ],
       "notes": "Василий предлагает Шатилову укрытие в подвале"
     },
     {
-      "source": "sinitskiy",
+      "source": "sinitsky",
       "target": "shatilov",
       "types": [
         "conflict"
       ],
       "episode_count": 1,
-      "weight": 0.2,
+      "intensity": 2,
+      "weight": 0.15,
       "evidence": [
         "«Шпайеры давай!» ; «Шатилова и Лоскутова... повели»"
       ],
       "notes": "Синицкий участвует в аресте Шатилова"
     },
     {
-      "source": "sinitskiy",
+      "source": "sinitsky",
       "target": "loskutov",
       "types": [
         "conflict"
       ],
       "episode_count": 1,
-      "weight": 0.2,
+      "intensity": 2,
+      "weight": 0.15,
       "evidence": [
         "«Шатилова и Лоскутова обыскали, отняли оружие»"
       ],
@@ -424,7 +441,8 @@
         "speech"
       ],
       "episode_count": 3,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 0.38,
       "evidence": [
         "«в секретку к Лоскутову вталкивают Калнина»",
         "«Я думаю, пороховики уж знают»",
@@ -434,16 +452,17 @@
     },
     {
       "source": "loskutov",
-      "target": "uhov",
+      "target": "ukhov",
       "types": [
         "co_presence_joint_action"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«Ухов» ; «выстроили арестованных попарно»"
       ],
-      "notes": "находятся среди арестованных"
+      "notes": "Лоскутов и Ухов находятся среди арестованных"
     },
     {
       "source": "stary_eser",
@@ -452,6 +471,7 @@
         "co_presence_joint_action"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«стал выкликать арестованных... Лоскутов»"
@@ -465,6 +485,7 @@
         "co_presence_joint_action"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«стал выкликать арестованных... Калнин»"
@@ -478,7 +499,8 @@
         "help_support"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 2,
+      "weight": 0.15,
       "evidence": [
         "«Киквидзе пришел на помощь прямо с фронта»"
       ],
@@ -491,7 +513,8 @@
         "help_support"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 2,
+      "weight": 0.15,
       "evidence": [
         "«Киквидзе пришел на помощь прямо с фронта»"
       ],
@@ -504,7 +527,8 @@
         "help_support"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 2,
+      "weight": 0.15,
       "evidence": [
         "«Киквидзе пришел на помощь прямо с фронта»"
       ],
@@ -512,11 +536,12 @@
     },
     {
       "source": "stary_eser",
-      "target": "uhov",
+      "target": "ukhov",
       "types": [
         "co_presence_joint_action"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«стал выкликать арестованных... Ухов»"

@@ -26,7 +26,7 @@
       "author_characterization": "активная, эмоциональная",
       "gender": "женский",
       "age": "около 30",
-      "other": "имеет любовника"
+      "other": "замужем; имеет любовника"
     },
     {
       "id": "makarov",
@@ -50,7 +50,7 @@
       "author_characterization": "рассудительный, скептичный",
       "gender": "мужской",
       "age": "—",
-      "other": "—"
+      "other": "женат, отец троих детей"
     },
     {
       "id": "reporter",
@@ -67,147 +67,107 @@
   ],
   "links": [
     {
-      "source": "rasskazchik",
-      "target": "makarov",
-      "types": [
-        "speech",
-        "co_presence_joint_action"
-      ],
-      "episode_count": 4,
-      "weight": 0.8,
-      "evidence": [
-        "обсуждение книги",
-        "совместное пребывание на крыше",
-        "разговор на крыше",
-        "вместе спускаются по лестнице"
-      ],
-      "notes": "обсуждение книги, разговор на крыше, совместное пребывание на крыше и спуск по лестнице"
-    },
-    {
-      "source": "reporter",
-      "target": "makarov",
-      "types": [
-        "speech"
-      ],
-      "episode_count": 1,
-      "weight": 0.3,
-      "evidence": [
-        "обсуждение идеи съемки"
-      ],
-      "notes": "обсуждение идеи съемки"
-    },
-    {
       "source": "elka",
       "target": "makarov",
-      "types": [
-        "speech",
-        "co_presence_joint_action",
-        "conflict",
-        "help_support"
-      ],
-      "episode_count": 6,
-      "weight": 1,
+      "types": ["speech", "help_support", "conflict", "co_presence_joint_action"],
+      "episode_count": 7,
+      "intensity": 9,
+      "weight": 1.0,
       "evidence": [
-        "обсуждение идеи съемки",
-        "совместное пребывание на крыше",
-        "Элка кричит, чтобы Макаров перестал вывешиваться за край крыши",
-        "удерживает его от падения",
+        "«Ты перестань сейчас же!»",
+        "«обхватывает его лодыжки и тянет обратно»",
+        "«Да ну тебя»",
+        "совместное пребывание",
+        "вместе спускаются по лестнице",
         "разговор на крыше",
+        "совместное участие"
+      ],
+      "notes": "разговоры, удержание от падения, конфликты и совместные действия"
+    },
+    {
+      "source": "rasskazchik",
+      "target": "makarov",
+      "types": ["speech", "co_presence_joint_action"],
+      "episode_count": 3,
+      "intensity": 4,
+      "weight": 0.44,
+      "evidence": [
+        "«Само собой, ― говорит Макаров»",
+        "«Мы с Макаровым тихо обсуждали»",
         "вместе спускаются по лестнице"
       ],
-      "notes": "Элка и Макаров обсуждают съемку, вместе находятся на крыше и спускаются по лестнице; Элка конфликтует с Макаровым из-за его опасного поведения и удерживает его от падения"
-    },
-    {
-      "source": "reporter",
-      "target": "terentyev",
-      "types": [
-        "speech"
-      ],
-      "episode_count": 1,
-      "weight": 0.3,
-      "evidence": [
-        "обсуждение идеи съемки"
-      ],
-      "notes": "обсуждение идеи съемки"
-    },
-    {
-      "source": "reporter",
-      "target": "elka",
-      "types": [
-        "speech"
-      ],
-      "episode_count": 1,
-      "weight": 0.3,
-      "evidence": [
-        "обсуждение идеи съемки"
-      ],
-      "notes": "обсуждение идеи съемки"
+      "notes": "обсуждение и совместное пребывание"
     },
     {
       "source": "rasskazchik",
       "target": "terentyev",
-      "types": [
-        "co_presence_joint_action",
-        "speech"
-      ],
+      "types": ["speech", "co_presence_joint_action"],
       "episode_count": 3,
-      "weight": 0.5,
+      "intensity": 4,
+      "weight": 0.44,
       "evidence": [
+        "ответы в диалоге",
         "совместное пребывание на крыше",
-        "разговор на крыше",
         "вместе спускаются по лестнице"
       ],
-      "notes": "совместное пребывание на крыше, разговор на крыше и спуск по лестнице"
+      "notes": "обсуждения и совместное пребывание"
     },
     {
       "source": "rasskazchik",
       "target": "elka",
-      "types": [
-        "co_presence_joint_action",
-        "speech"
-      ],
+      "types": ["speech", "co_presence_joint_action"],
       "episode_count": 3,
-      "weight": 0.5,
+      "intensity": 4,
+      "weight": 0.44,
       "evidence": [
-        "совместное пребывание на крыше",
-        "разговор на крыше",
+        "совместные разговоры на крыше",
+        "«Мы залезли на крышу»",
         "вместе спускаются по лестнице"
       ],
-      "notes": "совместное пребывание на крыше, разговор на крыше и спуск по лестнице"
+      "notes": "разговоры и совместное пребывание"
     },
     {
       "source": "makarov",
       "target": "terentyev",
-      "types": [
-        "co_presence_joint_action",
-        "speech"
-      ],
+      "types": ["speech", "co_presence_joint_action"],
       "episode_count": 3,
-      "weight": 0.5,
+      "intensity": 4,
+      "weight": 0.44,
       "evidence": [
+        "«Это точно, ― сказал Терентьев»",
         "совместное пребывание на крыше",
-        "разговор на крыше",
         "вместе спускаются по лестнице"
       ],
-      "notes": "совместное пребывание на крыше, разговор на крыше и спуск по лестнице"
+      "notes": "обсуждения и совместное пребывание"
     },
     {
       "source": "elka",
       "target": "terentyev",
-      "types": [
-        "co_presence_joint_action",
-        "speech",
-        "conflict"
-      ],
+      "types": ["speech", "co_presence_joint_action", "conflict"],
       "episode_count": 4,
-      "weight": 0.7,
+      "intensity": 5,
+      "weight": 0.56,
       "evidence": [
-        "совместное пребывание на крыше",
-        "разговор на крыше",
-        "упреки",
+        "«Может, обойдемся без хамства?»",
+        "совместное участие",
+        "совместное участие",
+        "«А на кой хрен ты нам все это устроила?»"
+      ],
+      "notes": "обсуждения, совместное участие и конфликты"
+    },
+    {
+      "source": "elka",
+      "target": "rasskazchik",
+      "types": ["speech", "co_presence_joint_action"],
+      "episode_count": 3,
+      "intensity": 4,
+      "weight": 0.44,
+      "evidence": [
+        "разговоры в компании",
+        "«Мы залезли на крышу»",
         "вместе спускаются по лестнице"
       ],
-      "notes": "Элка и Терентьев вместе находятся на крыше, разговаривают, спускаются по лестнице; между ними возникают упреки"
+      "notes": "разговоры и совместное пребывание"
     }
   ]
 }

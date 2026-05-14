@@ -5,7 +5,7 @@
   "year": 1945,
   "nodes": [
     {
-      "id": "vasiliy_karpukhin",
+      "id": "vasily_karpukhin",
       "name": "Василий Карпухин",
       "full_name": "Василий Карпухин",
       "main": true,
@@ -14,10 +14,10 @@
       "author_characterization": "молчаливый, замкнутый, потрясенный горем",
       "gender": "мужской",
       "age": "—",
-      "other": "носит черные очки после ранения глаз"
+      "other": "военный; командир; вдовец; носит черные очки после ранения глаз"
     },
     {
-      "id": "zinaida_grigorevna",
+      "id": "zinaida_grigoryevna",
       "name": "Зинаида Григорьевна",
       "full_name": "Зинаида Григорьевна",
       "main": true,
@@ -26,7 +26,7 @@
       "author_characterization": "молоденькая, хорошенькая, заботливая",
       "gender": "женский",
       "age": "—",
-      "other": "водит Василия в домик Ленина"
+      "other": "военный; военврач; водит Василия в домик Ленина"
     },
     {
       "id": "artillerist_s_sosedney_koyki",
@@ -38,7 +38,43 @@
       "author_characterization": "ходячий больной",
       "gender": "мужской",
       "age": "—",
-      "other": "читает Василию письмо"
+      "other": "военный; артиллерист; читает Василию письмо"
+    },
+    {
+      "id": "mat_vasiliya_karpukhina",
+      "name": "Мать Василия Карпухина",
+      "full_name": "—",
+      "main": false,
+      "who": "мать Василия",
+      "aliases": "мать",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "убита немцами"
+    },
+    {
+      "id": "zhena_vasiliya_karpukhina",
+      "name": "Жена Василия Карпухина",
+      "full_name": "—",
+      "main": false,
+      "who": "жена Василия",
+      "aliases": "жена",
+      "author_characterization": "—",
+      "gender": "женский",
+      "age": "—",
+      "other": "замужем; убита немцами"
+    },
+    {
+      "id": "synishka_vasiliya_karpukhina",
+      "name": "Сынишка Василия Карпухина",
+      "full_name": "—",
+      "main": false,
+      "who": "сын Василия",
+      "aliases": "сынишка",
+      "author_characterization": "—",
+      "gender": "мужской",
+      "age": "—",
+      "other": "убит немцами"
     },
     {
       "id": "pozhilaya_zhenshchina",
@@ -56,51 +92,94 @@
   "links": [
     {
       "source": "artillerist_s_sosedney_koyki",
-      "target": "vasiliy_karpukhin",
+      "target": "vasily_karpukhin",
       "types": [
         "transfer",
         "speech"
       ],
       "episode_count": 2,
-      "weight": 0.6,
+      "intensity": 5,
+      "weight": 0.38,
       "evidence": [
-        "Артиллерист приносит письмо в палату",
-        "Артиллерист читает письмо вслух"
+        "«И получив письмо для Василия, широко прыгая на костыле, ворвался в палату»",
+        "«стал по просьбе Василия читать вслух письмо»"
       ],
-      "notes": "Артиллерист приносит письмо в палату; артиллерист читает письмо вслух"
+      "notes": "артиллерист получает и приносит Василию письмо; артиллерист читает Василию письмо вслух"
     },
     {
-      "source": "zinaida_grigorevna",
-      "target": "vasiliy_karpukhin",
+      "source": "zinaida_grigoryevna",
+      "target": "vasily_karpukhin",
       "types": [
         "speech",
         "help_support",
         "co_presence_joint_action"
       ],
       "episode_count": 6,
-      "weight": 1,
+      "intensity": 13,
+      "weight": 1.0,
       "evidence": [
-        "Первый разговор в палате: попытка расшевелить",
-        "Предложение сходить в знакомый дом",
-        "Ответы Василия («Нет у меня родного дома»)",
-        "Зинаида Григорьевна ведет Василия под руку",
-        "Совместный поход в домик Ленина",
-        "Осмотр комнат домика Ленина"
+        "«Опять один, Карпухин?» ; «Послушайте, Карпухин... хотите, я вас сама сведу в один знакомый дом»",
+        "«Нет у меня родного дома» ; «Чем он такой интересный?»",
+        "«Зинаида Григорьевна взяла его под руку» ; «я вас сама сведу в один знакомый дом»",
+        "«И они пошли» ; «Они прошли через холодные сенца-галерейку»"
       ],
-      "notes": "Первый разговор в палате; предложение сходить в знакомый дом; ответы Василия; Зинаида Григорьевна ведет Василия под руку; совместный поход и осмотр комнат домика Ленина"
+      "notes": "военврач разговаривает с Василием, пытаясь его расшевелить; Василий отвечает Зинаиде Григорьевне; Зинаида Григорьевна ведет Василия в знакомый дом и помогает ему духовно; они вместе идут по городу и посещают дом"
+    },
+    {
+      "source": "vasily_karpukhin",
+      "target": "mat_vasiliya_karpukhina",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«его мать... убиты немцами»"
+      ],
+      "notes": "мать и сын"
+    },
+    {
+      "source": "vasily_karpukhin",
+      "target": "zhena_vasiliya_karpukhina",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«его... жена... убиты немцами»"
+      ],
+      "notes": "муж и жена"
+    },
+    {
+      "source": "vasily_karpukhin",
+      "target": "synishka_vasiliya_karpukhina",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«его... сынишка убиты немцами»"
+      ],
+      "notes": "отец и сын"
     },
     {
       "source": "pozhilaya_zhenshchina",
-      "target": "zinaida_grigorevna",
+      "target": "zinaida_grigoryevna",
       "types": [
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.23,
       "evidence": [
-        "Приветствие при входе в дом"
+        "«Пожилая женщина вышла навстречу, поздоровалась с Зинаидой Григорьевной»"
       ],
-      "notes": "Приветствие при входе в дом"
+      "notes": "пожилая женщина здоровается с Зинаидой Григорьевной"
     }
   ]
 }

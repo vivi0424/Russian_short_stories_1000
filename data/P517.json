@@ -5,7 +5,7 @@
   "year": 1972,
   "nodes": [
     {
-      "id": "petr_stepanovich_kotlyarevskiy",
+      "id": "petr_stepanovich_kotlyarevsky",
       "name": "Петр Степанович Котляревский",
       "full_name": "Петр Степанович Котляревский",
       "main": true,
@@ -14,7 +14,7 @@
       "author_characterization": "храбрый, легендарный полководец, «генерал-метеор»",
       "gender": "мужской",
       "age": "—",
-      "other": "тяжело ранен, инвалид"
+      "other": "военный; генерал-лейтенант; тяжело ранен, инвалид"
     },
     {
       "id": "ivan_lazarev",
@@ -26,10 +26,10 @@
       "author_characterization": "решительный, спасенный бурсацким мальчиком",
       "gender": "мужской",
       "age": "—",
-      "other": "погиб"
+      "other": "военный; генерал; погиб"
     },
     {
-      "id": "georgiy_saakadze",
+      "id": "georgy_saakadze",
       "name": "Георгий Саакадзе",
       "full_name": "князь Саакадзе",
       "main": false,
@@ -38,7 +38,7 @@
       "author_characterization": "преданный, погибает вместе с Лазаревым",
       "gender": "мужской",
       "age": "—",
-      "other": "—"
+      "other": "военный; комендант"
     },
     {
       "id": "mariya",
@@ -50,7 +50,7 @@
       "author_characterization": "совершает убийство Лазарева",
       "gender": "женский",
       "age": "—",
-      "other": "—"
+      "other": "правитель; царица"
     },
     {
       "id": "abbas_mirza",
@@ -62,7 +62,7 @@
       "author_characterization": "противник русских войск",
       "gender": "мужской",
       "age": "—",
-      "other": "—"
+      "other": "военный; принц, командующий армией"
     },
     {
       "id": "rtishchev",
@@ -74,10 +74,10 @@
       "author_characterization": "осторожный, опытный начальник",
       "gender": "мужской",
       "age": "—",
-      "other": "—"
+      "other": "военный; генерал"
     },
     {
-      "id": "aleksandr_i",
+      "id": "alexander_i",
       "name": "Александр I",
       "full_name": "Александр I",
       "main": false,
@@ -86,7 +86,7 @@
       "author_characterization": "сомневается в Котляревском",
       "gender": "мужской",
       "age": "—",
-      "other": "—"
+      "other": "правитель; император"
     },
     {
       "id": "nikolay_i",
@@ -98,10 +98,22 @@
       "author_characterization": "предлагает Котляревскому командование",
       "gender": "мужской",
       "age": "—",
-      "other": "—"
+      "other": "правитель; император"
     },
     {
-      "id": "furer",
+      "id": "svyashchennik",
+      "name": "Священник",
+      "full_name": "священник из Ольховатки",
+      "main": false,
+      "who": "отец Котляревского",
+      "aliases": "отец; пастырь",
+      "author_characterization": "заботливый отец",
+      "gender": "мужской",
+      "age": "—",
+      "other": "духовенство; сельский священник"
+    },
+    {
+      "id": "furyer",
       "name": "Фурьер",
       "full_name": "фурьер",
       "main": false,
@@ -110,7 +122,7 @@
       "author_characterization": "служебное лицо",
       "gender": "мужской",
       "age": "—",
-      "other": "—"
+      "other": "военный; фурьер"
     },
     {
       "id": "sadyk_khan",
@@ -122,59 +134,39 @@
       "author_characterization": "комендант цитадели",
       "gender": "мужской",
       "age": "—",
-      "other": "комендант цитадели"
-    },
-    {
-      "id": "ayvazovskiy",
-      "name": "Айвазовский",
-      "full_name": "И.К. Айвазовский",
-      "main": false,
-      "who": "художник-маринист, поклонник Котляревского",
-      "aliases": "—",
-      "author_characterization": "Знаменитый маринист",
-      "gender": "мужской",
-      "age": "—",
-      "other": "уроженец Феодосии, был также поклонником Котляревского"
-    },
-    {
-      "id": "vorontsov",
-      "name": "Воронцов",
-      "full_name": "М.С. Воронцов",
-      "main": false,
-      "who": "князь, почитатель Котляревского",
-      "aliases": "—",
-      "author_characterization": "большой почитатель Котляревского",
-      "gender": "мужской",
-      "age": "—",
-      "other": "большой почитатель Котляревского, поставил ему памятник в Ганже"
+      "other": "военный; комендант; комендант цитадели"
     }
   ],
   "links": [
     {
       "source": "ivan_lazarev",
-      "target": "petr_stepanovich_kotlyarevskiy",
+      "target": "petr_stepanovich_kotlyarevsky",
       "types": [
         "help_support"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 2,
+      "weight": 0.2,
       "evidence": [
+        "«я тебя не забуду» ; привезли в Моздок и зачислили",
         "Спасение в метели, обещание не забыть"
       ],
-      "notes": "Лазарев спасает Котляревского в метели и берет его под покровительство"
+      "notes": "Лазарев берет мальчика под покровительство; спасение в метели, обещание не забыть"
     },
     {
-      "source": "furer",
-      "target": "petr_stepanovich_kotlyarevskiy",
+      "source": "furyer",
+      "target": "petr_stepanovich_kotlyarevsky",
       "types": [
         "transfer"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 2,
+      "weight": 0.2,
       "evidence": [
+        "«Велено его на Кавказ вести… Поехали!»",
         "Увоз на Кавказ по приказу Лазарева"
       ],
-      "notes": "Фурьер увозит Котляревского на Кавказ по приказу Лазарева"
+      "notes": "Фурьер увозит мальчика к Лазареву"
     },
     {
       "source": "mariya",
@@ -183,119 +175,121 @@
         "conflict"
       ],
       "episode_count": 1,
+      "intensity": 2,
       "weight": 0.2,
       "evidence": [
+        "«выхватив кинжал, пронзила его насмерть»",
         "Убийство Лазарева кинжалом"
       ],
-      "notes": "Мария убивает Лазарева кинжалом"
+      "notes": "Мария убивает Лазарева"
     },
     {
-      "source": "georgiy_saakadze",
+      "source": "georgy_saakadze",
       "target": "mariya",
       "types": [
         "conflict"
       ],
       "episode_count": 1,
+      "intensity": 2,
       "weight": 0.2,
       "evidence": [
+        "«кинулся к царице»",
         "Попытка остановить царицу (гибель)"
       ],
       "notes": "Саакадзе пытается остановить царицу"
     },
     {
-      "source": "petr_stepanovich_kotlyarevskiy",
+      "source": "petr_stepanovich_kotlyarevsky",
       "target": "abbas_mirza",
       "types": [
         "conflict"
       ],
       "episode_count": 5,
+      "intensity": 10,
       "weight": 1,
       "evidence": [
+        "«батальон против целой армии» ; «разбил ее»",
         "Битва у кладбища (батальон против армии)",
         "Взятие Шах-Булахского замка",
         "Штурм Мухрата (солдаты ложатся в ров)",
         "Битва при Мигри",
         "Битва при Асландузе (нарушение приказа)"
       ],
-      "notes": "Котляревский ведет военные действия против Аббас-мирзы в нескольких сражениях"
+      "notes": "военные действия между Котляревским и Аббас-мирзой: битва у кладбища, взятие Шах-Булахского замка, штурм Мухрата, битва при Мигри, битва при Асландузе"
     },
     {
       "source": "rtishchev",
-      "target": "petr_stepanovich_kotlyarevskiy",
+      "target": "petr_stepanovich_kotlyarevsky",
       "types": [
         "request"
       ],
       "episode_count": 1,
+      "intensity": 2,
       "weight": 0.2,
       "evidence": [
+        "«хвосты подожмите»",
         "Приказ не воевать («хвосты подожмите»)"
       ],
-      "notes": "Ртищев приказывает Котляревскому не вести войну"
+      "notes": "Ртищев приказывает не вести войну"
     },
     {
-      "source": "petr_stepanovich_kotlyarevskiy",
+      "source": "alexander_i",
+      "target": "petr_stepanovich_kotlyarevsky",
+      "types": [
+        "speech"
+      ],
+      "episode_count": 1,
+      "intensity": 3,
+      "weight": 0.3,
+      "evidence": [
+        "«Скажи, кто помог тебе сделать карьеру»",
+        "Разговор в кабинете о покровителях"
+      ],
+      "notes": "император допрашивает Котляревского"
+    },
+    {
+      "source": "nikolay_i",
+      "target": "petr_stepanovich_kotlyarevsky",
+      "types": [
+        "request"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.2,
+      "evidence": [
+        "«просил его взять на себя командование»",
+        "Предложение командовать армией"
+      ],
+      "notes": "Николай предлагает командование"
+    },
+    {
+      "source": "svyashchennik",
+      "target": "petr_stepanovich_kotlyarevsky",
+      "types": [
+        "kinship"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«сын пастыря»"
+      ],
+      "notes": "отец и сын"
+    },
+    {
+      "source": "petr_stepanovich_kotlyarevsky",
       "target": "sadyk_khan",
       "types": [
         "conflict"
       ],
       "episode_count": 1,
+      "intensity": 2,
       "weight": 0.2,
       "evidence": [
+        "«придется отнимать Ленкорань у самого аллаха!» ; «бой в Ленкорани был так горяч»",
         "Штурм Ленкорани"
       ],
       "notes": "Котляревский штурмует Ленкорань, которую защищает Садык-хан"
-    },
-    {
-      "source": "aleksandr_i",
-      "target": "petr_stepanovich_kotlyarevskiy",
-      "types": [
-        "speech"
-      ],
-      "episode_count": 1,
-      "weight": 0.3,
-      "evidence": [
-        "Разговор в кабинете о покровителях"
-      ],
-      "notes": "Александр I разговаривает с Котляревским о его покровителях"
-    },
-    {
-      "source": "nikolay_i",
-      "target": "petr_stepanovich_kotlyarevskiy",
-      "types": [
-        "request"
-      ],
-      "episode_count": 1,
-      "weight": 0.2,
-      "evidence": [
-        "Предложение командовать армией"
-      ],
-      "notes": "Николай I предлагает Котляревскому командовать армией"
-    },
-    {
-      "source": "vorontsov",
-      "target": "petr_stepanovich_kotlyarevskiy",
-      "types": [
-        "kinship_social"
-      ],
-      "episode_count": 1,
-      "weight": 0.1,
-      "evidence": [
-        "Установка памятника в Ганже"
-      ],
-      "notes": "Воронцов почитает Котляревского и устанавливает ему памятник в Ганже"
-    },
-    {
-      "source": "ayvazovskiy",
-      "target": "petr_stepanovich_kotlyarevskiy",
-      "types": [
-        "kinship_social"
-      ],
-      "episode_count": 1,
-      "weight": 0.1,
-      "evidence": [
-        "Сбор средств на мавзолей"
-      ],
-      "notes": "Айвазовский почитает Котляревского и собирает средства на мавзолей"
     }
   ]
 }

@@ -14,10 +14,10 @@
       "author_characterization": "пугливый, маленький, приученный к вину, кроткий",
       "gender": "мужской",
       "age": "—",
-      "other": "держал кузницу на Пересыпи"
+      "other": "еврей; держал кузницу на Пересыпи"
     },
     {
-      "id": "brana_brutman",
+      "id": "zhena_ioyny",
       "name": "Жена Иойны",
       "full_name": "Брана Брутман",
       "main": false,
@@ -26,7 +26,7 @@
       "author_characterization": "набожная",
       "gender": "женский",
       "age": "62 года",
-      "other": "ходила в хасидскую синагогу"
+      "other": "еврейка; ходила в хасидскую синагогу"
     },
     {
       "id": "semen_brutman",
@@ -38,10 +38,10 @@
       "author_characterization": "рубака, наездник, партизан",
       "gender": "мужской",
       "age": "—",
-      "other": "служил у Примакова"
+      "other": "еврей; служил у Примакова"
     },
     {
-      "id": "polina_belotserkovskaya",
+      "id": "polya",
       "name": "Поля",
       "full_name": "Полина Белоцерковская",
       "main": true,
@@ -50,7 +50,7 @@
       "author_characterization": "пугливая, близорукая, с нежной кожей; измученная",
       "gender": "женский",
       "age": "—",
-      "other": "одна во всей семье пошла в маленького Иойну"
+      "other": "еврейка; одна во всей семье пошла в маленького Иойну"
     },
     {
       "id": "ovsey_belotserkovskiy",
@@ -74,7 +74,7 @@
       "author_characterization": "рыжий, захмелевший, гнусавый, развязный",
       "gender": "мужской",
       "age": "старик",
-      "other": "ходил с акушерской сумкой"
+      "other": "еврей; ходил с акушерской сумкой"
     },
     {
       "id": "bychach",
@@ -110,7 +110,7 @@
       "author_characterization": "старик, сутулый",
       "gender": "мужской",
       "age": "старик",
-      "other": "пишет жалобы, как трактаты Талмуда"
+      "other": "еврей; пишет жалобы, как трактаты Талмуда"
     },
     {
       "id": "karl_yankel",
@@ -152,96 +152,107 @@
   "links": [
     {
       "source": "ioyna_brutman",
-      "target": "brana_brutman",
+      "target": "zhena_ioyny",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«Жена Иойны»"
       ],
-      "notes": "Муж и жена"
+      "notes": "муж и жена"
     },
     {
-      "source": "brana_brutman",
-      "target": "polina_belotserkovskaya",
+      "source": "zhena_ioyny",
+      "target": "polya",
       "types": [
+        "kinship",
         "conflict",
         "speech"
       ],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 0.83,
       "evidence": [
+        "«младшей дочери Поли» ; «тещу свою Брану Брутман»",
         "«Поля ушла в больницу» ; «старуха похитила новорожденного внука»",
         "«О чем ты думаешь, Поля... ребенок с утра не кормленный»"
       ],
-      "notes": "Старуха действует вопреки семейной воле молодых; старуха кричит дочери о ребенке в зале суда"
+      "notes": "мать и дочь; старуха действует вопреки семейной воле молодых; старуха кричит дочери о ребенке в зале суда"
     },
     {
-      "source": "polina_belotserkovskaya",
+      "source": "polya",
       "target": "ovsey_belotserkovskiy",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«Поля выбрала Овсея Белоцерковского» ; «молодые живут счастливо»"
       ],
-      "notes": "Муж и жена"
+      "notes": "муж и жена"
     },
     {
       "source": "ovsey_belotserkovskiy",
       "target": "karl_yankel",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«телеграмму о рождении сына» ; «он указал назвать сына Карлом»"
       ],
-      "notes": "Отец и сын"
+      "notes": "отец и сын"
     },
     {
-      "source": "polina_belotserkovskaya",
+      "source": "polya",
       "target": "karl_yankel",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«новорожденного внука» ; «свидетельница Белоцерковская» как мать ребенка"
       ],
-      "notes": "Мать и сын"
+      "notes": "мать и сын"
     },
     {
-      "source": "brana_brutman",
+      "source": "zhena_ioyny",
       "target": "karl_yankel",
       "types": [
+        "kinship",
         "transfer"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 2,
+      "weight": 0.33,
       "evidence": [
+        "«внука она дождалась от младшей дочери Поли»",
         "«похитила новорожденного внука, отнесла его к малому оператору»"
       ],
-      "notes": "Брана уносит младенца к оператору"
+      "notes": "бабка и внук; Брана уносит младенца к оператору"
     },
     {
-      "source": "brana_brutman",
+      "source": "zhena_ioyny",
       "target": "naftula_gerchik",
       "types": [
         "request"
       ],
       "episode_count": 1,
-      "weight": 0.2,
+      "intensity": 2,
+      "weight": 0.33,
       "evidence": [
         "«отнесла его к малому оператору Нафтуле Герчику»"
       ],
-      "notes": "Приносит младенца для обряда"
+      "notes": "приносит младенца для обряда"
     },
     {
       "source": "naftula_gerchik",
@@ -250,11 +261,12 @@
         "co_presence_joint_action"
       ],
       "episode_count": 1,
-      "weight": 0.1,
+      "intensity": 1,
+      "weight": 0.17,
       "evidence": [
         "«над младенцем был совершен обряд обрезания»"
       ],
-      "notes": "Совершает над младенцем обрезание"
+      "notes": "совершает над младенцем обрезание"
     },
     {
       "source": "ovsey_belotserkovskiy",
@@ -264,7 +276,8 @@
         "help_support"
       ],
       "episode_count": 2,
-      "weight": 0.6,
+      "intensity": 5,
+      "weight": 0.83,
       "evidence": [
         "«Он решил посоветоваться с секретарем ячейки Госторга Бычачем»",
         "«Ты должен двинуть это дело»"
@@ -273,12 +286,13 @@
     },
     {
       "source": "ovsey_belotserkovskiy",
-      "target": "brana_brutman",
+      "target": "zhena_ioyny",
       "types": [
         "conflict"
       ],
       "episode_count": 2,
-      "weight": 0.4,
+      "intensity": 4,
+      "weight": 0.67,
       "evidence": [
         "«он подал в суд на тещу свою Брану Брутман»",
         "«Через год после женитьбы он подал в суд на тещу свою Брану Брутман»"
@@ -292,7 +306,8 @@
         "conflict"
       ],
       "episode_count": 1,
-      "weight": 0.2,
+      "intensity": 2,
+      "weight": 0.33,
       "evidence": [
         "«Малый оператор Нафтула Герчик и Брана Брутман... очутились на скамье подсудимых»"
       ],
@@ -306,12 +321,13 @@
         "conflict"
       ],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 0.83,
       "evidence": [
         "«Верите ли вы в бога?» ; «Вас не удивил приход гражданки Брутман...»",
         "«Прокурор Орлов остановил Нафтулу в его обходе» ; «Прокурор доказывал»"
       ],
-      "notes": "Прокурор допрашивает Нафтулу; обвинение строится против Нафтулы"
+      "notes": "прокурор допрашивает Нафтулу; обвинение строится против Нафтулы"
     },
     {
       "source": "orlov",
@@ -320,7 +336,8 @@
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.5,
       "evidence": [
         "«Несколько вопросов задал прокурор»"
       ],
@@ -328,13 +345,14 @@
     },
     {
       "source": "samuil_lining",
-      "target": "polina_belotserkovskaya",
+      "target": "polya",
       "types": [
         "speech",
         "conflict"
       ],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 0.83,
       "evidence": [
         "«Скажите, свидетельница...» ; «Идем далее»",
         "«имею представить суду справку» ; «Полина... всем телом налегла на барьер»"
@@ -348,11 +366,12 @@
         "help_support"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 2,
+      "weight": 0.33,
       "evidence": [
         "«работница с лицом киргизки... кормила Карл-Янкеля»"
       ],
-      "notes": "Кормит младенца"
+      "notes": "кормит младенца"
     },
     {
       "source": "devochka_v_krasnom_platochke",
@@ -361,11 +380,12 @@
         "help_support"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 2,
+      "weight": 0.33,
       "evidence": [
         "«Она вытирала досуха клеенку Карл-Янкеля»"
       ],
-      "notes": "Ухаживает за ребенком"
+      "notes": "ухаживает за ребенком"
     },
     {
       "source": "rabotnitsa_kirgizka",
@@ -374,19 +394,21 @@
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.5,
       "evidence": [
         "«Он военный будет» ; «он авиатор у нас будет»"
       ],
-      "notes": "Обсуждают будущее Карл-Янкеля"
+      "notes": "обсуждают будущее Карл-Янкеля"
     },
     {
       "source": "semen_brutman",
       "target": "karl_yankel",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«Дети Семена кочевали вместе с его дивизией» ; «внука она дождалась от младшей дочери Поли»"

@@ -41,7 +41,7 @@
       "other": "сопровождает делегацию"
     },
     {
-      "id": "molodoi_anglichanin",
+      "id": "molodoy_anglichanin",
       "name": "Молодой англичанин",
       "full_name": "—",
       "main": false,
@@ -53,7 +53,7 @@
       "other": "получил недавно юридическое образование"
     },
     {
-      "id": "pervyi_italyanskii_student",
+      "id": "pervyy_italyanskiy_student",
       "name": "Первый итальянский студент",
       "full_name": "—",
       "main": false,
@@ -65,7 +65,7 @@
       "other": "один из трех итальянских студентов"
     },
     {
-      "id": "vtoroi_italyanskii_student",
+      "id": "vtoroy_italyanskiy_student",
       "name": "Второй итальянский студент",
       "full_name": "—",
       "main": false,
@@ -77,7 +77,7 @@
       "other": "один из трех итальянских студентов"
     },
     {
-      "id": "tretii_italyanskii_student",
+      "id": "tretiy_italyanskiy_student",
       "name": "Третий итальянский студент",
       "full_name": "—",
       "main": false,
@@ -89,7 +89,7 @@
       "other": "один из трех итальянских студентов"
     },
     {
-      "id": "zhenshchina_v_sukonnoi_shali",
+      "id": "zhenshchina_v_sukonnoy_shali",
       "name": "Женщина в суконной шали",
       "full_name": "—",
       "main": false,
@@ -109,7 +109,8 @@
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
         "«А знаете, лейтенант, только что перед нами на Ломницкий щит поднялся какой-то американский дипломат»"
       ],
@@ -123,7 +124,8 @@
         "speech"
       ],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 1,
       "evidence": [
         "«представителем напавшего на нас правительства» ; «Моя мать и две моих сестры убиты осколками американской бомбы»",
         "«я, американский дипломат, хотел бы обменяться с вами некоторыми взглядами» ; «Ким Ду Бо сказал»"
@@ -131,116 +133,124 @@
       "notes": "идейный и политический конфликт в споре о войне и мире; взаимные реплики в публичной дискуссии"
     },
     {
-      "source": "molodoi_anglichanin",
+      "source": "molodoy_anglichanin",
       "target": "foster_din",
       "types": [
         "conflict",
         "speech"
       ],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 1,
       "evidence": [
         "«связан известными отношениями с моими друзьями по поездке, я предпочел бы при данных обстоятельствах общую беседу»",
         "«я предпочел бы при данных обстоятельствах общую беседу» ; «эмблема сторонников мира изготовлена не в Москве, а в Париже»"
       ],
-      "notes": "англичанин возражает Дину в споре и отвечает о символе мира и общей беседе"
+      "notes": "англичанин возражает Дину в споре; отвечает Дину о символе мира и общей беседе"
     },
     {
-      "source": "pervyi_italyanskii_student",
+      "source": "pervyy_italyanskiy_student",
       "target": "foster_din",
       "types": [
         "conflict",
         "speech"
       ],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 1,
       "evidence": [
         "«Я видел этих ваших голубков. Они не подходят для эмблемы»",
         "«Ну, конечно! Я видел этих ваших голубков»"
       ],
-      "notes": "иронически спорит с Дином о «голубях мира» и произносит реплику о «ваших голубках»"
+      "notes": "иронически спорит с Дином о «голубях мира»; произносит реплику о «ваших голубках»"
     },
     {
-      "source": "vtoroi_italyanskii_student",
+      "source": "vtoroy_italyanskiy_student",
       "target": "foster_din",
       "types": [
         "conflict",
         "speech"
       ],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 1,
       "evidence": [
         "«И в клюве ― человеческая кость!»",
         "«И в клюве ― человеческая кость!»"
       ],
-      "notes": "усиливает обвинение против американской стороны и произносит реплику о человеческой кости"
+      "notes": "усиливает обвинение против американской стороны; произносит реплику о человеческой кости"
     },
     {
-      "source": "tretii_italyanskii_student",
+      "source": "tretiy_italyanskiy_student",
       "target": "foster_din",
       "types": [
         "conflict",
         "speech"
       ],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 1,
       "evidence": [
         "«Русские солдаты после окончания войны не сделали ни одного выстрела»",
         "«Русские солдаты после окончания войны не сделали ни одного выстрела»"
       ],
-      "notes": "спорит с Дином о послевоенных выстрелах и произносит реплику о русских солдатах"
+      "notes": "спорит с Дином о послевоенных выстрелах; произносит реплику о русских солдатах"
     },
     {
-      "source": "zhenshchina_v_sukonnoi_shali",
+      "source": "zhenshchina_v_sukonnoy_shali",
       "target": "foster_din",
       "types": [
         "conflict",
         "speech"
       ],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 1,
       "evidence": [
         "«Что ж, правда, мы за мир!» ; «Так зачем же вы, бедняжки, забрались в этакую даль?»",
         "«Это говорила женщина, приехавшая в вагончике двадцать третьей»"
       ],
-      "notes": "публично осуждает Дина и обращается к нему после ответа Ким Ду Бо"
+      "notes": "публично осуждает Дина; обращается к Дину после ответа Ким Ду Бо"
     },
     {
-      "source": "pervyi_italyanskii_student",
+      "source": "pervyy_italyanskiy_student",
       "target": "kim_du_bo",
       "types": [
         "transfer",
         "co_presence_joint_action"
       ],
       "episode_count": 2,
-      "weight": 0.4,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
         "«требовали, чтобы Ким Ду Бо принял одну в подарок»",
         "«Итальянцы примеряли свои причудливые шляпы на лейтенанта корейской армии»"
       ],
-      "notes": "требует, чтобы Ким Ду Бо принял шляпу в подарок, и примеряет шляпы на Ким Ду Бо вместе с другими итальянцами"
+      "notes": "требует, чтобы Ким Ду Бо принял шляпу в подарок; примеряет шляпы на Ким Ду Бо вместе с другими итальянцами"
     },
     {
-      "source": "vtoroi_italyanskii_student",
+      "source": "vtoroy_italyanskiy_student",
       "target": "kim_du_bo",
       "types": [
         "co_presence_joint_action"
       ],
       "episode_count": 1,
-      "weight": 0.1,
+      "intensity": 1,
+      "weight": 0.2,
       "evidence": [
         "«Итальянцы примеряли свои причудливые шляпы на лейтенанта корейской армии»"
       ],
       "notes": "участвует в общем эпизоде со шляпами"
     },
     {
-      "source": "tretii_italyanskii_student",
+      "source": "tretiy_italyanskiy_student",
       "target": "kim_du_bo",
       "types": [
         "co_presence_joint_action"
       ],
       "episode_count": 1,
-      "weight": 0.1,
+      "intensity": 1,
+      "weight": 0.2,
       "evidence": [
         "«Итальянцы примеряли свои причудливые шляпы на лейтенанта корейской армии»"
       ],

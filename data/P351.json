@@ -5,7 +5,7 @@
   "year": 1981,
   "nodes": [
     {
-      "id": "vitaly_ivanovich_lukyanov",
+      "id": "vitaliy_ivanovich_lukyanov",
       "name": "Виталий Иванович Лукьянов",
       "full_name": "Виталий Иванович Лукьянов",
       "main": true,
@@ -101,7 +101,7 @@
       "other": "—"
     },
     {
-      "id": "ivan_grigoryevich",
+      "id": "ivan_grigorevich",
       "name": "Иван Григорьевич",
       "full_name": "Иван Григорьевич Лукьянов",
       "main": false,
@@ -197,7 +197,7 @@
       "other": "важный персонаж воспоминаний"
     },
     {
-      "id": "grigory_lukyanov",
+      "id": "grigoriy_lukyanov",
       "name": "Григорий Лукьянов",
       "full_name": "Григорий Лукьянов",
       "main": false,
@@ -211,39 +211,53 @@
   ],
   "links": [
     {
-      "source": "vitaly_ivanovich_lukyanov",
+      "source": "vitaliy_ivanovich_lukyanov",
       "target": "lyuba",
       "types": [
+        "kinship",
         "speech"
       ],
       "episode_count": 5,
+      "intensity": 15,
       "weight": 1,
       "evidence": [
-        "«Люба, а наш парень растет»",
-        "«Что?»"
+        "«моя внучка Люба»",
+        "разговоры и обсуждения",
+        "разговор после случая с соседкой-мошенницей",
+        "разговор в электричке",
+        "разговор про Аврору Алексеевну",
+        "разговор про Дениса"
       ],
-      "notes": "разговоры и обсуждения; разговор после случая с соседкой-мошенницей; разговор в электричке; разговор про Аврору Алексеевну; разговор про Дениса"
+      "notes": "дед и внучка; разговоры и обсуждения; разговор после случая с соседкой-мошенницей; разговор в электричке; разговор про Аврору Алексеевну; разговор про Дениса"
     },
     {
-      "source": "vitaly_ivanovich_lukyanov",
+      "source": "vitaliy_ivanovich_lukyanov",
       "target": "vitasha",
       "types": [
+        "kinship",
         "speech"
       ],
       "episode_count": 5,
+      "intensity": 15,
       "weight": 1,
       "evidence": [
-        "рассказы, разговоры о природе"
+        "«правнуком Виташей»",
+        "поезд / разговор о дне",
+        "сказки на ночь",
+        "прогулка к ручью",
+        "разговор после удара ногой",
+        "финальная сцена с «зеленым всадником»"
       ],
-      "notes": "разговоры, рассказы и обучение; поезд и разговор о дне; сказки на ночь; прогулка к ручью; разговор после удара ногой; финальная сцена с «зеленым всадником»"
+      "notes": "прадед и правнук; поезд / разговор о дне; сказки на ночь; прогулка к ручью; разговор после удара ногой; финальная сцена с «зеленым всадником»"
     },
     {
       "source": "lyuba",
       "target": "vitasha",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«Не хочу с мамой, хочу с дедушкой!»"
@@ -251,60 +265,50 @@
       "notes": "мать и сын"
     },
     {
-      "source": "vitaly_ivanovich_lukyanov",
+      "source": "vitaliy_ivanovich_lukyanov",
       "target": "avrora_alekseevna",
       "types": [
         "co_presence_joint_action",
         "speech"
       ],
       "episode_count": 2,
-      "weight": 0.4,
+      "intensity": 4,
+      "weight": 0.27,
       "evidence": [
-        "«Сходили»",
-        "«Мы условились встретиться»"
+        "поход на кладбище",
+        "разговоры"
       ],
       "notes": "поход на кладбище; разговоры"
     },
     {
-      "source": "vitaly_ivanovich_lukyanov",
+      "source": "vitaliy_ivanovich_lukyanov",
       "target": "storozh",
       "types": [
         "conflict",
         "speech"
       ],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 0.33,
       "evidence": [
-        "«Рублей пятьдесят»",
-        "разговор о компенсации"
+        "требование денег",
+        "переговоры"
       ],
       "notes": "требование денег; переговоры"
     },
     {
       "source": "storozhikha",
-      "target": "vitaly_ivanovich_lukyanov",
+      "target": "vitaliy_ivanovich_lukyanov",
       "types": [
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.2,
       "evidence": [
-        "«может, вам неловко сделать ей предложение»"
+        "советы о женитьбе"
       ],
       "notes": "советы о женитьбе"
-    },
-    {
-      "source": "lyuba",
-      "target": "denis",
-      "types": [
-        "kinship_social"
-      ],
-      "episode_count": 1,
-      "weight": 0.1,
-      "evidence": [
-        "«скоро выйдет замуж»"
-      ],
-      "notes": "отношения"
     },
     {
       "source": "denis",
@@ -313,60 +317,67 @@
         "co_presence_joint_action"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
-        "«играл с ним в футбол»"
+        "игры"
       ],
       "notes": "игры"
     },
     {
-      "source": "vitaly_ivanovich_lukyanov",
+      "source": "vitaliy_ivanovich_lukyanov",
       "target": "anton",
       "types": [
+        "kinship",
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.2,
       "evidence": [
-        "«спросил у меня Антон»"
+        "«брат Антон»",
+        "разговор"
       ],
-      "notes": "разговор"
+      "notes": "родственники; разговор"
     },
     {
-      "source": "vitaly_ivanovich_lukyanov",
+      "source": "vitaliy_ivanovich_lukyanov",
       "target": "lobanov",
       "types": [
         "help_support",
         "speech"
       ],
       "episode_count": 2,
-      "weight": 0.6,
+      "intensity": 5,
+      "weight": 0.33,
       "evidence": [
-        "«делал мне перевязку»",
-        "«Вы еще в возрасте чувств»"
+        "медицинская помощь",
+        "разговор"
       ],
       "notes": "медицинская помощь; разговор"
     },
     {
-      "source": "vitaly_ivanovich_lukyanov",
+      "source": "vitaliy_ivanovich_lukyanov",
       "target": "zinchenko",
       "types": [
         "co_presence_joint_action"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
-        "«сидел и слушал»"
+        "работа при спасении"
       ],
       "notes": "работа при спасении"
     },
     {
-      "source": "vitaly_ivanovich_lukyanov",
+      "source": "vitaliy_ivanovich_lukyanov",
       "target": "vera",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«А где моя жена Вера?»"
@@ -374,12 +385,13 @@
       "notes": "муж и жена"
     },
     {
-      "source": "vitaly_ivanovich_lukyanov",
+      "source": "vitaliy_ivanovich_lukyanov",
       "target": "nikolay",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«Мне надо было еще сходить на могилу сына»"
@@ -387,12 +399,13 @@
       "notes": "отец и сын"
     },
     {
-      "source": "vitaly_ivanovich_lukyanov",
+      "source": "vitaliy_ivanovich_lukyanov",
       "target": "irina",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«И где-то далеко живет моя дочь Ирина»"
@@ -400,12 +413,13 @@
       "notes": "отец и дочь"
     },
     {
-      "source": "vitaly_ivanovich_lukyanov",
-      "target": "ivan_grigoryevich",
+      "source": "vitaliy_ivanovich_lukyanov",
+      "target": "ivan_grigorevich",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«Мой отец Иван Григорьевич был штейгером на руднике»"
@@ -413,12 +427,13 @@
       "notes": "сын и отец"
     },
     {
-      "source": "vitaly_ivanovich_lukyanov",
+      "source": "vitaliy_ivanovich_lukyanov",
       "target": "fedor_gavrilovich_kuznetsov",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«Мой отчим Федор Гаврилович Кузнецов...»"
@@ -426,12 +441,13 @@
       "notes": "пасынок и отчим"
     },
     {
-      "source": "vitaly_ivanovich_lukyanov",
-      "target": "grigory_lukyanov",
+      "source": "vitaliy_ivanovich_lukyanov",
+      "target": "grigoriy_lukyanov",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«там были мастерские моего деда Григория Лукьянова»"
@@ -439,30 +455,32 @@
       "notes": "внук и дед"
     },
     {
-      "source": "vitaly_ivanovich_lukyanov",
+      "source": "vitaliy_ivanovich_lukyanov",
       "target": "timoshenko",
       "types": [
         "speech",
         "co_presence_joint_action"
       ],
       "episode_count": 2,
-      "weight": 0.4,
+      "intensity": 4,
+      "weight": 0.27,
       "evidence": [
-        "«\"Что ты за молчун?\" — спрашивал Тимошенко»",
+        "дружеские разговоры, воспоминания",
         "«У меня был друг, мы построились рядом»"
       ],
       "notes": "дружеские разговоры, воспоминания; соседи по даче, совместная история"
     },
     {
-      "source": "vitaly_ivanovich_lukyanov",
+      "source": "vitaliy_ivanovich_lukyanov",
       "target": "denis",
       "types": [
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.2,
       "evidence": [
-        "«Я выпил с ним рюмку водки...»"
+        "знакомство, разговор, семейное общение"
       ],
       "notes": "знакомство, разговор, семейное общение"
     }

@@ -26,7 +26,7 @@
       "author_characterization": "связанный с властью, вооруженный",
       "gender": "мужской",
       "age": "—",
-      "other": "имел пистолет"
+      "other": "военный; офицер (обер-лейтенант); женат; имел пистолет"
     },
     {
       "id": "mama_raya",
@@ -38,7 +38,7 @@
       "author_characterization": "—",
       "gender": "женский",
       "age": "—",
-      "other": "—"
+      "other": "замужем"
     },
     {
       "id": "arabskiy_muzhchina",
@@ -62,19 +62,7 @@
       "author_characterization": "опытный, «настоящий мужчина»",
       "gender": "мужской",
       "age": "старый",
-      "other": "живет в Нью-Йорке"
-    },
-    {
-      "id": "stiven_grey",
-      "name": "Стивен Грэй",
-      "full_name": "—",
-      "main": false,
-      "who": "бывший работодатель рассказчика",
-      "aliases": "босс",
-      "author_characterization": "богатый, эксцентричный",
-      "gender": "мужской",
-      "age": "—",
-      "other": "—"
+      "other": "юрист; адвокат; живет в Нью-Йорке"
     },
     {
       "id": "zigmund_freyd",
@@ -86,7 +74,7 @@
       "author_characterization": "разговорчивый, наблюдательный",
       "gender": "мужской",
       "age": "—",
-      "other": "еврей"
+      "other": "торговля; продавец оружия; еврей"
     },
     {
       "id": "gorbun",
@@ -106,9 +94,10 @@
       "source": "rasskazchik",
       "target": "otets_rasskazchika",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«В детстве сына обер-лейтенанта (такое звание, я с удовольствием обнаружил, оказалось, было у моего папы в переводе на немецкий.»"
@@ -119,9 +108,10 @@
       "source": "rasskazchik",
       "target": "mama_raya",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«мама Рая»"
@@ -135,7 +125,8 @@
         "co_presence_joint_action"
       ],
       "episode_count": 1,
-      "weight": 0.1,
+      "intensity": 1,
+      "weight": 0.2,
       "evidence": [
         "«мы коротко переглянулись»"
       ],
@@ -148,24 +139,12 @@
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
         "«Эл, старый нью-йоркский адвокат, сказал мне как-то во время приема в доме моего босса-мультимиллионера: «Ты напоминаешь мне, Эдвард, гуд олд бойз моего поколения. На тебя можно положиться, парень».»"
       ],
       "notes": "разговор и оценка"
-    },
-    {
-      "source": "rasskazchik",
-      "target": "stiven_grey",
-      "types": [
-        "kinship_social"
-      ],
-      "episode_count": 1,
-      "weight": 0.1,
-      "evidence": [
-        "«мой босс Стивен Грэй»"
-      ],
-      "notes": "отношения работник-работодатель"
     },
     {
       "source": "rasskazchik",
@@ -175,7 +154,8 @@
         "transfer"
       ],
       "episode_count": 2,
-      "weight": 0.6,
+      "intensity": 5,
+      "weight": 1,
       "evidence": [
         "«― Что я могу для вас сделать, «ян мэн»? ― спросил меня сэйлс-мэн Зигмунд Фрейд.»",
         "«Он придвинул нож ко мне»"
@@ -189,7 +169,8 @@
         "co_presence_joint_action"
       ],
       "episode_count": 1,
-      "weight": 0.1,
+      "intensity": 1,
+      "weight": 0.2,
       "evidence": [
         "«Однажды я застал у витрины, и это меня растрогало, несентиментального, маленького горбуна с желто-зеленым лицом...»"
       ],

@@ -17,7 +17,7 @@
       "other": "говорит о себе в третьем лице"
     },
     {
-      "id": "khozyain_kofeini",
+      "id": "khozyain_kofeyni",
       "name": "Хозяин кофейни",
       "full_name": "—",
       "main": false,
@@ -41,7 +41,7 @@
       "other": "пьет чашку за чашкой"
     },
     {
-      "id": "patlaty",
+      "id": "patlatyy",
       "name": "Патлатый",
       "full_name": "—",
       "main": false,
@@ -104,100 +104,111 @@
   "links": [
     {
       "source": "pinkhos",
-      "target": "khozyain_kofeini",
-      "types": [
-        "request"
-      ],
-      "episode_count": 1,
-      "weight": 0.2,
-      "evidence": [
-        "«Поставить двенадцать досок! — приказал хозяину»"
-      ],
-      "notes": "Пинхос приказывает хозяину поставить доски"
-    },
-    {
-      "source": "pinkhos",
       "target": "yunosha_v_pensne",
       "types": [
         "conflict",
         "speech"
       ],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 0.83,
       "evidence": [
         "Партия в кофейне, победа Пинхоса",
         "«А знаете, у вас есть интересные ходы»"
       ],
-      "notes": "шахматный поединок Пинхоса с юным противником и разговор после партии"
+      "notes": "шахматный поединок Пинхоса с юным противником; Пинхос говорит с ним после партии"
     },
     {
       "source": "pinkhos",
-      "target": "patlaty",
+      "target": "khozyain_kofeyni",
       "types": [
-        "conflict",
-        "speech",
-        "co_presence_joint_action"
+        "request"
       ],
-      "episode_count": 3,
-      "weight": 0.6,
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.33,
       "evidence": [
-        "Первая партия — Пинхос проигрывает",
-        "Спор о шахматах и революции на улице",
-        "Ночная игра в сверх-шахматы"
+        "«Поставить двенадцать досок!»"
       ],
-      "notes": "шахматное противостояние, разговоры о шахматах и революции, ночная совместная игра"
+      "notes": "Пинхос приказывает хозяину кофейни поставить доски"
     },
     {
-      "source": "patlaty",
+      "source": "patlatyy",
       "target": "baron_palen",
       "types": [
         "conflict"
       ],
       "episode_count": 1,
-      "weight": 0.2,
+      "intensity": 2,
+      "weight": 0.33,
       "evidence": [
         "Игра в кофейне, слежка, убийство"
       ],
       "notes": "Патлатый нацелен на Палена и убивает его"
     },
     {
-      "source": "zhena_pinkhosa",
-      "target": "pinkhos",
+      "source": "pinkhos",
+      "target": "patlatyy",
       "types": [
-        "request"
+        "conflict",
+        "speech",
+        "co_presence_joint_action"
       ],
-      "episode_count": 1,
-      "weight": 0.2,
+      "episode_count": 3,
+      "intensity": 6,
+      "weight": 1,
       "evidence": [
-        "«Тщетно утром жена удерживала его за руки»"
+        "Первая партия — Пинхос проигрывает",
+        "Спор о шахматах и революции на улице",
+        "Ночная игра в сверх-шахматы"
       ],
-      "notes": "жена удерживает Пинхоса дома в опасный день"
+      "notes": "шахматное противостояние Пинхоса и Патлатого; их спор о шахматах и революции; совместная ночная игра"
     },
     {
-      "source": "doch_pinkhosa",
-      "target": "pinkhos",
+      "source": "pinkhos",
+      "target": "zhena_pinkhosa",
       "types": [
+        "kinship",
         "request"
       ],
       "episode_count": 1,
-      "weight": 0.2,
+      "intensity": 2,
+      "weight": 0.33,
       "evidence": [
+        "«жена удерживала его за руки»",
+        "«Тщетно утром жена удерживала его за руки»"
+      ],
+      "notes": "муж и жена; жена просит Пинхоса остаться дома в опасный день"
+    },
+    {
+      "source": "pinkhos",
+      "target": "doch_pinkhosa",
+      "types": [
+        "kinship",
+        "request"
+      ],
+      "episode_count": 1,
+      "intensity": 2,
+      "weight": 0.33,
+      "evidence": [
+        "«дочь, умоляя хотя сегодня остаться с ними»",
         "«напрасно плакала дочь, умоляя хотя сегодня остаться с ними»"
       ],
-      "notes": "дочь умоляет Пинхоса остаться дома"
+      "notes": "отец и дочь; дочь умоляет Пинхоса остаться дома"
     },
     {
       "source": "pinkhos",
       "target": "syn_pinkhosa",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«тем, кто убил его сына»"
       ],
-      "notes": "упоминание о гибели сына"
+      "notes": "отец и сын; сын Пинхоса убит белыми"
     }
   ]
 }

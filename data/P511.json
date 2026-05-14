@@ -50,7 +50,7 @@
       "author_characterization": "—",
       "gender": "женский",
       "age": "—",
-      "other": "живет в заречном селе"
+      "other": "работает на ферме; замужем; живет в заречном селе"
     },
     {
       "id": "zyat_baby_nyury",
@@ -62,7 +62,7 @@
       "author_characterization": "—",
       "gender": "мужской",
       "age": "—",
-      "other": "живет в заречном селе"
+      "other": "женат; живет в заречном селе"
     },
     {
       "id": "vnuchki_baby_nyury",
@@ -86,14 +86,15 @@
         "speech"
       ],
       "episode_count": 4,
-      "weight": 1,
+      "intensity": 10,
+      "weight": 1.0,
       "evidence": [
         "рассказчик регулярно встречает ее и слушает",
         "разговор о здоровье и церкви",
         "разговор про археолога",
         "баба Нюра говорит, что не знает рассказчика"
       ],
-      "notes": "рассказчик регулярно встречает бабу Нюру, слушает ее и разговаривает с ней о здоровье, церкви, археологе и памяти"
+      "notes": "рассказчик регулярно встречает бабу Нюру и слушает ее; они говорят о здоровье, церкви и археологе; позднее баба Нюра говорит, что не знает рассказчика"
     },
     {
       "source": "baba_nyura",
@@ -102,6 +103,7 @@
         "speech"
       ],
       "episode_count": 1,
+      "intensity": 3,
       "weight": 0.3,
       "evidence": [
         "окрики и брань, обращенные к козе"
@@ -112,23 +114,28 @@
       "source": "doch_baby_nyury",
       "target": "baba_nyura",
       "types": [
+        "kinship",
         "help_support"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 2,
+      "weight": 0.2,
       "evidence": [
+        "мать и дочь",
         "дочь забирает бабу Нюру к себе"
       ],
-      "notes": "дочь забирает бабу Нюру к себе"
+      "notes": "мать и дочь; дочь забирает бабу Нюру к себе"
     },
     {
       "source": "zyat_baby_nyury",
       "target": "baba_nyura",
       "types": [
-        "help_support"
+        "help_support",
+        "kinship"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 2,
+      "weight": 0.2,
       "evidence": [
         "догоняет и возвращает ее от реки"
       ],
@@ -138,14 +145,17 @@
       "source": "vnuchki_baby_nyury",
       "target": "baba_nyura",
       "types": [
+        "kinship",
         "help_support"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 2,
+      "weight": 0.2,
       "evidence": [
+        "бабушка и внучки",
         "догоняют и возвращают ее от реки"
       ],
-      "notes": "внучки догоняют бабу Нюру и возвращают ее от реки"
+      "notes": "бабушка и внучки; внучки догоняют бабу Нюру и возвращают ее от реки"
     }
   ]
 }

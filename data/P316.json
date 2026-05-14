@@ -26,7 +26,7 @@
       "author_characterization": "удивительного характера, счастливая в тот вечер, любит ходить в гости и в театр",
       "gender": "женский",
       "age": "пожилая",
-      "other": "жила одна; имела четверых дочерей"
+      "other": "медицина; глазной врач; жила одна; имела четверых дочерей"
     },
     {
       "id": "aktrisa",
@@ -38,7 +38,7 @@
       "author_characterization": "маленькая, волшебная, неторопливая",
       "gender": "женский",
       "age": "пожилая",
-      "other": "в финале тоже бабушка"
+      "other": "искусство; актриса; в финале тоже бабушка"
     },
     {
       "id": "mama",
@@ -50,7 +50,7 @@
       "author_characterization": "—",
       "gender": "женский",
       "age": "взрослая",
-      "other": "жила с бабушкой в одном городе, за углом"
+      "other": "замужем; жила с бабушкой в одном городе, за углом"
     },
     {
       "id": "papa",
@@ -62,7 +62,7 @@
       "author_characterization": "—",
       "gender": "мужской",
       "age": "взрослый",
-      "other": "—"
+      "other": "женат"
     },
     {
       "id": "galya_kozlova",
@@ -74,7 +74,7 @@
       "author_characterization": "—",
       "gender": "женский",
       "age": "школьница",
-      "other": "училась в шестом «А»"
+      "other": "староста изокружка; училась в шестом «А»"
     }
   ],
   "links": [
@@ -86,7 +86,8 @@
         "help_support"
       ],
       "episode_count": 2,
-      "weight": 0.6,
+      "intensity": 5,
+      "weight": 1,
       "evidence": [
         "«Я хотел бы вам рассказать…» ; «Спасибо вам…»",
         "«Поддержите-ка свою бабушку» ; «...сказала она, опираясь на мою руку»"
@@ -98,10 +99,12 @@
       "target": "babushka",
       "types": [
         "speech",
-        "co_presence_joint_action"
+        "co_presence_joint_action",
+        "kinship"
       ],
       "episode_count": 2,
-      "weight": 0.4,
+      "intensity": 4,
+      "weight": 0.8,
       "evidence": [
         "«Пойдем со мной, бабушка. У меня есть лишний билет!»",
         "«― Пойдем в буфет, ― предложила бабушка. ― Я обожаю толкаться в театральных буфетах! »"
@@ -112,22 +115,26 @@
       "source": "rasskazchik",
       "target": "mama",
       "types": [
+        "kinship",
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
+        "«моя мама жила в одном городе с бабушкой»",
         "«Мама и папа стали объяснять, что им очень не хочется идти завтра в какую-то компанию, но не пойти они просто не могут.»"
       ],
-      "notes": "разговор дома перед походом в театр"
+      "notes": "сын и мать; разговор дома перед походом в театр"
     },
     {
       "source": "rasskazchik",
       "target": "papa",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«маму с папой и даже меня»"
@@ -138,22 +145,26 @@
       "source": "papa",
       "target": "babushka",
       "types": [
-        "speech"
+        "speech",
+        "kinship"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
-        "«Черный цвет — это цвет торжества! — радостно возразил папа»"
+        "«Черный цвет — это цвет торжества! — радостно возразил папа»",
+        "«Они поздравляли бабушку, маму с папой и даже меня.»"
       ],
-      "notes": "разговор дома перед походом в театр"
+      "notes": "разговор дома перед походом в театр; теща и зять"
     },
     {
       "source": "babushka",
       "target": "mama",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«У нее было четверо дочерей. Но только моя мама жила в одном городе с бабушкой»"
@@ -168,7 +179,8 @@
         "co_presence_joint_action"
       ],
       "episode_count": 2,
-      "weight": 0.4,
+      "intensity": 4,
+      "weight": 0.8,
       "evidence": [
         "«она спросила: „Где ты живешь?“»",
         "«И навел его на Галю Козлову, сидевшую в бельэтаже.»"
@@ -179,9 +191,10 @@
       "source": "mama",
       "target": "papa",
       "types": [
-        "kinship_social"
+        "kinship"
       ],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«мама с папой» ; «Мама и папа стали объяснять»"

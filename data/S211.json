@@ -77,7 +77,7 @@
       "other": "говорит, что сам пошел в революцию"
     },
     {
-      "id": "malchik_s_sigarkoy",
+      "id": "malchik_s_tsigarkoy",
       "name": "Мальчик с цигаркой",
       "full_name": "—",
       "main": false,
@@ -106,31 +106,35 @@
       "source": "taya",
       "target": "zoya",
       "types": [
+        "kinship",
         "help_support",
         "speech"
       ],
       "episode_count": 2,
-      "weight": 0.6,
+      "intensity": 5,
+      "weight": 1,
       "evidence": [
+        "«Старшую звали Тая, младшую Зоя»",
         "Тая разжигает печку, успокаивает сестру",
         "«Ничего, Зоя, это так себе»"
       ],
-      "notes": "Тая помогает Зое и разговаривает с ней дома"
+      "notes": "сестры; Тая помогает Зое, разжигает печку и успокаивает ее"
     },
     {
-      "source": "malchik_s_sigarkoy",
+      "source": "malchik_s_tsigarkoy",
       "target": "rebyata_v_kolpakakh",
       "types": [
         "speech",
         "co_presence_joint_action"
       ],
       "episode_count": 2,
-      "weight": 0.4,
+      "intensity": 4,
+      "weight": 0.8,
       "evidence": [
         "Команды: «В ногу! Смирно! Сучьи дети!»",
         "Марширование и пение на улице"
       ],
-      "notes": "мальчик с цигаркой командует ребятами; они вместе маршируют и поют на улице"
+      "notes": "мальчик с цигаркой командует ребятами; они вместе маршируют и поют"
     },
     {
       "source": "taya",
@@ -139,7 +143,8 @@
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
         "«А вы почему?..» — «Собак морозить можно»"
       ],
@@ -152,7 +157,8 @@
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
         "«старшие-то у вас где?» — «Старших нет»"
       ],
@@ -165,7 +171,8 @@
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
         "«А нам еще веселей... мы рисуем»"
       ],
@@ -179,7 +186,8 @@
         "speech"
       ],
       "episode_count": 2,
-      "weight": 0.6,
+      "intensity": 5,
+      "weight": 1,
       "evidence": [
         "Обещает хлеб, сажает на колени",
         "«Хлеба нет» ; «На ужин бывает селедка»"
@@ -193,24 +201,28 @@
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
         "«А у нас вчера Юпитер сдох»"
       ],
-      "notes": "Тая отвечает лупоглазому солдату"
+      "notes": "Тая отвечает лупоглазому солдату и говорит про учебу"
     },
     {
       "source": "ryzhiy_soldat",
       "target": "ryaboy_soldat",
       "types": [
-        "conflict"
+        "conflict",
+        "co_presence_joint_action"
       ],
-      "episode_count": 1,
-      "weight": 0.2,
+      "episode_count": 2,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
-        "«Ты, паразит, революцию менять на дроби»"
+        "«Ты, паразит, революцию менять на дроби»",
+        "солдаты стояли около стола и пели"
       ],
-      "notes": "рыжий солдат грубо одергивает рябого солдата"
+      "notes": "рыжий солдат грубо одергивает рябого; солдаты вместе находятся в доме и поют"
     },
     {
       "source": "ryaboy_soldat",
@@ -219,12 +231,13 @@
         "speech"
       ],
       "episode_count": 2,
-      "weight": 0.6,
+      "intensity": 6,
+      "weight": 1,
       "evidence": [
         "«У-мно-жение и де-ление...»",
         "«мы уже периодические начали. У немки бородавка»"
       ],
-      "notes": "рябой солдат и Тая разговаривают об учебе и дробях"
+      "notes": "рябой солдат и Тая говорят об учебе и дробях"
     },
     {
       "source": "bolnoy_soldat",
@@ -233,11 +246,82 @@
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
-        "«Что? Это Интернационал. Скоро все запоют»"
+        "«Скоро все запоют»"
       ],
-      "notes": "больной солдат объясняет Зое про Интернационал"
+      "notes": "больной солдат объясняет Зое, что солдаты поют Интернационал"
+    },
+    {
+      "source": "bolnoy_soldat",
+      "target": "lupoglazyy_soldat",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.17,
+      "evidence": [
+        "«Как киргизы, сидели на полу вокруг печки»"
+      ],
+      "notes": "солдаты приходят и сидят вместе у печки"
+    },
+    {
+      "source": "bolnoy_soldat",
+      "target": "ryzhiy_soldat",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.17,
+      "evidence": [
+        "солдаты стояли около стола и пели"
+      ],
+      "notes": "солдаты действуют и поют вместе"
+    },
+    {
+      "source": "bolnoy_soldat",
+      "target": "ryaboy_soldat",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.17,
+      "evidence": [
+        "солдаты стояли около стола и пели"
+      ],
+      "notes": "солдаты действуют и поют вместе"
+    },
+    {
+      "source": "lupoglazyy_soldat",
+      "target": "ryzhiy_soldat",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.17,
+      "evidence": [
+        "Солдаты ушли в кухню"
+      ],
+      "notes": "солдаты действуют вместе"
+    },
+    {
+      "source": "lupoglazyy_soldat",
+      "target": "ryaboy_soldat",
+      "types": [
+        "co_presence_joint_action"
+      ],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.17,
+      "evidence": [
+        "солдаты стояли около стола и пели"
+      ],
+      "notes": "солдаты действуют и поют вместе"
     }
   ]
 }

@@ -14,7 +14,7 @@
       "author_characterization": "веселый, немного взволнованный, неугомонный",
       "gender": "мужской",
       "age": "—",
-      "other": "распоряжается поисками и похоронами"
+      "other": "служащий; завхоз Хлебопродукта; распоряжается поисками и похоронами"
     },
     {
       "id": "ermilkin",
@@ -26,7 +26,7 @@
       "author_characterization": "плешивый, с тремя золотыми зубами",
       "gender": "мужской",
       "age": "—",
-      "other": "тело ищут за награду"
+      "other": "служащий; заведующий Хлебопродуктом; тело ищут за награду"
     },
     {
       "id": "fedulinykh",
@@ -38,7 +38,7 @@
       "author_characterization": "старик, зоркий, жадноватый, нерешительный",
       "gender": "мужской",
       "age": "старик",
-      "other": "отец Андрюхи"
+      "other": "рабочий; баканщик; отец Андрюхи"
     },
     {
       "id": "andryukha",
@@ -62,7 +62,7 @@
       "author_characterization": "сильный, краснолицый, хозяйственный",
       "gender": "мужской",
       "age": "—",
-      "other": "отец Сереги, Гришки и Васьки"
+      "other": "крестьянин; женат; казак; отец Сереги, Гришки и Васьки"
     },
     {
       "id": "darya_petrovanikha",
@@ -74,7 +74,7 @@
       "author_characterization": "простоволосая, брюхатая, решительная, суетливая",
       "gender": "женский",
       "age": "—",
-      "other": "беременна"
+      "other": "крестьянка; замужем; беременна"
     },
     {
       "id": "serega",
@@ -86,7 +86,7 @@
       "author_characterization": "решительный, грубоватый, хозяйственный",
       "gender": "мужской",
       "age": "—",
-      "other": "помогает прятать и везти утопленника"
+      "other": "крестьянин; помогает прятать и везти утопленника"
     },
     {
       "id": "grishka",
@@ -122,7 +122,7 @@
       "author_characterization": "тихий, задумчивый, покорный",
       "gender": "мужской",
       "age": "—",
-      "other": "участвует в переносе тела"
+      "other": "крестьянин; участвует в переносе тела"
     },
     {
       "id": "sekretar_selsoveta",
@@ -134,7 +134,7 @@
       "author_characterization": "из бывших псаломщиков, неумолимый",
       "gender": "мужской",
       "age": "—",
-      "other": "отказывает в справке"
+      "other": "служащий; секретарь сельсовета; отказывает в справке"
     },
     {
       "id": "ilyushka_burkov",
@@ -146,7 +146,7 @@
       "author_characterization": "безногий, хмурый",
       "gender": "мужской",
       "age": "—",
-      "other": "ходит на деревяшке"
+      "other": "сапожник; ходит на деревяшке"
     },
     {
       "id": "agent_iz_ugolovki",
@@ -158,10 +158,10 @@
       "author_characterization": "молчаливый, дотошный",
       "gender": "мужской",
       "age": "—",
-      "other": "составляет протокол"
+      "other": "служащий; агент уголовного розыска; составляет протокол"
     },
     {
-      "id": "gazetnyy_sotrudnik",
+      "id": "gazetny_sotrudnik",
       "name": "Газетный сотрудник",
       "full_name": "—",
       "main": false,
@@ -170,7 +170,7 @@
       "author_characterization": "неврастеник",
       "gender": "мужской",
       "age": "—",
-      "other": "едет за телом"
+      "other": "служащий; газетный сотрудник; едет за телом"
     },
     {
       "id": "vdova_ermilkina",
@@ -182,18 +182,17 @@
       "author_characterization": "черноглазая, черноволосая, истеричная",
       "gender": "женский",
       "age": "—",
-      "other": "присутствует на похоронах"
+      "other": "вдова; присутствует на похоронах"
     }
   ],
   "links": [
     {
       "source": "petunnikov",
       "target": "ermilkin",
-      "types": [
-        "help_support"
-      ],
+      "types": ["help_support"],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 2,
+      "weight": 0.4,
       "evidence": [
         "«тело ищем» ; «Похороны развертывались... Петунников поспевал везде»"
       ],
@@ -202,12 +201,10 @@
     {
       "source": "fedulinykh",
       "target": "ermilkin",
-      "types": [
-        "co_presence_joint_action",
-        "conflict"
-      ],
+      "types": ["co_presence_joint_action", "conflict"],
       "episode_count": 2,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
         "«Нога его зацепилась... поднялась черная, блестящая голова»",
         "«Федулиных торопливо отвязал веревку от корчажки, слазил на берег за камнем и привязал его на шею утопленника. Затем оттянул подальше от острова и, перекрестившись, пустил на дно.»"
@@ -217,52 +214,61 @@
     {
       "source": "fedulinykh",
       "target": "andryukha",
-      "types": [
-        "speech",
-        "conflict"
-      ],
+      "types": ["kinship", "speech", "conflict"],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 1,
       "evidence": [
+        "«из Славянки к баканщику приехал на лодке сын»",
         "«Утопшего-то где спрятал?» ; «Ну, айда!»",
         "«В шалаше валялся пьяный отец. Андрей с ненавистью посмотрел на старика, с наслаждением ударил его насколько раз кулаком по лицу и пнул ногой в спину.»"
       ],
-      "notes": "обсуждают утопленника и награду; Андрюха ругает и бьет отца"
+      "notes": "отец и сын; обсуждают утопленника и награду; Андрюха ругает и бьет отца"
     },
     {
       "source": "andryukha",
       "target": "ermilkin",
-      "types": [
-        "help_support"
-      ],
+      "types": ["help_support"],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 2,
+      "weight": 0.4,
       "evidence": [
         "«Андрюха сорвал рубаху... приготовился нырять»"
       ],
       "notes": "Андрюха ныряет и ищет затопленное тело"
     },
     {
+      "source": "darya_petrovanikha",
+      "target": "grishka",
+      "types": ["kinship"],
+      "episode_count": 1,
+      "intensity": 1,
+      "weight": 0.1,
+      "evidence": [
+        "«Гришенька, сынишечка ты мой»"
+      ],
+      "notes": "мать и сын"
+    },
+    {
       "source": "grishka",
       "target": "vaska",
-      "types": [
-        "request"
-      ],
+      "types": ["kinship", "request"],
       "episode_count": 1,
-      "weight": 0.2,
+      "intensity": 2,
+      "weight": 0.4,
       "evidence": [
+        "«С противоположного берега за ним следил с любопытством братишка. — О-о-ого-го-о! — закричал Гришка, почему-то пугаясь своего крика. — О-о-ого-го-о! — ответил Васька.»",
         "«Васька, лодку!.. Утопленник!..»"
       ],
-      "notes": "Гришка зовет на помощь через Ваську"
+      "notes": "братья; Гришка зовет на помощь через Ваську"
     },
     {
       "source": "grishka",
       "target": "ermilkin",
-      "types": [
-        "co_presence_joint_action"
-      ],
+      "types": ["co_presence_joint_action"],
       "episode_count": 1,
-      "weight": 0.1,
+      "intensity": 1,
+      "weight": 0.2,
       "evidence": [
         "«схватился за согнутую крючком страшную, синюю руку» ; «притянул к берегу мертвеца»"
       ],
@@ -271,67 +277,63 @@
     {
       "source": "darya_petrovanikha",
       "target": "ermilkin",
-      "types": [
-        "co_presence_joint_action",
-        "help_support"
-      ],
+      "types": ["co_presence_joint_action", "help_support"],
       "episode_count": 2,
-      "weight": 0.4,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
         "«Голый и плешь есть... тот самый!»",
         "«Пусть лодку достанут» ; «Делать заявку в город о вытащенном утопленнике послали Дарью»"
       ],
-      "notes": "Дарья опознает тело и сторожит его; Дарья организует передачу тела семье и в город"
+      "notes": "Дарья опознает тело и сторожит его; организует передачу тела семье и в город"
     },
     {
-      "source": "vaska",
-      "target": "darya_petrovanikha",
-      "types": [
-        "speech"
-      ],
+      "source": "darya_petrovanikha",
+      "target": "vaska",
+      "types": ["kinship", "speech"],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
+        "«Дарья взяла с собой Ваську»",
         "«Гришка утопленника пымал на зеленом острове!»"
       ],
-      "notes": "Васька приносит матери весть о находке"
+      "notes": "мать и сын; Васька приносит матери весть о находке"
     },
     {
       "source": "silantiy_petrovanov",
       "target": "darya_petrovanikha",
-      "types": [
-        "co_presence_joint_action"
-      ],
+      "types": ["kinship", "co_presence_joint_action"],
       "episode_count": 1,
-      "weight": 0.1,
+      "intensity": 1,
+      "weight": 0.2,
       "evidence": [
-        "«Силантий греб; деверь сидел на руле, а Серега тянул мертвое тело. Дарья шла берегом.\n... Затем Серега вылез на берег, а Силантий забрал в лодку Дарью, чтобы ехать домой.»"
+        "—",
+        "«Силантий греб; деверь сидел на руле, а Серега тянул мертвое тело. Дарья шла берегом. ... Затем Серега вылез на берег, а Силантий забрал в лодку Дарью, чтобы ехать домой.»"
       ],
-      "notes": "вместе распоряжаются найденным телом и наградой"
+      "notes": "муж и жена; вместе распоряжаются найденным телом и наградой"
     },
     {
       "source": "silantiy_petrovanov",
       "target": "serega",
-      "types": [
-        "co_presence_joint_action",
-        "speech"
-      ],
+      "types": ["kinship", "co_presence_joint_action", "speech"],
       "episode_count": 2,
-      "weight": 0.4,
+      "intensity": 4,
+      "weight": 0.8,
       "evidence": [
+        "«— Опять, ежели разобраться: кто такие Петровановы? Кулацкий элемент... Ясно и понятно... Четыре лошади, шесть коров... У них и Серега-то, старший сын, с белыми бегал...»",
         "«мужики привязали утопленника на веревку» ; «тело утопленника Силантий с Сергеем привезли»",
         "«Ну, что ж, Серега! Поехали домой» ; «А я думаю четвертной билет деверю в зубы»"
       ],
-      "notes": "вместе перевозят и сдают тело; обсуждают награду и расходы"
+      "notes": "отец и сын; вместе перевозят и сдают тело; обсуждают награду и расходы"
     },
     {
       "source": "serega",
       "target": "ermilkin",
-      "types": [
-        "co_presence_joint_action"
-      ],
+      "types": ["co_presence_joint_action"],
       "episode_count": 1,
-      "weight": 0.1,
+      "intensity": 1,
+      "weight": 0.2,
       "evidence": [
         "«Серега выскочил из лодки... начал из подштанников делать грузило»"
       ],
@@ -340,24 +342,22 @@
     {
       "source": "dever_petrovanovykh",
       "target": "ermilkin",
-      "types": [
-        "co_presence_joint_action"
-      ],
+      "types": ["co_presence_joint_action"],
       "episode_count": 1,
-      "weight": 0.1,
+      "intensity": 1,
+      "weight": 0.2,
       "evidence": [
         "«деверь... осторожно придерживал утопленника за ногу»"
       ],
-      "notes": "деверь помогает переносить и топить тело"
+      "notes": "Деверь помогает переносить и топить тело"
     },
     {
       "source": "silantiy_petrovanov",
       "target": "dever_petrovanovykh",
-      "types": [
-        "co_presence_joint_action"
-      ],
+      "types": ["co_presence_joint_action"],
       "episode_count": 1,
-      "weight": 0.1,
+      "intensity": 1,
+      "weight": 0.2,
       "evidence": [
         "«Силантий с деверем помогали сзади, вдвоем»"
       ],
@@ -366,11 +366,10 @@
     {
       "source": "serega",
       "target": "dever_petrovanovykh",
-      "types": [
-        "co_presence_joint_action"
-      ],
+      "types": ["co_presence_joint_action"],
       "episode_count": 1,
-      "weight": 0.1,
+      "intensity": 1,
+      "weight": 0.2,
       "evidence": [
         "«Серега с деверем разделись. Отец помог занести утопленника в воду. Берег был мелкий, и мужики долго шли по дну, придерживая носилки. Потом поплыли, придерживаясь с двух сторон за жерди носилок. Утопленник сидел боком, лицом в сторону деверя и скалил зубы. И деверю эта улыбка была неприятна.»"
       ],
@@ -379,12 +378,10 @@
     {
       "source": "silantiy_petrovanov",
       "target": "sekretar_selsoveta",
-      "types": [
-        "request",
-        "conflict"
-      ],
+      "types": ["request", "conflict"],
       "episode_count": 2,
-      "weight": 0.4,
+      "intensity": 4,
+      "weight": 0.8,
       "evidence": [
         "«Прошу зарегистрировать на мое фамилие»",
         "«Не дам!» ; «Силантий еще раз матюгнул секретаря»"
@@ -394,11 +391,10 @@
     {
       "source": "silantiy_petrovanov",
       "target": "ilyushka_burkov",
-      "types": [
-        "request"
-      ],
+      "types": ["request"],
       "episode_count": 1,
-      "weight": 0.2,
+      "intensity": 2,
+      "weight": 0.4,
       "evidence": [
         "«На минутку дойдемте до сельсовета, есть дело»"
       ],
@@ -407,11 +403,10 @@
     {
       "source": "petunnikov",
       "target": "darya_petrovanikha",
-      "types": [
-        "speech"
-      ],
+      "types": ["speech"],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
         "«Нашли?» ; «Поедемте... посмотрите сами»"
       ],
@@ -420,24 +415,22 @@
     {
       "source": "petunnikov",
       "target": "silantiy_petrovanov",
-      "types": [
-        "speech"
-      ],
+      "types": ["speech"],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.6,
       "evidence": [
-        "«У тебя, отец, творогу и молока можно достать?» ; «Тогда, чтобы не терять напрасно времени, тов. Петунников принялся за подготовительные хлопоты.\n— Ну, кто же, друзья, гроб сделает?»"
+        "«У тебя, отец, творогу и молока можно достать?» ; «Тогда, чтобы не терять напрасно времени, тов. Петунников принялся за подготовительные хлопоты. — Ну, кто же, друзья, гроб сделает?»"
       ],
       "notes": "Петунников распоряжается перевозкой и выдачей расписок"
     },
     {
       "source": "petunnikov",
       "target": "agent_iz_ugolovki",
-      "types": [
-        "co_presence_joint_action"
-      ],
+      "types": ["co_presence_joint_action"],
       "episode_count": 1,
-      "weight": 0.1,
+      "intensity": 1,
+      "weight": 0.2,
       "evidence": [
         "«из уголовки должен был поехать агент»"
       ],
@@ -445,12 +438,11 @@
     },
     {
       "source": "petunnikov",
-      "target": "gazetnyy_sotrudnik",
-      "types": [
-        "co_presence_joint_action"
-      ],
+      "target": "gazetny_sotrudnik",
+      "types": ["co_presence_joint_action"],
       "episode_count": 1,
-      "weight": 0.1,
+      "intensity": 1,
+      "weight": 0.2,
       "evidence": [
         "«из редакции просили оставить место»"
       ],
@@ -459,41 +451,14 @@
     {
       "source": "vdova_ermilkina",
       "target": "ermilkin",
-      "types": [
-        "kinship_social"
-      ],
+      "types": ["kinship"],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
         "«вдова покойного»"
       ],
       "notes": "жена и муж"
-    },
-    {
-      "source": "darya_petrovanikha",
-      "target": "vaska",
-      "types": [
-        "kinship_social"
-      ],
-      "episode_count": 1,
-      "weight": 0.1,
-      "evidence": [
-        "«Дарья взяла с собой Ваську»"
-      ],
-      "notes": "мать и сын"
-    },
-    {
-      "source": "darya_petrovanikha",
-      "target": "grishka",
-      "types": [
-        "kinship_social"
-      ],
-      "episode_count": 1,
-      "weight": 0.1,
-      "evidence": [
-        "«Гришенька, сынишечка ты мой»"
-      ],
-      "notes": "мать и сын"
     }
   ]
 }

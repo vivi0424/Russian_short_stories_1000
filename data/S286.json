@@ -5,7 +5,7 @@
   "year": 1918,
   "nodes": [
     {
-      "id": "soldatik_s_otorvavshimsya_hlyastikom",
+      "id": "soldatik_s_otorvavshimsya_khlyastikom",
       "name": "Солдатик с оторвавшимся хлястиком",
       "full_name": "—",
       "main": true,
@@ -14,7 +14,7 @@
       "author_characterization": "маленький, веснушчатый, с оторвавшимся хлястиком, озадаченный",
       "gender": "мужской",
       "age": "молоденький",
-      "other": "владелец пяти мешков"
+      "other": "военный; солдат; владелец пяти мешков"
     },
     {
       "id": "soldat_v_steganoy_vatnoy_kurtke",
@@ -26,10 +26,10 @@
       "author_characterization": "в стеганой ватной куртке с тесемочками, резкий, уверенный",
       "gender": "мужской",
       "age": "—",
-      "other": "спорит о комитетах"
+      "other": "военный; солдат; спорит о комитетах"
     },
     {
-      "id": "vysokiy_soldat",
+      "id": "vysoky_soldat",
       "name": "Высокий солдат",
       "full_name": "—",
       "main": false,
@@ -38,7 +38,7 @@
       "author_characterization": "высокий, наблюдательный",
       "gender": "мужской",
       "age": "—",
-      "other": "свертывал папироску"
+      "other": "военный; солдат; свертывал папироску"
     },
     {
       "id": "soldat_s_polki",
@@ -50,10 +50,10 @@
       "author_characterization": "—",
       "gender": "мужской",
       "age": "—",
-      "other": "сначала слышен только голос"
+      "other": "военный; солдат; сначала слышен только голос"
     },
     {
-      "id": "molodenkiy_soldatik_v_rvanoy_shineli",
+      "id": "molodenky_soldatik_v_rvanoy_shineli",
       "name": "Молоденький солдатик в рваной шинели",
       "full_name": "—",
       "main": false,
@@ -62,19 +62,20 @@
       "author_characterization": "молоденький, безусый, в рваной шинели",
       "gender": "мужской",
       "age": "молоденький",
-      "other": "вызывает подозрение у других"
+      "other": "военный; солдат; вызывает подозрение у других"
     }
   ],
   "links": [
     {
       "source": "soldat_v_steganoy_vatnoy_kurtke",
-      "target": "soldatik_s_otorvavshimsya_hlyastikom",
+      "target": "soldatik_s_otorvavshimsya_khlyastikom",
       "types": [
         "speech",
         "co_presence_joint_action"
       ],
       "episode_count": 2,
-      "weight": 0.4,
+      "intensity": 4,
+      "weight": 0.5,
       "evidence": [
         "«Мобилизуетесь?» ; «Через комитет делили?»",
         "«Окно спустили и высунулись»"
@@ -82,14 +83,15 @@
       "notes": "обсуждают вещи и дележку через комитет; едут вместе в вагоне и вместе наблюдают за другими солдатами"
     },
     {
-      "source": "vysokiy_soldat",
-      "target": "soldatik_s_otorvavshimsya_hlyastikom",
+      "source": "vysoky_soldat",
+      "target": "soldatik_s_otorvavshimsya_khlyastikom",
       "types": [
         "speech",
         "conflict"
       ],
       "episode_count": 3,
-      "weight": 0.8,
+      "intensity": 8,
+      "weight": 1.0,
       "evidence": [
         "«Пудов десять будет» ; «Кто это вам сказал?»",
         "«Ну, у этих не жирно, мешочек-другой и — обчелся»",
@@ -99,16 +101,17 @@
     },
     {
       "source": "soldat_s_polki",
-      "target": "soldatik_s_otorvavshimsya_hlyastikom",
+      "target": "soldatik_s_otorvavshimsya_khlyastikom",
       "types": [
         "speech"
       ],
       "episode_count": 1,
-      "weight": 0.3,
+      "intensity": 3,
+      "weight": 0.38,
       "evidence": [
         "«у нас в полку тоже так-то, ничем не дали попользоваться» ; «А вот наши раньше мобилизовались»"
       ],
-      "notes": "сопоставляет опыт своего полка с рассказом о хорошем комитете"
+      "notes": "солдат с полки сопоставляет опыт своего полка с рассказом о хорошем комитете"
     },
     {
       "source": "soldat_s_polki",
@@ -118,7 +121,8 @@
         "conflict"
       ],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 0.63,
       "evidence": [
         "«А отчего у вас комитет собачий был»",
         "«Оттого, что у самих мозги курьи»"
@@ -126,14 +130,15 @@
       "notes": "спорят о причинах плохого комитета; солдат в стеганой ватной куртке резко упрекает солдата с полки и его товарищей за выбор плохого комитета"
     },
     {
-      "source": "molodenkiy_soldatik_v_rvanoy_shineli",
-      "target": "soldatik_s_otorvavshimsya_hlyastikom",
+      "source": "molodenky_soldatik_v_rvanoy_shineli",
+      "target": "soldatik_s_otorvavshimsya_khlyastikom",
       "types": [
         "speech",
         "conflict"
       ],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 0.63,
       "evidence": [
         "«А куда вы пулеметы продавали?»",
         "«По делу-то не видно, что с фронту»"

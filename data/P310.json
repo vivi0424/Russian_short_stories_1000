@@ -5,7 +5,7 @@
   "year": 1999,
   "nodes": [
     {
-      "id": "selsky_poet",
+      "id": "selskiy_poet",
       "name": "Сельский поэт",
       "full_name": "—",
       "main": true,
@@ -14,7 +14,7 @@
       "author_characterization": "шутник, говорливый, остроумный",
       "gender": "мужской",
       "age": "—",
-      "other": "зарабатывает языком"
+      "other": "сельский; зарабатывает языком"
     },
     {
       "id": "sobesednik",
@@ -26,19 +26,7 @@
       "author_characterization": "недоверчивый, раздраженный",
       "gender": "мужской",
       "age": "—",
-      "other": "назван «курортник-москвич»"
-    },
-    {
-      "id": "antip",
-      "name": "Антип",
-      "full_name": "Антип",
-      "main": false,
-      "who": "должник, рыбак, предмет разговора",
-      "aliases": "—",
-      "author_characterization": "молодой, сложный человек, стервец-удалец, строг",
-      "gender": "мужской",
-      "age": "молодой",
-      "other": "ездит в Казантип"
+      "other": "—"
     },
     {
       "id": "galka",
@@ -51,51 +39,70 @@
       "gender": "женский",
       "age": "—",
       "other": "находится в Казантипе"
+    },
+    {
+      "id": "antip",
+      "name": "Антип",
+      "full_name": "Антип",
+      "main": false,
+      "who": "должник, рыбак, предмет разговоров",
+      "aliases": "—",
+      "author_characterization": "молодой, сложный человек, стервец-удалец, строг",
+      "gender": "мужской",
+      "age": "молодой",
+      "other": "ездит в Казантип"
     }
   ],
   "links": [
     {
-      "source": "selsky_poet",
+      "source": "selskiy_poet",
       "target": "sobesednik",
-      "types": [
-        "speech",
-        "request"
-      ],
+      "types": ["speech", "request"],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 5,
+      "weight": 1.0,
       "evidence": [
-        "основной диалог рассказа",
-        "просит у него сто рублей"
+        "«Где Антип?» ; «Честно говорю ― уехал в Казантип»",
+        "«Ты бы и мне одолжил рублей сто»"
       ],
-      "notes": "основной диалог рассказа; сельский поэт просит у собеседника сто рублей"
+      "notes": "основной диалог рассказа; просит у него сто рублей"
     },
     {
       "source": "sobesednik",
       "target": "antip",
-      "types": [
-        "request",
-        "transfer"
-      ],
+      "types": ["request", "transfer"],
       "episode_count": 2,
-      "weight": 0.5,
+      "intensity": 4,
+      "weight": 0.8,
       "evidence": [
-        "требует вернуть долг и ищет встречи",
-        "ранее дал Антипу деньги в долг"
+        "«Мы же договорились с ним о встрече» ; «вернет или вильнет»",
+        "«Он деньги у меня брал в долг»"
       ],
-      "notes": "собеседник ищет Антипа, требует вернуть долг и ранее дал ему деньги"
+      "notes": "требует вернуть долг и ищет встречи; ранее дал Антипу деньги в долг"
     },
     {
-      "source": "antip",
-      "target": "galka",
-      "types": [
-        "co_presence_joint_action"
-      ],
+      "source": "selskiy_poet",
+      "target": "antip",
+      "types": ["kinship"],
       "episode_count": 1,
+      "intensity": 1,
       "weight": 0.1,
       "evidence": [
-        "вместе находятся в лодке и в Казантипе"
+        "«Зато я уговорю Антипа вернуть твой долг» ; «Эй, Антип!»"
       ],
-      "notes": "Антип и Галка вместе находятся в лодке и в Казантипе"
+      "notes": "знакомство и посредничество между собеседником и Антипом"
+    },
+    {
+      "source": "sobesednik",
+      "target": "galka",
+      "types": ["co_presence_joint_action"],
+      "episode_count": 2,
+      "intensity": 2,
+      "weight": 0.4,
+      "evidence": [
+        "«при такой молодке держать равновесие в лодке» ; «бачить Галку и рыбачить»"
+      ],
+      "notes": "вместе находятся в лодке и в Казантипе"
     }
   ]
 }
